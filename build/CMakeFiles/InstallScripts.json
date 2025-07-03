@@ -1,0 +1,16 @@
+{
+	"InstallScripts" : 
+	[
+		"/Users/quargsgreene/code/Eglof/build/cmake_install.cmake",
+		"/Users/quargsgreene/code/Eglof/build/_deps/juce-build/cmake_install.cmake",
+		"/Users/quargsgreene/code/Eglof/build/_deps/juce-build/modules/cmake_install.cmake",
+		"/Users/quargsgreene/code/Eglof/build/_deps/juce-build/extras/Build/cmake_install.cmake",
+		"/Users/quargsgreene/code/Eglof/build/_deps/juce-build/extras/Build/juceaide/cmake_install.cmake",
+		"/Users/quargsgreene/code/Eglof/build/_deps/googletest-build/cmake_install.cmake",
+		"/Users/quargsgreene/code/Eglof/build/_deps/googletest-build/googlemock/cmake_install.cmake",
+		"/Users/quargsgreene/code/Eglof/build/_deps/googletest-build/googletest/cmake_install.cmake",
+		"/Users/quargsgreene/code/Eglof/build/plugin/cmake_install.cmake",
+		"/Users/quargsgreene/code/Eglof/build/test/cmake_install.cmake"
+	],
+	"Parallel" : false
+}

@@ -1,0 +1,55 @@
+#!/bin/sh
+set -e
+if test "$CONFIGURATION" = "Debug"; then :
+  cd /Users/quargsgreene/code/Eglof/build/plugin
+  /Applications/CMake.app/Contents/bin/cmake -E copy /Users/quargsgreene/code/Eglof/build/plugin/Eglof_artefacts/JuceLibraryCode/Eglof_VST3/PkgInfo /Users/quargsgreene/code/Eglof/build/plugin/Eglof_artefacts/Debug/VST3/Eglof.vst3/Contents
+  cd /Users/quargsgreene/code/Eglof/build/plugin
+  /Applications/CMake.app/Contents/bin/cmake -Dsrc=/Users/quargsgreene/code/Eglof/build/plugin/Eglof_artefacts/Debug/VST3/Eglof.vst3 -P /Users/quargsgreene/code/Eglof/libs/juce/extras/Build/CMake/checkBundleSigning.cmake
+  cd /Users/quargsgreene/code/Eglof/build/plugin
+  /Applications/CMake.app/Contents/bin/cmake -E echo removing\ moduleinfo.json
+  /Applications/CMake.app/Contents/bin/cmake -E remove -f /Users/quargsgreene/code/Eglof/build/plugin/Eglof_artefacts/Debug/VST3/Eglof.vst3/Contents/moduleinfo.json /Users/quargsgreene/code/Eglof/build/plugin/Eglof_artefacts/Debug/VST3/Eglof.vst3/Contents/Resources/moduleinfo.json
+  cd /Users/quargsgreene/code/Eglof/build/plugin
+  /Applications/CMake.app/Contents/bin/cmake -E echo "creating /Users/quargsgreene/code/Eglof/build/plugin/Eglof_artefacts/Debug/VST3/Eglof.vst3/Contents/Resources/moduleinfo.json"
+  /Applications/CMake.app/Contents/bin/cmake -E make_directory /Users/quargsgreene/code/Eglof/build/plugin/Eglof_artefacts/Debug/VST3/Eglof.vst3/Contents/Resources
+  /Users/quargsgreene/code/Eglof/build/plugin/Debug/juce_vst3_helper -create -version 0.1.0 -path /Users/quargsgreene/code/Eglof/build/plugin/Eglof_artefacts/Debug/VST3/Eglof.vst3 -output /Users/quargsgreene/code/Eglof/build/plugin/Eglof_artefacts/Debug/VST3/Eglof.vst3/Contents/Resources/moduleinfo.json
+fi
+if test "$CONFIGURATION" = "Release"; then :
+  cd /Users/quargsgreene/code/Eglof/build/plugin
+  /Applications/CMake.app/Contents/bin/cmake -E copy /Users/quargsgreene/code/Eglof/build/plugin/Eglof_artefacts/JuceLibraryCode/Eglof_VST3/PkgInfo /Users/quargsgreene/code/Eglof/build/plugin/Eglof_artefacts/Release/VST3/Eglof.vst3/Contents
+  cd /Users/quargsgreene/code/Eglof/build/plugin
+  /Applications/CMake.app/Contents/bin/cmake -Dsrc=/Users/quargsgreene/code/Eglof/build/plugin/Eglof_artefacts/Release/VST3/Eglof.vst3 -P /Users/quargsgreene/code/Eglof/libs/juce/extras/Build/CMake/checkBundleSigning.cmake
+  cd /Users/quargsgreene/code/Eglof/build/plugin
+  /Applications/CMake.app/Contents/bin/cmake -E echo removing\ moduleinfo.json
+  /Applications/CMake.app/Contents/bin/cmake -E remove -f /Users/quargsgreene/code/Eglof/build/plugin/Eglof_artefacts/Release/VST3/Eglof.vst3/Contents/moduleinfo.json /Users/quargsgreene/code/Eglof/build/plugin/Eglof_artefacts/Release/VST3/Eglof.vst3/Contents/Resources/moduleinfo.json
+  cd /Users/quargsgreene/code/Eglof/build/plugin
+  /Applications/CMake.app/Contents/bin/cmake -E echo "creating /Users/quargsgreene/code/Eglof/build/plugin/Eglof_artefacts/Release/VST3/Eglof.vst3/Contents/Resources/moduleinfo.json"
+  /Applications/CMake.app/Contents/bin/cmake -E make_directory /Users/quargsgreene/code/Eglof/build/plugin/Eglof_artefacts/Release/VST3/Eglof.vst3/Contents/Resources
+  /Users/quargsgreene/code/Eglof/build/plugin/Release/juce_vst3_helper -create -version 0.1.0 -path /Users/quargsgreene/code/Eglof/build/plugin/Eglof_artefacts/Release/VST3/Eglof.vst3 -output /Users/quargsgreene/code/Eglof/build/plugin/Eglof_artefacts/Release/VST3/Eglof.vst3/Contents/Resources/moduleinfo.json
+fi
+if test "$CONFIGURATION" = "MinSizeRel"; then :
+  cd /Users/quargsgreene/code/Eglof/build/plugin
+  /Applications/CMake.app/Contents/bin/cmake -E copy /Users/quargsgreene/code/Eglof/build/plugin/Eglof_artefacts/JuceLibraryCode/Eglof_VST3/PkgInfo /Users/quargsgreene/code/Eglof/build/plugin/Eglof_artefacts/MinSizeRel/VST3/Eglof.vst3/Contents
+  cd /Users/quargsgreene/code/Eglof/build/plugin
+  /Applications/CMake.app/Contents/bin/cmake -Dsrc=/Users/quargsgreene/code/Eglof/build/plugin/Eglof_artefacts/MinSizeRel/VST3/Eglof.vst3 -P /Users/quargsgreene/code/Eglof/libs/juce/extras/Build/CMake/checkBundleSigning.cmake
+  cd /Users/quargsgreene/code/Eglof/build/plugin
+  /Applications/CMake.app/Contents/bin/cmake -E echo removing\ moduleinfo.json
+  /Applications/CMake.app/Contents/bin/cmake -E remove -f /Users/quargsgreene/code/Eglof/build/plugin/Eglof_artefacts/MinSizeRel/VST3/Eglof.vst3/Contents/moduleinfo.json /Users/quargsgreene/code/Eglof/build/plugin/Eglof_artefacts/MinSizeRel/VST3/Eglof.vst3/Contents/Resources/moduleinfo.json
+  cd /Users/quargsgreene/code/Eglof/build/plugin
+  /Applications/CMake.app/Contents/bin/cmake -E echo "creating /Users/quargsgreene/code/Eglof/build/plugin/Eglof_artefacts/MinSizeRel/VST3/Eglof.vst3/Contents/Resources/moduleinfo.json"
+  /Applications/CMake.app/Contents/bin/cmake -E make_directory /Users/quargsgreene/code/Eglof/build/plugin/Eglof_artefacts/MinSizeRel/VST3/Eglof.vst3/Contents/Resources
+  /Users/quargsgreene/code/Eglof/build/plugin/MinSizeRel/juce_vst3_helper -create -version 0.1.0 -path /Users/quargsgreene/code/Eglof/build/plugin/Eglof_artefacts/MinSizeRel/VST3/Eglof.vst3 -output /Users/quargsgreene/code/Eglof/build/plugin/Eglof_artefacts/MinSizeRel/VST3/Eglof.vst3/Contents/Resources/moduleinfo.json
+fi
+if test "$CONFIGURATION" = "RelWithDebInfo"; then :
+  cd /Users/quargsgreene/code/Eglof/build/plugin
+  /Applications/CMake.app/Contents/bin/cmake -E copy /Users/quargsgreene/code/Eglof/build/plugin/Eglof_artefacts/JuceLibraryCode/Eglof_VST3/PkgInfo /Users/quargsgreene/code/Eglof/build/plugin/Eglof_artefacts/RelWithDebInfo/VST3/Eglof.vst3/Contents
+  cd /Users/quargsgreene/code/Eglof/build/plugin
+  /Applications/CMake.app/Contents/bin/cmake -Dsrc=/Users/quargsgreene/code/Eglof/build/plugin/Eglof_artefacts/RelWithDebInfo/VST3/Eglof.vst3 -P /Users/quargsgreene/code/Eglof/libs/juce/extras/Build/CMake/checkBundleSigning.cmake
+  cd /Users/quargsgreene/code/Eglof/build/plugin
+  /Applications/CMake.app/Contents/bin/cmake -E echo removing\ moduleinfo.json
+  /Applications/CMake.app/Contents/bin/cmake -E remove -f /Users/quargsgreene/code/Eglof/build/plugin/Eglof_artefacts/RelWithDebInfo/VST3/Eglof.vst3/Contents/moduleinfo.json /Users/quargsgreene/code/Eglof/build/plugin/Eglof_artefacts/RelWithDebInfo/VST3/Eglof.vst3/Contents/Resources/moduleinfo.json
+  cd /Users/quargsgreene/code/Eglof/build/plugin
+  /Applications/CMake.app/Contents/bin/cmake -E echo "creating /Users/quargsgreene/code/Eglof/build/plugin/Eglof_artefacts/RelWithDebInfo/VST3/Eglof.vst3/Contents/Resources/moduleinfo.json"
+  /Applications/CMake.app/Contents/bin/cmake -E make_directory /Users/quargsgreene/code/Eglof/build/plugin/Eglof_artefacts/RelWithDebInfo/VST3/Eglof.vst3/Contents/Resources
+  /Users/quargsgreene/code/Eglof/build/plugin/RelWithDebInfo/juce_vst3_helper -create -version 0.1.0 -path /Users/quargsgreene/code/Eglof/build/plugin/Eglof_artefacts/RelWithDebInfo/VST3/Eglof.vst3 -output /Users/quargsgreene/code/Eglof/build/plugin/Eglof_artefacts/RelWithDebInfo/VST3/Eglof.vst3/Contents/Resources/moduleinfo.json
+fi
+

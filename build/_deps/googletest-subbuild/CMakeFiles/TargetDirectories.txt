@@ -1,0 +1,3 @@
+/Users/quargsgreene/code/Eglof/build/_deps/googletest-subbuild/CMakeFiles/googletest-populate.dir
+/Users/quargsgreene/code/Eglof/build/_deps/googletest-subbuild/CMakeFiles/ALL_BUILD.dir
+/Users/quargsgreene/code/Eglof/build/_deps/googletest-subbuild/CMakeFiles/ZERO_CHECK.dir

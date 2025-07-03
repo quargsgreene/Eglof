@@ -1,0 +1,7 @@
+Target dependency graph (3 targets)
+Target 'gmock_main' in project 'Eglof'
+➜ Explicit dependency on target 'gmock' in project 'Eglof'
+➜ Explicit dependency on target 'gtest' in project 'Eglof'
+Target 'gmock' in project 'Eglof'
+➜ Explicit dependency on target 'gtest' in project 'Eglof'
+Target 'gtest' in project 'Eglof' (no dependencies)
