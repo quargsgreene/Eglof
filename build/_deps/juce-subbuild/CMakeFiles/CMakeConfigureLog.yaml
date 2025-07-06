@@ -21,7 +21,6 @@ events:
       - "uname"
     candidate_directories:
       - "/Applications/CMake.app/Contents/bin/"
-      - "/Users/quargsgreene/.cargo/bin/"
       - "/Users/quargsgreene/.nvm/versions/node/v22.12.0/bin/"
       - "/opt/homebrew/bin/"
       - "/opt/homebrew/sbin/"
@@ -36,7 +35,6 @@ events:
       - "/var/run/com.apple.security.cryptexd/codex.system/bootstrap/usr/appleinternal/bin/"
     searched_directories:
       - "/Applications/CMake.app/Contents/bin/uname"
-      - "/Users/quargsgreene/.cargo/bin/uname"
       - "/Users/quargsgreene/.nvm/versions/node/v22.12.0/bin/uname"
       - "/opt/homebrew/bin/uname"
       - "/opt/homebrew/sbin/uname"
@@ -46,7 +44,6 @@ events:
     search_context:
       ENV{PATH}:
         - "/Applications/CMake.app/Contents/bin"
-        - "/Users/quargsgreene/.cargo/bin"
         - "/Users/quargsgreene/.nvm/versions/node/v22.12.0/bin"
         - "/opt/homebrew/bin"
         - "/opt/homebrew/sbin"
@@ -65,7 +62,7 @@ events:
       - "/Applications/CMake.app/Contents/share/cmake-4.1/Modules/CMakeDetermineSystem.cmake:212 (message)"
       - "CMakeLists.txt:16 (project)"
     message: |
-      The system is: Darwin - 24.3.0 - arm64
+      The system is: Darwin - 24.5.0 - arm64
   -
     kind: "find-v1"
     backtrace:
@@ -87,7 +84,6 @@ events:
       - "install_name_tool"
     candidate_directories:
       - "/Applications/CMake.app/Contents/bin/"
-      - "/Users/quargsgreene/.cargo/bin/"
       - "/Users/quargsgreene/.nvm/versions/node/v22.12.0/bin/"
       - "/opt/homebrew/bin/"
       - "/opt/homebrew/sbin/"
@@ -102,7 +98,6 @@ events:
       - "/var/run/com.apple.security.cryptexd/codex.system/bootstrap/usr/appleinternal/bin/"
     searched_directories:
       - "/Applications/CMake.app/Contents/bin/install_name_tool"
-      - "/Users/quargsgreene/.cargo/bin/install_name_tool"
       - "/Users/quargsgreene/.nvm/versions/node/v22.12.0/bin/install_name_tool"
       - "/opt/homebrew/bin/install_name_tool"
       - "/opt/homebrew/sbin/install_name_tool"
@@ -112,7 +107,6 @@ events:
     search_context:
       ENV{PATH}:
         - "/Applications/CMake.app/Contents/bin"
-        - "/Users/quargsgreene/.cargo/bin"
         - "/Users/quargsgreene/.nvm/versions/node/v22.12.0/bin"
         - "/opt/homebrew/bin"
         - "/opt/homebrew/sbin"
