@@ -9,32 +9,32 @@
 /* Begin PBXAggregateTarget section */
 		23E06FD26E9839C0F8FECC90 /* ALL_BUILD */ = {
 			isa = PBXAggregateTarget;
-			buildConfigurationList = 04C4CA400030494D942C74F6 /* Build configuration list for PBXAggregateTarget "ALL_BUILD" */;
+			buildConfigurationList = 5FB89C2976BD4706926BB65C /* Build configuration list for PBXAggregateTarget "ALL_BUILD" */;
 			buildPhases = (
 				FA3B3D41EED760D1269EBA7C /* Generate CMakeFiles/ALL_BUILD */,
 			);
 			dependencies = (
-				FF10B943A81C440AB9B21A21 /* PBXTargetDependency */,
-				C8A3002EFD45496FAB5D8998 /* PBXTargetDependency */,
+				6DA5CE4E3C364B07AF03E491 /* PBXTargetDependency */,
+				E386D3230DE2465AB1E21342 /* PBXTargetDependency */,
 			);
 			name = ALL_BUILD;
 			productName = ALL_BUILD;
 		};
 		2404FA1FF41416FB3D901C10 /* install */ = {
 			isa = PBXAggregateTarget;
-			buildConfigurationList = 97F2D4832F8C412B846DF2FA /* Build configuration list for PBXAggregateTarget "install" */;
+			buildConfigurationList = 713063E4EE9D42EABFC5BFD5 /* Build configuration list for PBXAggregateTarget "install" */;
 			buildPhases = (
 				93426DA6A4AC2C2AC9CE883C /* CMake PostBuild Rules */,
 			);
 			dependencies = (
-				B7A47916112A4C24940E6999 /* PBXTargetDependency */,
+				FD0CA789E6324B449B0A4B2A /* PBXTargetDependency */,
 			);
 			name = install;
 			productName = install;
 		};
 		56F37F8BA841FAB8F7744F82 /* RUN_TESTS */ = {
 			isa = PBXAggregateTarget;
-			buildConfigurationList = 0FA6A60371E044E695FBDBD2 /* Build configuration list for PBXAggregateTarget "RUN_TESTS" */;
+			buildConfigurationList = 8C9DD2426CFE45C59AAD1B9E /* Build configuration list for PBXAggregateTarget "RUN_TESTS" */;
 			buildPhases = (
 				003C8D08B0008F35F218E126 /* CMake PostBuild Rules */,
 			);
@@ -45,7 +45,7 @@
 		};
 		5EEA550DB33BFCA79CC57774 /* ZERO_CHECK */ = {
 			isa = PBXAggregateTarget;
-			buildConfigurationList = 74E2E9316F4145BE8C1DB6D7 /* Build configuration list for PBXAggregateTarget "ZERO_CHECK" */;
+			buildConfigurationList = 0E25BC451229469EA9DF7397 /* Build configuration list for PBXAggregateTarget "ZERO_CHECK" */;
 			buildPhases = (
 				BAAF19735D3E3DABC0D7E3ED /* Generate CMakeFiles/ZERO_CHECK */,
 			);
@@ -57,94 +57,94 @@
 /* End PBXAggregateTarget section */
 
 /* Begin PBXBuildFile section */
-		0A15FAE3A5BD48289299D34D /* /Users/quargsgreene/code/Eglof/libs/juce/modules/juce_gui_basics/juce_gui_basics.mm */ = {isa = PBXBuildFile; fileRef = D0770FEA0F254E5694D76B97 /* /Users/quargsgreene/code/Eglof/libs/juce/modules/juce_gui_basics/juce_gui_basics.mm */; };
-		123979459B3D4BF783714A0D /* /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX15.5.sdk/System/Library/Frameworks/QuartzCore.framework */ = {isa = PBXBuildFile; fileRef = C6EB51D0F40D4216A90AC794 /* /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX15.5.sdk/System/Library/Frameworks/QuartzCore.framework */; };
-		1A5ED9E2D8344F21ADA22940 /* /Users/quargsgreene/code/Eglof/libs/juce/modules/juce_core/juce_core.mm */ = {isa = PBXBuildFile; fileRef = D4AE28533201442AB129A4E2 /* /Users/quargsgreene/code/Eglof/libs/juce/modules/juce_core/juce_core.mm */; };
-		28E71E05D62F43F08C1D3AA1 /* /Users/quargsgreene/code/Eglof/libs/juce/modules/juce_audio_devices/juce_audio_devices.mm */ = {isa = PBXBuildFile; fileRef = 06789E55AB9745B4946A6EA4 /* /Users/quargsgreene/code/Eglof/libs/juce/modules/juce_audio_devices/juce_audio_devices.mm */; };
-		29A30E49B9B14D598C248C6F /* /Users/quargsgreene/code/Eglof/libs/juce/modules/juce_core/juce_core_CompilationTime.cpp */ = {isa = PBXBuildFile; fileRef = 1DCCADB4E3784E67B4FDC6B4 /* /Users/quargsgreene/code/Eglof/libs/juce/modules/juce_core/juce_core_CompilationTime.cpp */; };
-		2AA389D6E5ED46E59DDE850E /* /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX15.5.sdk/System/Library/Frameworks/IOKit.framework */ = {isa = PBXBuildFile; fileRef = EB869D4904214B19AB5AAFF7 /* /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX15.5.sdk/System/Library/Frameworks/IOKit.framework */; };
-		32C285EDA0BF4B4896EC21BA /* /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX15.5.sdk/System/Library/Frameworks/Security.framework */ = {isa = PBXBuildFile; fileRef = BAB9C6AB4F5D4F2A91CC174D /* /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX15.5.sdk/System/Library/Frameworks/Security.framework */; };
-		3729312A6D194E2C9E14058D /* /Users/quargsgreene/code/Eglof/libs/juce/modules/juce_audio_basics/juce_audio_basics.mm */ = {isa = PBXBuildFile; fileRef = BE39D1D1F9F548619812F699 /* /Users/quargsgreene/code/Eglof/libs/juce/modules/juce_audio_basics/juce_audio_basics.mm */; };
-		39CA619EA34745F385235C85 /* /Users/quargsgreene/code/Eglof/libs/juce/modules/juce_audio_utils/juce_audio_utils.mm */ = {isa = PBXBuildFile; fileRef = 4E40156F77FA4787AC3A603A /* /Users/quargsgreene/code/Eglof/libs/juce/modules/juce_audio_utils/juce_audio_utils.mm */; };
-		4E3D1E247F1D4215A3F52DCA /* /Users/quargsgreene/code/Eglof/test/CMakeLists.txt */ = {isa = PBXBuildFile; fileRef = 59B175105E684B8295C243B3 /* /Users/quargsgreene/code/Eglof/test/CMakeLists.txt */; };
-		5F2BEB2A58094F6C84D82CBF /* /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX15.5.sdk/System/Library/Frameworks/Accelerate.framework */ = {isa = PBXBuildFile; fileRef = 10001EA7C7C74DB9A071EBC6 /* /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX15.5.sdk/System/Library/Frameworks/Accelerate.framework */; };
-		639793EB40D44F8E8BCC420D /* /Users/quargsgreene/code/Eglof/libs/juce/modules/juce_graphics/juce_graphics_Harfbuzz.cpp */ = {isa = PBXBuildFile; fileRef = 2572E709266140BFA10501F6 /* /Users/quargsgreene/code/Eglof/libs/juce/modules/juce_graphics/juce_graphics_Harfbuzz.cpp */; };
-		780651E33A5C422AA7E2FC70 /* /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX15.5.sdk/System/Library/Frameworks/CoreAudio.framework */ = {isa = PBXBuildFile; fileRef = 815E051945FC492891810BF9 /* /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX15.5.sdk/System/Library/Frameworks/CoreAudio.framework */; };
-		78C083BAD5634C17B0E2196D /* /Users/quargsgreene/code/Eglof/libs/juce/modules/juce_audio_processors/juce_audio_processors_lv2_libs.cpp */ = {isa = PBXBuildFile; fileRef = D2BF64B04928485AA3B54E1F /* /Users/quargsgreene/code/Eglof/libs/juce/modules/juce_audio_processors/juce_audio_processors_lv2_libs.cpp */; };
-		8105E4C0A2F4405AB73871E0 /* /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX15.5.sdk/System/Library/Frameworks/CoreMIDI.framework */ = {isa = PBXBuildFile; fileRef = 775233753B14408CA0463C50 /* /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX15.5.sdk/System/Library/Frameworks/CoreMIDI.framework */; };
-		826582BA51354BDB9010CE71 /* /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX15.5.sdk/System/Library/Frameworks/Cocoa.framework */ = {isa = PBXBuildFile; fileRef = 04DB530DACFE43EF9D87649D /* /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX15.5.sdk/System/Library/Frameworks/Cocoa.framework */; };
-		8886B5106A814D77B69F4E84 /* /Users/quargsgreene/code/Eglof/libs/juce/modules/juce_graphics/juce_graphics_Sheenbidi.c */ = {isa = PBXBuildFile; fileRef = EAD54E490C344B998C6196DF /* /Users/quargsgreene/code/Eglof/libs/juce/modules/juce_graphics/juce_graphics_Sheenbidi.c */; };
-		90B7C633289744F78BE58FF4 /* /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX15.5.sdk/System/Library/Frameworks/WebKit.framework */ = {isa = PBXBuildFile; fileRef = D609D84F7C26490A8F14798F /* /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX15.5.sdk/System/Library/Frameworks/WebKit.framework */; };
-		947A8CEB9B8B4C19BF8F253B /* /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX15.5.sdk/System/Library/Frameworks/DiscRecording.framework */ = {isa = PBXBuildFile; fileRef = 0F59E3A9E88044988D351ADE /* /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX15.5.sdk/System/Library/Frameworks/DiscRecording.framework */; };
-		9C6525C4783A4B2987E901E4 /* /Users/quargsgreene/code/Eglof/libs/juce/modules/juce_audio_processors/juce_audio_processors_ara.cpp */ = {isa = PBXBuildFile; fileRef = 510296A2D91A477AABCFFF4E /* /Users/quargsgreene/code/Eglof/libs/juce/modules/juce_audio_processors/juce_audio_processors_ara.cpp */; };
-		9E703D4C415345CE8DA3B2C8 /* /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX15.5.sdk/System/Library/Frameworks/Foundation.framework */ = {isa = PBXBuildFile; fileRef = 1ABB90C39FDD44A8B645B56E /* /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX15.5.sdk/System/Library/Frameworks/Foundation.framework */; };
-		A795C99E4E754283940E17D1 /* /Users/quargsgreene/code/Eglof/test/source/EglofTest.cpp */ = {isa = PBXBuildFile; fileRef = C6CBD1B0C135440197EF89F0 /* /Users/quargsgreene/code/Eglof/test/source/EglofTest.cpp */; settings = {COMPILER_FLAGS = "-Wall -Wextra -Wshadow -Wnon-virtual-dtor -Wold-style-cast -Wcast-align -Wunused -Woverloaded-virtual -Wpedantic -Wconversion -Wsign-conversion -Wnull-dereference -Wdouble-promotion '-Wformat=2' -Wimplicit-fallthrough -Wunused-variable -Wstrict-aliasing -Wuninitialized -Wconversion -Wsign-compare -Wunreachable-code -Wno-ignored-qualifiers -Wswitch-enum -Wdeprecated -Wfloat-equal -Wmissing-field-initializers -Wzero-as-null-pointer-constant -Wreorder -Wshadow-all -Wshorten-64-to-32 -Wconditional-uninitialized -Wconstant-conversion -Wbool-conversion -Wextra-semi -Wnullable-to-nonnull-conversion -Wshift-sign-overflow -Wint-conversion -Wmissing-prototypes -Winconsistent-missing-destructor-override -Werror"; }; };
-		AB24E07A80E946C99E703EA6 /* /Users/quargsgreene/code/Eglof/libs/juce/modules/juce_audio_formats/juce_audio_formats.mm */ = {isa = PBXBuildFile; fileRef = 82F1D7E3B28C43EC916BEE06 /* /Users/quargsgreene/code/Eglof/libs/juce/modules/juce_audio_formats/juce_audio_formats.mm */; };
-		BC93CCE7E91140DAA8E227D0 /* /Users/quargsgreene/code/Eglof/libs/juce/modules/juce_events/juce_events.mm */ = {isa = PBXBuildFile; fileRef = 206A7D8256DE4D8DBD4DD634 /* /Users/quargsgreene/code/Eglof/libs/juce/modules/juce_events/juce_events.mm */; };
-		BF8C00B04D9D4BD9A96ED6E7 /* /Users/quargsgreene/code/Eglof/libs/juce/modules/juce_data_structures/juce_data_structures.mm */ = {isa = PBXBuildFile; fileRef = BDAEEB921BF34850A16E52EA /* /Users/quargsgreene/code/Eglof/libs/juce/modules/juce_data_structures/juce_data_structures.mm */; };
-		C05EE7EED92C436E957384A1 /* /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX15.5.sdk/System/Library/Frameworks/AudioToolbox.framework */ = {isa = PBXBuildFile; fileRef = 1909E1B64E1147129611ABDA /* /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX15.5.sdk/System/Library/Frameworks/AudioToolbox.framework */; };
-		C0882742AE0C4B519B390B04 /* /Users/quargsgreene/code/Eglof/libs/juce/modules/juce_audio_processors/juce_audio_processors.mm */ = {isa = PBXBuildFile; fileRef = 2EAFC452D1C04C7A83195728 /* /Users/quargsgreene/code/Eglof/libs/juce/modules/juce_audio_processors/juce_audio_processors.mm */; };
-		CE7E4D755BF84266BD5506FC /* /Users/quargsgreene/code/Eglof/libs/juce/modules/juce_graphics/juce_graphics.mm */ = {isa = PBXBuildFile; fileRef = FDA0795FD645464482827C53 /* /Users/quargsgreene/code/Eglof/libs/juce/modules/juce_graphics/juce_graphics.mm */; };
-		D10F6BE5516E47F8B0C008DA /* /Users/quargsgreene/code/Eglof/libs/juce/modules/juce_gui_extra/juce_gui_extra.mm */ = {isa = PBXBuildFile; fileRef = 2339F899D4E846CFBD47866D /* /Users/quargsgreene/code/Eglof/libs/juce/modules/juce_gui_extra/juce_gui_extra.mm */; };
-		D61DB99CF3B149C1905AFC44 /* /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX15.5.sdk/System/Library/Frameworks/CoreAudioKit.framework */ = {isa = PBXBuildFile; fileRef = A0C83450A9944587B6CDBAB1 /* /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX15.5.sdk/System/Library/Frameworks/CoreAudioKit.framework */; };
+		0214BAAC9F0B495ABF700872 /* /Users/quargsgreene/code/Eglof/test/CMakeLists.txt */ = {isa = PBXBuildFile; fileRef = BA4801F2E9C143379E7CC3F7 /* /Users/quargsgreene/code/Eglof/test/CMakeLists.txt */; };
+		05CCB24764F94A81817A9A89 /* /Users/quargsgreene/code/Eglof/libs/juce/modules/juce_graphics/juce_graphics.mm */ = {isa = PBXBuildFile; fileRef = B3DFA2D225834D929E001CE1 /* /Users/quargsgreene/code/Eglof/libs/juce/modules/juce_graphics/juce_graphics.mm */; };
+		0E6FEF07435845DFA1765C65 /* /Users/quargsgreene/code/Eglof/libs/juce/modules/juce_audio_processors/juce_audio_processors.mm */ = {isa = PBXBuildFile; fileRef = 8372A4E810B24363B9E6FD3D /* /Users/quargsgreene/code/Eglof/libs/juce/modules/juce_audio_processors/juce_audio_processors.mm */; };
+		100400B6A3E54D51838172C8 /* /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX15.5.sdk/System/Library/Frameworks/IOKit.framework */ = {isa = PBXBuildFile; fileRef = 255B6BB5ED644D529DBDBE20 /* /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX15.5.sdk/System/Library/Frameworks/IOKit.framework */; };
+		1AAD2C3EF84E40F493D95890 /* /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX15.5.sdk/System/Library/Frameworks/CoreAudio.framework */ = {isa = PBXBuildFile; fileRef = 38D11DA442594434A2CCDA47 /* /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX15.5.sdk/System/Library/Frameworks/CoreAudio.framework */; };
+		28DCA081C1B24E24BD82BE24 /* /Users/quargsgreene/code/Eglof/libs/juce/modules/juce_audio_utils/juce_audio_utils.mm */ = {isa = PBXBuildFile; fileRef = 15F99E719D5B4E0591AE9B67 /* /Users/quargsgreene/code/Eglof/libs/juce/modules/juce_audio_utils/juce_audio_utils.mm */; };
+		3694F2EAEE0745599978349D /* /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX15.5.sdk/System/Library/Frameworks/Foundation.framework */ = {isa = PBXBuildFile; fileRef = 0FFDF7AF345F48A78C555833 /* /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX15.5.sdk/System/Library/Frameworks/Foundation.framework */; };
+		39C6D5AEA100429F9F3A3733 /* /Users/quargsgreene/code/Eglof/libs/juce/modules/juce_audio_processors/juce_audio_processors_lv2_libs.cpp */ = {isa = PBXBuildFile; fileRef = E16941A67EC14651882D673E /* /Users/quargsgreene/code/Eglof/libs/juce/modules/juce_audio_processors/juce_audio_processors_lv2_libs.cpp */; };
+		3D0CDD2509DE4A45A8263E39 /* /Users/quargsgreene/code/Eglof/libs/juce/modules/juce_data_structures/juce_data_structures.mm */ = {isa = PBXBuildFile; fileRef = 7C2C9040175343CA964112D5 /* /Users/quargsgreene/code/Eglof/libs/juce/modules/juce_data_structures/juce_data_structures.mm */; };
+		40F27630B35A454187B4666C /* /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX15.5.sdk/System/Library/Frameworks/WebKit.framework */ = {isa = PBXBuildFile; fileRef = 67B1688AC62F43B98FF98F04 /* /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX15.5.sdk/System/Library/Frameworks/WebKit.framework */; };
+		459A2D6BA527412DB8FF53DF /* /Users/quargsgreene/code/Eglof/libs/juce/modules/juce_core/juce_core_CompilationTime.cpp */ = {isa = PBXBuildFile; fileRef = F281AF28755D40EE81534612 /* /Users/quargsgreene/code/Eglof/libs/juce/modules/juce_core/juce_core_CompilationTime.cpp */; };
+		5503BF1215D74C97B8AE6EA3 /* /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX15.5.sdk/System/Library/Frameworks/AudioToolbox.framework */ = {isa = PBXBuildFile; fileRef = 4DD5FB88C71547848678B638 /* /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX15.5.sdk/System/Library/Frameworks/AudioToolbox.framework */; };
+		57457F0D39FD4E0D8214A828 /* /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX15.5.sdk/System/Library/Frameworks/CoreMIDI.framework */ = {isa = PBXBuildFile; fileRef = DA3D364015754DC2B2EE021F /* /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX15.5.sdk/System/Library/Frameworks/CoreMIDI.framework */; };
+		5FDF9352DEF44E2DB64696F9 /* /Users/quargsgreene/code/Eglof/libs/juce/modules/juce_core/juce_core.mm */ = {isa = PBXBuildFile; fileRef = 2A390174555E4F69994E9747 /* /Users/quargsgreene/code/Eglof/libs/juce/modules/juce_core/juce_core.mm */; };
+		643820F35400477A815E5D6F /* /Users/quargsgreene/code/Eglof/libs/juce/modules/juce_audio_devices/juce_audio_devices.mm */ = {isa = PBXBuildFile; fileRef = 83D519FD66D44F049ABD1D55 /* /Users/quargsgreene/code/Eglof/libs/juce/modules/juce_audio_devices/juce_audio_devices.mm */; };
+		64A2E840CD3E4125A1954026 /* /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX15.5.sdk/System/Library/Frameworks/CoreAudioKit.framework */ = {isa = PBXBuildFile; fileRef = B474E181EDBB4F41890207B6 /* /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX15.5.sdk/System/Library/Frameworks/CoreAudioKit.framework */; };
+		7A57EC37D2234B6CA7D8A629 /* /Users/quargsgreene/code/Eglof/libs/juce/modules/juce_audio_processors/juce_audio_processors_ara.cpp */ = {isa = PBXBuildFile; fileRef = 27490912B56A4B4CBF0FE1C0 /* /Users/quargsgreene/code/Eglof/libs/juce/modules/juce_audio_processors/juce_audio_processors_ara.cpp */; };
+		8AA5F62F466C4F57B296B3B9 /* /Users/quargsgreene/code/Eglof/libs/juce/modules/juce_gui_extra/juce_gui_extra.mm */ = {isa = PBXBuildFile; fileRef = 9DE5A80A4E4E40A5A2049789 /* /Users/quargsgreene/code/Eglof/libs/juce/modules/juce_gui_extra/juce_gui_extra.mm */; };
+		913A87F3C1EF4F4CBA5A8D40 /* /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX15.5.sdk/System/Library/Frameworks/QuartzCore.framework */ = {isa = PBXBuildFile; fileRef = 63B4819DCD4E483B8CE2A46C /* /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX15.5.sdk/System/Library/Frameworks/QuartzCore.framework */; };
+		A035A73A5F4C4A7682BF9CEB /* /Users/quargsgreene/code/Eglof/libs/juce/modules/juce_audio_formats/juce_audio_formats.mm */ = {isa = PBXBuildFile; fileRef = 33670930ED934F9AA420D3CB /* /Users/quargsgreene/code/Eglof/libs/juce/modules/juce_audio_formats/juce_audio_formats.mm */; };
+		A4E5B3E261E142ED93EC8F86 /* /Users/quargsgreene/code/Eglof/libs/juce/modules/juce_graphics/juce_graphics_Harfbuzz.cpp */ = {isa = PBXBuildFile; fileRef = FDFF3C3B17B744FAAF87959A /* /Users/quargsgreene/code/Eglof/libs/juce/modules/juce_graphics/juce_graphics_Harfbuzz.cpp */; };
+		A7C31817921E483480B07B8F /* /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX15.5.sdk/System/Library/Frameworks/Security.framework */ = {isa = PBXBuildFile; fileRef = A5B77BBB435E41E39C485C64 /* /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX15.5.sdk/System/Library/Frameworks/Security.framework */; };
+		AA0A2BA63C5E45CEAF4355F8 /* /Users/quargsgreene/code/Eglof/libs/juce/modules/juce_events/juce_events.mm */ = {isa = PBXBuildFile; fileRef = 046043A2831E4E61A23FA472 /* /Users/quargsgreene/code/Eglof/libs/juce/modules/juce_events/juce_events.mm */; };
+		B551667727C64F65841CE0BC /* /Users/quargsgreene/code/Eglof/libs/juce/modules/juce_gui_basics/juce_gui_basics.mm */ = {isa = PBXBuildFile; fileRef = 046DC2D331BA4D188C1A14C2 /* /Users/quargsgreene/code/Eglof/libs/juce/modules/juce_gui_basics/juce_gui_basics.mm */; };
+		C03288FCCFFE46C5A62842DC /* /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX15.5.sdk/System/Library/Frameworks/DiscRecording.framework */ = {isa = PBXBuildFile; fileRef = 2E8BD01B4C284087AC11B55C /* /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX15.5.sdk/System/Library/Frameworks/DiscRecording.framework */; };
+		E087B59A0B804D908959A1DC /* /Users/quargsgreene/code/Eglof/test/source/EglofTest.cpp */ = {isa = PBXBuildFile; fileRef = F684CC7B8719422484CA71DA /* /Users/quargsgreene/code/Eglof/test/source/EglofTest.cpp */; settings = {COMPILER_FLAGS = "-Wall -Wextra -Wshadow -Wnon-virtual-dtor -Wold-style-cast -Wcast-align -Wunused -Woverloaded-virtual -Wpedantic -Wconversion -Wsign-conversion -Wnull-dereference -Wdouble-promotion '-Wformat=2' -Wimplicit-fallthrough -Wunused-variable -Wstrict-aliasing -Wuninitialized -Wconversion -Wsign-compare -Wunreachable-code -Wno-ignored-qualifiers -Wswitch-enum -Wdeprecated -Wfloat-equal -Wmissing-field-initializers -Wzero-as-null-pointer-constant -Wreorder -Wshadow-all -Wshorten-64-to-32 -Wconditional-uninitialized -Wconstant-conversion -Wbool-conversion -Wextra-semi -Wnullable-to-nonnull-conversion -Wshift-sign-overflow -Wint-conversion -Wmissing-prototypes -Winconsistent-missing-destructor-override -Werror"; }; };
+		E55C29E45DA946B0BEF8BF6E /* /Users/quargsgreene/code/Eglof/libs/juce/modules/juce_graphics/juce_graphics_Sheenbidi.c */ = {isa = PBXBuildFile; fileRef = 34990D1369A24D299F091B59 /* /Users/quargsgreene/code/Eglof/libs/juce/modules/juce_graphics/juce_graphics_Sheenbidi.c */; };
+		F06AE40950D649F98A111CD1 /* /Users/quargsgreene/code/Eglof/libs/juce/modules/juce_audio_basics/juce_audio_basics.mm */ = {isa = PBXBuildFile; fileRef = 54215B1FA3834B9CA994D3BE /* /Users/quargsgreene/code/Eglof/libs/juce/modules/juce_audio_basics/juce_audio_basics.mm */; };
+		F44E318C7D6344A4803ED3D7 /* /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX15.5.sdk/System/Library/Frameworks/Cocoa.framework */ = {isa = PBXBuildFile; fileRef = 92750661E82640B097F5B8C5 /* /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX15.5.sdk/System/Library/Frameworks/Cocoa.framework */; };
+		F672E22DC5E344338638DB56 /* /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX15.5.sdk/System/Library/Frameworks/Accelerate.framework */ = {isa = PBXBuildFile; fileRef = C8646E90EB704913925557FA /* /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX15.5.sdk/System/Library/Frameworks/Accelerate.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXBuildStyle section */
-		28C624CD5F0F435184F03B0E /* Release */ = {
-			isa = PBXBuildStyle;
-			buildSettings = {
-				COPY_PHASE_STRIP = NO;
-			};
-			name = Release;
-		};
-		88FA1FF85BF44BE4B9307961 /* RelWithDebInfo */ = {
-			isa = PBXBuildStyle;
-			buildSettings = {
-				COPY_PHASE_STRIP = NO;
-			};
-			name = RelWithDebInfo;
-		};
-		BE810BFB59CA414D86A056B7 /* Debug */ = {
+		1A262DEC930B48E6ACF17A95 /* Debug */ = {
 			isa = PBXBuildStyle;
 			buildSettings = {
 				COPY_PHASE_STRIP = NO;
 			};
 			name = Debug;
 		};
-		D3BACCAF56F046559C40FFEB /* MinSizeRel */ = {
+		2D0DFB8E118041969E29032B /* Release */ = {
+			isa = PBXBuildStyle;
+			buildSettings = {
+				COPY_PHASE_STRIP = NO;
+			};
+			name = Release;
+		};
+		684B7E87E2664485B2C36E1C /* MinSizeRel */ = {
 			isa = PBXBuildStyle;
 			buildSettings = {
 				COPY_PHASE_STRIP = NO;
 			};
 			name = MinSizeRel;
 		};
+		886C8C5DC16E4F6FBEABF453 /* RelWithDebInfo */ = {
+			isa = PBXBuildStyle;
+			buildSettings = {
+				COPY_PHASE_STRIP = NO;
+			};
+			name = RelWithDebInfo;
+		};
 /* End PBXBuildStyle section */
 
 /* Begin PBXContainerItemProxy section */
-		1C6411BF552549AFBA0A7BD7 /* PBXContainerItemProxy */ = {
+		0A4A81B962C34D97815E59D3 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
-			containerPortal = FC9D8ED773B643E584AB93B9 /* Project object */;
+			containerPortal = 1B8F0D1C0A044F15ACA078FF /* Project object */;
 			proxyType = 1;
 			remoteGlobalIDString = 23E06FD26E9839C0F8FECC90;
 			remoteInfo = ALL_BUILD;
 		};
-		2715CBF0F53140DCA08B3CD6 /* PBXContainerItemProxy */ = {
+		12D92343DB0D4A7DA13F9F73 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
-			containerPortal = FC9D8ED773B643E584AB93B9 /* Project object */;
+			containerPortal = 1B8F0D1C0A044F15ACA078FF /* Project object */;
 			proxyType = 1;
 			remoteGlobalIDString = 5EEA550DB33BFCA79CC57774;
 			remoteInfo = ZERO_CHECK;
 		};
-		62007F7BAE36420C9E8B54EA /* PBXContainerItemProxy */ = {
+		3BD08531B7344B458FEB8CE5 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
-			containerPortal = FC9D8ED773B643E584AB93B9 /* Project object */;
+			containerPortal = 1B8F0D1C0A044F15ACA078FF /* Project object */;
 			proxyType = 1;
 			remoteGlobalIDString = 5E23FF3C7B0099B255253073;
 			remoteInfo = EglofTest;
 		};
-		D3747508B512475C9D602A70 /* PBXContainerItemProxy */ = {
+		5874892BE87B44D8B7500AE2 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
-			containerPortal = FC9D8ED773B643E584AB93B9 /* Project object */;
+			containerPortal = 1B8F0D1C0A044F15ACA078FF /* Project object */;
 			proxyType = 1;
 			remoteGlobalIDString = 5EEA550DB33BFCA79CC57774;
 			remoteInfo = ZERO_CHECK;
@@ -152,42 +152,42 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		04DB530DACFE43EF9D87649D /* /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX15.5.sdk/System/Library/Frameworks/Cocoa.framework */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = wrapper.framework; name = Cocoa.framework; path = /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX15.5.sdk/System/Library/Frameworks/Cocoa.framework; sourceTree = "<absolute>"; };
-		06789E55AB9745B4946A6EA4 /* /Users/quargsgreene/code/Eglof/libs/juce/modules/juce_audio_devices/juce_audio_devices.mm */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.objcpp; fileEncoding = 4; name = juce_audio_devices.mm; path = /Users/quargsgreene/code/Eglof/libs/juce/modules/juce_audio_devices/juce_audio_devices.mm; sourceTree = "<absolute>"; };
-		0F59E3A9E88044988D351ADE /* /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX15.5.sdk/System/Library/Frameworks/DiscRecording.framework */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = wrapper.framework; name = DiscRecording.framework; path = /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX15.5.sdk/System/Library/Frameworks/DiscRecording.framework; sourceTree = "<absolute>"; };
-		10001EA7C7C74DB9A071EBC6 /* /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX15.5.sdk/System/Library/Frameworks/Accelerate.framework */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = wrapper.framework; name = Accelerate.framework; path = /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX15.5.sdk/System/Library/Frameworks/Accelerate.framework; sourceTree = "<absolute>"; };
-		1909E1B64E1147129611ABDA /* /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX15.5.sdk/System/Library/Frameworks/AudioToolbox.framework */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = wrapper.framework; name = AudioToolbox.framework; path = /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX15.5.sdk/System/Library/Frameworks/AudioToolbox.framework; sourceTree = "<absolute>"; };
-		1ABB90C39FDD44A8B645B56E /* /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX15.5.sdk/System/Library/Frameworks/Foundation.framework */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX15.5.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = "<absolute>"; };
-		1DCCADB4E3784E67B4FDC6B4 /* /Users/quargsgreene/code/Eglof/libs/juce/modules/juce_core/juce_core_CompilationTime.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 4; name = juce_core_CompilationTime.cpp; path = /Users/quargsgreene/code/Eglof/libs/juce/modules/juce_core/juce_core_CompilationTime.cpp; sourceTree = "<absolute>"; };
-		206A7D8256DE4D8DBD4DD634 /* /Users/quargsgreene/code/Eglof/libs/juce/modules/juce_events/juce_events.mm */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.objcpp; fileEncoding = 4; name = juce_events.mm; path = /Users/quargsgreene/code/Eglof/libs/juce/modules/juce_events/juce_events.mm; sourceTree = "<absolute>"; };
-		2339F899D4E846CFBD47866D /* /Users/quargsgreene/code/Eglof/libs/juce/modules/juce_gui_extra/juce_gui_extra.mm */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.objcpp; fileEncoding = 4; name = juce_gui_extra.mm; path = /Users/quargsgreene/code/Eglof/libs/juce/modules/juce_gui_extra/juce_gui_extra.mm; sourceTree = "<absolute>"; };
-		2572E709266140BFA10501F6 /* /Users/quargsgreene/code/Eglof/libs/juce/modules/juce_graphics/juce_graphics_Harfbuzz.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 4; name = juce_graphics_Harfbuzz.cpp; path = /Users/quargsgreene/code/Eglof/libs/juce/modules/juce_graphics/juce_graphics_Harfbuzz.cpp; sourceTree = "<absolute>"; };
-		2EAFC452D1C04C7A83195728 /* /Users/quargsgreene/code/Eglof/libs/juce/modules/juce_audio_processors/juce_audio_processors.mm */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.objcpp; fileEncoding = 4; name = juce_audio_processors.mm; path = /Users/quargsgreene/code/Eglof/libs/juce/modules/juce_audio_processors/juce_audio_processors.mm; sourceTree = "<absolute>"; };
-		4E40156F77FA4787AC3A603A /* /Users/quargsgreene/code/Eglof/libs/juce/modules/juce_audio_utils/juce_audio_utils.mm */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.objcpp; fileEncoding = 4; name = juce_audio_utils.mm; path = /Users/quargsgreene/code/Eglof/libs/juce/modules/juce_audio_utils/juce_audio_utils.mm; sourceTree = "<absolute>"; };
-		510296A2D91A477AABCFFF4E /* /Users/quargsgreene/code/Eglof/libs/juce/modules/juce_audio_processors/juce_audio_processors_ara.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 4; name = juce_audio_processors_ara.cpp; path = /Users/quargsgreene/code/Eglof/libs/juce/modules/juce_audio_processors/juce_audio_processors_ara.cpp; sourceTree = "<absolute>"; };
-		59B175105E684B8295C243B3 /* /Users/quargsgreene/code/Eglof/test/CMakeLists.txt */ = {isa = PBXFileReference; explicitFileType = sourcecode.text; fileEncoding = 4; name = CMakeLists.txt; path = CMakeLists.txt; sourceTree = SOURCE_ROOT; };
-		66709C09BB454B2C93A18CDF /* EglofTest */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; path = EglofTest; sourceTree = BUILT_PRODUCTS_DIR; };
-		775233753B14408CA0463C50 /* /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX15.5.sdk/System/Library/Frameworks/CoreMIDI.framework */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = wrapper.framework; name = CoreMIDI.framework; path = /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX15.5.sdk/System/Library/Frameworks/CoreMIDI.framework; sourceTree = "<absolute>"; };
-		815E051945FC492891810BF9 /* /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX15.5.sdk/System/Library/Frameworks/CoreAudio.framework */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = wrapper.framework; name = CoreAudio.framework; path = /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX15.5.sdk/System/Library/Frameworks/CoreAudio.framework; sourceTree = "<absolute>"; };
-		82F1D7E3B28C43EC916BEE06 /* /Users/quargsgreene/code/Eglof/libs/juce/modules/juce_audio_formats/juce_audio_formats.mm */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.objcpp; fileEncoding = 4; name = juce_audio_formats.mm; path = /Users/quargsgreene/code/Eglof/libs/juce/modules/juce_audio_formats/juce_audio_formats.mm; sourceTree = "<absolute>"; };
-		A0C83450A9944587B6CDBAB1 /* /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX15.5.sdk/System/Library/Frameworks/CoreAudioKit.framework */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = wrapper.framework; name = CoreAudioKit.framework; path = /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX15.5.sdk/System/Library/Frameworks/CoreAudioKit.framework; sourceTree = "<absolute>"; };
-		BAB9C6AB4F5D4F2A91CC174D /* /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX15.5.sdk/System/Library/Frameworks/Security.framework */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = wrapper.framework; name = Security.framework; path = /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX15.5.sdk/System/Library/Frameworks/Security.framework; sourceTree = "<absolute>"; };
-		BDAEEB921BF34850A16E52EA /* /Users/quargsgreene/code/Eglof/libs/juce/modules/juce_data_structures/juce_data_structures.mm */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.objcpp; fileEncoding = 4; name = juce_data_structures.mm; path = /Users/quargsgreene/code/Eglof/libs/juce/modules/juce_data_structures/juce_data_structures.mm; sourceTree = "<absolute>"; };
-		BE39D1D1F9F548619812F699 /* /Users/quargsgreene/code/Eglof/libs/juce/modules/juce_audio_basics/juce_audio_basics.mm */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.objcpp; fileEncoding = 4; name = juce_audio_basics.mm; path = /Users/quargsgreene/code/Eglof/libs/juce/modules/juce_audio_basics/juce_audio_basics.mm; sourceTree = "<absolute>"; };
-		C6CBD1B0C135440197EF89F0 /* /Users/quargsgreene/code/Eglof/test/source/EglofTest.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 4; name = EglofTest.cpp; path = source/EglofTest.cpp; sourceTree = SOURCE_ROOT; };
-		C6EB51D0F40D4216A90AC794 /* /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX15.5.sdk/System/Library/Frameworks/QuartzCore.framework */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = wrapper.framework; name = QuartzCore.framework; path = /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX15.5.sdk/System/Library/Frameworks/QuartzCore.framework; sourceTree = "<absolute>"; };
-		D0770FEA0F254E5694D76B97 /* /Users/quargsgreene/code/Eglof/libs/juce/modules/juce_gui_basics/juce_gui_basics.mm */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.objcpp; fileEncoding = 4; name = juce_gui_basics.mm; path = /Users/quargsgreene/code/Eglof/libs/juce/modules/juce_gui_basics/juce_gui_basics.mm; sourceTree = "<absolute>"; };
-		D2BF64B04928485AA3B54E1F /* /Users/quargsgreene/code/Eglof/libs/juce/modules/juce_audio_processors/juce_audio_processors_lv2_libs.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 4; name = juce_audio_processors_lv2_libs.cpp; path = /Users/quargsgreene/code/Eglof/libs/juce/modules/juce_audio_processors/juce_audio_processors_lv2_libs.cpp; sourceTree = "<absolute>"; };
-		D4AE28533201442AB129A4E2 /* /Users/quargsgreene/code/Eglof/libs/juce/modules/juce_core/juce_core.mm */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.objcpp; fileEncoding = 4; name = juce_core.mm; path = /Users/quargsgreene/code/Eglof/libs/juce/modules/juce_core/juce_core.mm; sourceTree = "<absolute>"; };
-		D609D84F7C26490A8F14798F /* /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX15.5.sdk/System/Library/Frameworks/WebKit.framework */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = wrapper.framework; name = WebKit.framework; path = /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX15.5.sdk/System/Library/Frameworks/WebKit.framework; sourceTree = "<absolute>"; };
-		EAD54E490C344B998C6196DF /* /Users/quargsgreene/code/Eglof/libs/juce/modules/juce_graphics/juce_graphics_Sheenbidi.c */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.c; fileEncoding = 4; name = juce_graphics_Sheenbidi.c; path = /Users/quargsgreene/code/Eglof/libs/juce/modules/juce_graphics/juce_graphics_Sheenbidi.c; sourceTree = "<absolute>"; };
-		EB869D4904214B19AB5AAFF7 /* /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX15.5.sdk/System/Library/Frameworks/IOKit.framework */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = wrapper.framework; name = IOKit.framework; path = /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX15.5.sdk/System/Library/Frameworks/IOKit.framework; sourceTree = "<absolute>"; };
-		FA4C7414EA7F4AA79862CB93 /* /Users/quargsgreene/code/Eglof/test/CMakeLists.txt */ = {isa = PBXFileReference; explicitFileType = sourcecode.text; fileEncoding = 4; name = CMakeLists.txt; path = CMakeLists.txt; sourceTree = SOURCE_ROOT; };
-		FDA0795FD645464482827C53 /* /Users/quargsgreene/code/Eglof/libs/juce/modules/juce_graphics/juce_graphics.mm */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.objcpp; fileEncoding = 4; name = juce_graphics.mm; path = /Users/quargsgreene/code/Eglof/libs/juce/modules/juce_graphics/juce_graphics.mm; sourceTree = "<absolute>"; };
+		046043A2831E4E61A23FA472 /* /Users/quargsgreene/code/Eglof/libs/juce/modules/juce_events/juce_events.mm */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.objcpp; fileEncoding = 4; name = juce_events.mm; path = /Users/quargsgreene/code/Eglof/libs/juce/modules/juce_events/juce_events.mm; sourceTree = "<absolute>"; };
+		046DC2D331BA4D188C1A14C2 /* /Users/quargsgreene/code/Eglof/libs/juce/modules/juce_gui_basics/juce_gui_basics.mm */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.objcpp; fileEncoding = 4; name = juce_gui_basics.mm; path = /Users/quargsgreene/code/Eglof/libs/juce/modules/juce_gui_basics/juce_gui_basics.mm; sourceTree = "<absolute>"; };
+		0FFDF7AF345F48A78C555833 /* /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX15.5.sdk/System/Library/Frameworks/Foundation.framework */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX15.5.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = "<absolute>"; };
+		15F99E719D5B4E0591AE9B67 /* /Users/quargsgreene/code/Eglof/libs/juce/modules/juce_audio_utils/juce_audio_utils.mm */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.objcpp; fileEncoding = 4; name = juce_audio_utils.mm; path = /Users/quargsgreene/code/Eglof/libs/juce/modules/juce_audio_utils/juce_audio_utils.mm; sourceTree = "<absolute>"; };
+		255B6BB5ED644D529DBDBE20 /* /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX15.5.sdk/System/Library/Frameworks/IOKit.framework */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = wrapper.framework; name = IOKit.framework; path = /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX15.5.sdk/System/Library/Frameworks/IOKit.framework; sourceTree = "<absolute>"; };
+		27490912B56A4B4CBF0FE1C0 /* /Users/quargsgreene/code/Eglof/libs/juce/modules/juce_audio_processors/juce_audio_processors_ara.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 4; name = juce_audio_processors_ara.cpp; path = /Users/quargsgreene/code/Eglof/libs/juce/modules/juce_audio_processors/juce_audio_processors_ara.cpp; sourceTree = "<absolute>"; };
+		2A390174555E4F69994E9747 /* /Users/quargsgreene/code/Eglof/libs/juce/modules/juce_core/juce_core.mm */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.objcpp; fileEncoding = 4; name = juce_core.mm; path = /Users/quargsgreene/code/Eglof/libs/juce/modules/juce_core/juce_core.mm; sourceTree = "<absolute>"; };
+		2E8BD01B4C284087AC11B55C /* /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX15.5.sdk/System/Library/Frameworks/DiscRecording.framework */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = wrapper.framework; name = DiscRecording.framework; path = /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX15.5.sdk/System/Library/Frameworks/DiscRecording.framework; sourceTree = "<absolute>"; };
+		30B37ADF5D0A4B4D9083FA10 /* EglofTest */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; path = EglofTest; sourceTree = BUILT_PRODUCTS_DIR; };
+		33670930ED934F9AA420D3CB /* /Users/quargsgreene/code/Eglof/libs/juce/modules/juce_audio_formats/juce_audio_formats.mm */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.objcpp; fileEncoding = 4; name = juce_audio_formats.mm; path = /Users/quargsgreene/code/Eglof/libs/juce/modules/juce_audio_formats/juce_audio_formats.mm; sourceTree = "<absolute>"; };
+		34990D1369A24D299F091B59 /* /Users/quargsgreene/code/Eglof/libs/juce/modules/juce_graphics/juce_graphics_Sheenbidi.c */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.c; fileEncoding = 4; name = juce_graphics_Sheenbidi.c; path = /Users/quargsgreene/code/Eglof/libs/juce/modules/juce_graphics/juce_graphics_Sheenbidi.c; sourceTree = "<absolute>"; };
+		38D11DA442594434A2CCDA47 /* /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX15.5.sdk/System/Library/Frameworks/CoreAudio.framework */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = wrapper.framework; name = CoreAudio.framework; path = /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX15.5.sdk/System/Library/Frameworks/CoreAudio.framework; sourceTree = "<absolute>"; };
+		4DD5FB88C71547848678B638 /* /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX15.5.sdk/System/Library/Frameworks/AudioToolbox.framework */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = wrapper.framework; name = AudioToolbox.framework; path = /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX15.5.sdk/System/Library/Frameworks/AudioToolbox.framework; sourceTree = "<absolute>"; };
+		54215B1FA3834B9CA994D3BE /* /Users/quargsgreene/code/Eglof/libs/juce/modules/juce_audio_basics/juce_audio_basics.mm */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.objcpp; fileEncoding = 4; name = juce_audio_basics.mm; path = /Users/quargsgreene/code/Eglof/libs/juce/modules/juce_audio_basics/juce_audio_basics.mm; sourceTree = "<absolute>"; };
+		63B4819DCD4E483B8CE2A46C /* /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX15.5.sdk/System/Library/Frameworks/QuartzCore.framework */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = wrapper.framework; name = QuartzCore.framework; path = /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX15.5.sdk/System/Library/Frameworks/QuartzCore.framework; sourceTree = "<absolute>"; };
+		67B1688AC62F43B98FF98F04 /* /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX15.5.sdk/System/Library/Frameworks/WebKit.framework */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = wrapper.framework; name = WebKit.framework; path = /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX15.5.sdk/System/Library/Frameworks/WebKit.framework; sourceTree = "<absolute>"; };
+		7C2C9040175343CA964112D5 /* /Users/quargsgreene/code/Eglof/libs/juce/modules/juce_data_structures/juce_data_structures.mm */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.objcpp; fileEncoding = 4; name = juce_data_structures.mm; path = /Users/quargsgreene/code/Eglof/libs/juce/modules/juce_data_structures/juce_data_structures.mm; sourceTree = "<absolute>"; };
+		8372A4E810B24363B9E6FD3D /* /Users/quargsgreene/code/Eglof/libs/juce/modules/juce_audio_processors/juce_audio_processors.mm */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.objcpp; fileEncoding = 4; name = juce_audio_processors.mm; path = /Users/quargsgreene/code/Eglof/libs/juce/modules/juce_audio_processors/juce_audio_processors.mm; sourceTree = "<absolute>"; };
+		83D519FD66D44F049ABD1D55 /* /Users/quargsgreene/code/Eglof/libs/juce/modules/juce_audio_devices/juce_audio_devices.mm */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.objcpp; fileEncoding = 4; name = juce_audio_devices.mm; path = /Users/quargsgreene/code/Eglof/libs/juce/modules/juce_audio_devices/juce_audio_devices.mm; sourceTree = "<absolute>"; };
+		92750661E82640B097F5B8C5 /* /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX15.5.sdk/System/Library/Frameworks/Cocoa.framework */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = wrapper.framework; name = Cocoa.framework; path = /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX15.5.sdk/System/Library/Frameworks/Cocoa.framework; sourceTree = "<absolute>"; };
+		9DE5A80A4E4E40A5A2049789 /* /Users/quargsgreene/code/Eglof/libs/juce/modules/juce_gui_extra/juce_gui_extra.mm */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.objcpp; fileEncoding = 4; name = juce_gui_extra.mm; path = /Users/quargsgreene/code/Eglof/libs/juce/modules/juce_gui_extra/juce_gui_extra.mm; sourceTree = "<absolute>"; };
+		A5B77BBB435E41E39C485C64 /* /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX15.5.sdk/System/Library/Frameworks/Security.framework */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = wrapper.framework; name = Security.framework; path = /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX15.5.sdk/System/Library/Frameworks/Security.framework; sourceTree = "<absolute>"; };
+		B3DFA2D225834D929E001CE1 /* /Users/quargsgreene/code/Eglof/libs/juce/modules/juce_graphics/juce_graphics.mm */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.objcpp; fileEncoding = 4; name = juce_graphics.mm; path = /Users/quargsgreene/code/Eglof/libs/juce/modules/juce_graphics/juce_graphics.mm; sourceTree = "<absolute>"; };
+		B474E181EDBB4F41890207B6 /* /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX15.5.sdk/System/Library/Frameworks/CoreAudioKit.framework */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = wrapper.framework; name = CoreAudioKit.framework; path = /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX15.5.sdk/System/Library/Frameworks/CoreAudioKit.framework; sourceTree = "<absolute>"; };
+		BA4801F2E9C143379E7CC3F7 /* /Users/quargsgreene/code/Eglof/test/CMakeLists.txt */ = {isa = PBXFileReference; explicitFileType = sourcecode.text; fileEncoding = 4; name = CMakeLists.txt; path = CMakeLists.txt; sourceTree = SOURCE_ROOT; };
+		C8646E90EB704913925557FA /* /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX15.5.sdk/System/Library/Frameworks/Accelerate.framework */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = wrapper.framework; name = Accelerate.framework; path = /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX15.5.sdk/System/Library/Frameworks/Accelerate.framework; sourceTree = "<absolute>"; };
+		DA3D364015754DC2B2EE021F /* /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX15.5.sdk/System/Library/Frameworks/CoreMIDI.framework */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = wrapper.framework; name = CoreMIDI.framework; path = /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX15.5.sdk/System/Library/Frameworks/CoreMIDI.framework; sourceTree = "<absolute>"; };
+		E16941A67EC14651882D673E /* /Users/quargsgreene/code/Eglof/libs/juce/modules/juce_audio_processors/juce_audio_processors_lv2_libs.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 4; name = juce_audio_processors_lv2_libs.cpp; path = /Users/quargsgreene/code/Eglof/libs/juce/modules/juce_audio_processors/juce_audio_processors_lv2_libs.cpp; sourceTree = "<absolute>"; };
+		EE9EC87E461A4A559B638ED9 /* /Users/quargsgreene/code/Eglof/test/CMakeLists.txt */ = {isa = PBXFileReference; explicitFileType = sourcecode.text; fileEncoding = 4; name = CMakeLists.txt; path = CMakeLists.txt; sourceTree = SOURCE_ROOT; };
+		F281AF28755D40EE81534612 /* /Users/quargsgreene/code/Eglof/libs/juce/modules/juce_core/juce_core_CompilationTime.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 4; name = juce_core_CompilationTime.cpp; path = /Users/quargsgreene/code/Eglof/libs/juce/modules/juce_core/juce_core_CompilationTime.cpp; sourceTree = "<absolute>"; };
+		F684CC7B8719422484CA71DA /* /Users/quargsgreene/code/Eglof/test/source/EglofTest.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 4; name = EglofTest.cpp; path = source/EglofTest.cpp; sourceTree = SOURCE_ROOT; };
+		FDFF3C3B17B744FAAF87959A /* /Users/quargsgreene/code/Eglof/libs/juce/modules/juce_graphics/juce_graphics_Harfbuzz.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 4; name = juce_graphics_Harfbuzz.cpp; path = /Users/quargsgreene/code/Eglof/libs/juce/modules/juce_graphics/juce_graphics_Harfbuzz.cpp; sourceTree = "<absolute>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
-		E242D30147CB4E3E97E01E80 /* Frameworks */ = {
+		E3250C245CA2473798976467 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -197,98 +197,98 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
-		28E90FBF5719484DB00D1131 /* ALL_BUILD */ = {
+		1C72F1AE483B458192DD5569 /* Resources */ = {
 			isa = PBXGroup;
 			children = (
-				6D5B8BE2D63B4C24B1D65B91 /* CMake Rules */,
-				FA4C7414EA7F4AA79862CB93 /* /Users/quargsgreene/code/Eglof/test/CMakeLists.txt */,
 			);
-			name = ALL_BUILD;
+			name = Resources;
 			sourceTree = "<group>";
 		};
-		2EA3E37868324C1FA3B9238A /* EglofTest */ = {
-			isa = PBXGroup;
-			children = (
-				8DAB213B23674F69974044EE /* Source Files */,
-				59B175105E684B8295C243B3 /* /Users/quargsgreene/code/Eglof/test/CMakeLists.txt */,
-			);
-			name = EglofTest;
-			sourceTree = "<group>";
-		};
-		4711E3E5333448DB892366D5 = {
-			isa = PBXGroup;
-			children = (
-				2EA3E37868324C1FA3B9238A /* EglofTest */,
-				28E90FBF5719484DB00D1131 /* ALL_BUILD */,
-				52857CB155A34958BF63ACDD /* Products */,
-				931E364395EE4019A73E0EB6 /* Frameworks */,
-				DA65BFFC31534539BD73EE2B /* Resources */,
-			);
-			sourceTree = "<group>";
-		};
-		52857CB155A34958BF63ACDD /* Products */ = {
-			isa = PBXGroup;
-			children = (
-				66709C09BB454B2C93A18CDF /* EglofTest */,
-			);
-			name = Products;
-			sourceTree = "<group>";
-		};
-		6D5B8BE2D63B4C24B1D65B91 /* CMake Rules */ = {
+		48F9A3500193436BB20233E7 /* CMake Rules */ = {
 			isa = PBXGroup;
 			children = (
 			);
 			name = "CMake Rules";
 			sourceTree = "<group>";
 		};
-		8DAB213B23674F69974044EE /* Source Files */ = {
+		5CFBD5A0029941C795E431FA /* EglofTest */ = {
 			isa = PBXGroup;
 			children = (
-				BE39D1D1F9F548619812F699 /* /Users/quargsgreene/code/Eglof/libs/juce/modules/juce_audio_basics/juce_audio_basics.mm */,
-				06789E55AB9745B4946A6EA4 /* /Users/quargsgreene/code/Eglof/libs/juce/modules/juce_audio_devices/juce_audio_devices.mm */,
-				82F1D7E3B28C43EC916BEE06 /* /Users/quargsgreene/code/Eglof/libs/juce/modules/juce_audio_formats/juce_audio_formats.mm */,
-				2EAFC452D1C04C7A83195728 /* /Users/quargsgreene/code/Eglof/libs/juce/modules/juce_audio_processors/juce_audio_processors.mm */,
-				510296A2D91A477AABCFFF4E /* /Users/quargsgreene/code/Eglof/libs/juce/modules/juce_audio_processors/juce_audio_processors_ara.cpp */,
-				D2BF64B04928485AA3B54E1F /* /Users/quargsgreene/code/Eglof/libs/juce/modules/juce_audio_processors/juce_audio_processors_lv2_libs.cpp */,
-				4E40156F77FA4787AC3A603A /* /Users/quargsgreene/code/Eglof/libs/juce/modules/juce_audio_utils/juce_audio_utils.mm */,
-				D4AE28533201442AB129A4E2 /* /Users/quargsgreene/code/Eglof/libs/juce/modules/juce_core/juce_core.mm */,
-				1DCCADB4E3784E67B4FDC6B4 /* /Users/quargsgreene/code/Eglof/libs/juce/modules/juce_core/juce_core_CompilationTime.cpp */,
-				BDAEEB921BF34850A16E52EA /* /Users/quargsgreene/code/Eglof/libs/juce/modules/juce_data_structures/juce_data_structures.mm */,
-				206A7D8256DE4D8DBD4DD634 /* /Users/quargsgreene/code/Eglof/libs/juce/modules/juce_events/juce_events.mm */,
-				FDA0795FD645464482827C53 /* /Users/quargsgreene/code/Eglof/libs/juce/modules/juce_graphics/juce_graphics.mm */,
-				2572E709266140BFA10501F6 /* /Users/quargsgreene/code/Eglof/libs/juce/modules/juce_graphics/juce_graphics_Harfbuzz.cpp */,
-				EAD54E490C344B998C6196DF /* /Users/quargsgreene/code/Eglof/libs/juce/modules/juce_graphics/juce_graphics_Sheenbidi.c */,
-				D0770FEA0F254E5694D76B97 /* /Users/quargsgreene/code/Eglof/libs/juce/modules/juce_gui_basics/juce_gui_basics.mm */,
-				2339F899D4E846CFBD47866D /* /Users/quargsgreene/code/Eglof/libs/juce/modules/juce_gui_extra/juce_gui_extra.mm */,
-				C6CBD1B0C135440197EF89F0 /* /Users/quargsgreene/code/Eglof/test/source/EglofTest.cpp */,
+				8296D098BAE94C198B675130 /* Source Files */,
+				BA4801F2E9C143379E7CC3F7 /* /Users/quargsgreene/code/Eglof/test/CMakeLists.txt */,
+			);
+			name = EglofTest;
+			sourceTree = "<group>";
+		};
+		8296D098BAE94C198B675130 /* Source Files */ = {
+			isa = PBXGroup;
+			children = (
+				54215B1FA3834B9CA994D3BE /* /Users/quargsgreene/code/Eglof/libs/juce/modules/juce_audio_basics/juce_audio_basics.mm */,
+				83D519FD66D44F049ABD1D55 /* /Users/quargsgreene/code/Eglof/libs/juce/modules/juce_audio_devices/juce_audio_devices.mm */,
+				33670930ED934F9AA420D3CB /* /Users/quargsgreene/code/Eglof/libs/juce/modules/juce_audio_formats/juce_audio_formats.mm */,
+				8372A4E810B24363B9E6FD3D /* /Users/quargsgreene/code/Eglof/libs/juce/modules/juce_audio_processors/juce_audio_processors.mm */,
+				27490912B56A4B4CBF0FE1C0 /* /Users/quargsgreene/code/Eglof/libs/juce/modules/juce_audio_processors/juce_audio_processors_ara.cpp */,
+				E16941A67EC14651882D673E /* /Users/quargsgreene/code/Eglof/libs/juce/modules/juce_audio_processors/juce_audio_processors_lv2_libs.cpp */,
+				15F99E719D5B4E0591AE9B67 /* /Users/quargsgreene/code/Eglof/libs/juce/modules/juce_audio_utils/juce_audio_utils.mm */,
+				2A390174555E4F69994E9747 /* /Users/quargsgreene/code/Eglof/libs/juce/modules/juce_core/juce_core.mm */,
+				F281AF28755D40EE81534612 /* /Users/quargsgreene/code/Eglof/libs/juce/modules/juce_core/juce_core_CompilationTime.cpp */,
+				7C2C9040175343CA964112D5 /* /Users/quargsgreene/code/Eglof/libs/juce/modules/juce_data_structures/juce_data_structures.mm */,
+				046043A2831E4E61A23FA472 /* /Users/quargsgreene/code/Eglof/libs/juce/modules/juce_events/juce_events.mm */,
+				B3DFA2D225834D929E001CE1 /* /Users/quargsgreene/code/Eglof/libs/juce/modules/juce_graphics/juce_graphics.mm */,
+				FDFF3C3B17B744FAAF87959A /* /Users/quargsgreene/code/Eglof/libs/juce/modules/juce_graphics/juce_graphics_Harfbuzz.cpp */,
+				34990D1369A24D299F091B59 /* /Users/quargsgreene/code/Eglof/libs/juce/modules/juce_graphics/juce_graphics_Sheenbidi.c */,
+				046DC2D331BA4D188C1A14C2 /* /Users/quargsgreene/code/Eglof/libs/juce/modules/juce_gui_basics/juce_gui_basics.mm */,
+				9DE5A80A4E4E40A5A2049789 /* /Users/quargsgreene/code/Eglof/libs/juce/modules/juce_gui_extra/juce_gui_extra.mm */,
+				F684CC7B8719422484CA71DA /* /Users/quargsgreene/code/Eglof/test/source/EglofTest.cpp */,
 			);
 			name = "Source Files";
 			sourceTree = "<group>";
 		};
-		931E364395EE4019A73E0EB6 /* Frameworks */ = {
+		9C328F324205471A9CDBBDFE /* ALL_BUILD */ = {
 			isa = PBXGroup;
 			children = (
-				D609D84F7C26490A8F14798F /* /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX15.5.sdk/System/Library/Frameworks/WebKit.framework */,
-				A0C83450A9944587B6CDBAB1 /* /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX15.5.sdk/System/Library/Frameworks/CoreAudioKit.framework */,
-				0F59E3A9E88044988D351ADE /* /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX15.5.sdk/System/Library/Frameworks/DiscRecording.framework */,
-				C6EB51D0F40D4216A90AC794 /* /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX15.5.sdk/System/Library/Frameworks/QuartzCore.framework */,
-				815E051945FC492891810BF9 /* /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX15.5.sdk/System/Library/Frameworks/CoreAudio.framework */,
-				775233753B14408CA0463C50 /* /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX15.5.sdk/System/Library/Frameworks/CoreMIDI.framework */,
-				1909E1B64E1147129611ABDA /* /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX15.5.sdk/System/Library/Frameworks/AudioToolbox.framework */,
-				10001EA7C7C74DB9A071EBC6 /* /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX15.5.sdk/System/Library/Frameworks/Accelerate.framework */,
-				04DB530DACFE43EF9D87649D /* /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX15.5.sdk/System/Library/Frameworks/Cocoa.framework */,
-				1ABB90C39FDD44A8B645B56E /* /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX15.5.sdk/System/Library/Frameworks/Foundation.framework */,
-				EB869D4904214B19AB5AAFF7 /* /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX15.5.sdk/System/Library/Frameworks/IOKit.framework */,
-				BAB9C6AB4F5D4F2A91CC174D /* /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX15.5.sdk/System/Library/Frameworks/Security.framework */,
+				48F9A3500193436BB20233E7 /* CMake Rules */,
+				EE9EC87E461A4A559B638ED9 /* /Users/quargsgreene/code/Eglof/test/CMakeLists.txt */,
+			);
+			name = ALL_BUILD;
+			sourceTree = "<group>";
+		};
+		AE262EB0813A49349725CE54 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				67B1688AC62F43B98FF98F04 /* /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX15.5.sdk/System/Library/Frameworks/WebKit.framework */,
+				B474E181EDBB4F41890207B6 /* /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX15.5.sdk/System/Library/Frameworks/CoreAudioKit.framework */,
+				2E8BD01B4C284087AC11B55C /* /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX15.5.sdk/System/Library/Frameworks/DiscRecording.framework */,
+				63B4819DCD4E483B8CE2A46C /* /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX15.5.sdk/System/Library/Frameworks/QuartzCore.framework */,
+				38D11DA442594434A2CCDA47 /* /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX15.5.sdk/System/Library/Frameworks/CoreAudio.framework */,
+				DA3D364015754DC2B2EE021F /* /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX15.5.sdk/System/Library/Frameworks/CoreMIDI.framework */,
+				4DD5FB88C71547848678B638 /* /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX15.5.sdk/System/Library/Frameworks/AudioToolbox.framework */,
+				C8646E90EB704913925557FA /* /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX15.5.sdk/System/Library/Frameworks/Accelerate.framework */,
+				92750661E82640B097F5B8C5 /* /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX15.5.sdk/System/Library/Frameworks/Cocoa.framework */,
+				0FFDF7AF345F48A78C555833 /* /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX15.5.sdk/System/Library/Frameworks/Foundation.framework */,
+				255B6BB5ED644D529DBDBE20 /* /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX15.5.sdk/System/Library/Frameworks/IOKit.framework */,
+				A5B77BBB435E41E39C485C64 /* /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX15.5.sdk/System/Library/Frameworks/Security.framework */,
 			);
 			name = Frameworks;
 			sourceTree = "<group>";
 		};
-		DA65BFFC31534539BD73EE2B /* Resources */ = {
+		BCC6D62E6EF34A799743EA89 /* Products */ = {
 			isa = PBXGroup;
 			children = (
+				30B37ADF5D0A4B4D9083FA10 /* EglofTest */,
 			);
-			name = Resources;
+			name = Products;
+			sourceTree = "<group>";
+		};
+		E6984F1215574C5E9F6B4A7A = {
+			isa = PBXGroup;
+			children = (
+				5CFBD5A0029941C795E431FA /* EglofTest */,
+				9C328F324205471A9CDBBDFE /* ALL_BUILD */,
+				BCC6D62E6EF34A799743EA89 /* Products */,
+				AE262EB0813A49349725CE54 /* Frameworks */,
+				1C72F1AE483B458192DD5569 /* Resources */,
+			);
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -296,42 +296,42 @@
 /* Begin PBXNativeTarget section */
 		5E23FF3C7B0099B255253073 /* EglofTest */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 35B4447BCAC244A3B4452F8A /* Build configuration list for PBXNativeTarget "EglofTest" */;
+			buildConfigurationList = 1AC4EC2A0D7D4B688B86A396 /* Build configuration list for PBXNativeTarget "EglofTest" */;
 			buildPhases = (
-				865AEE7BC21B49B7AB52D3BB /* Sources */,
-				E242D30147CB4E3E97E01E80 /* Frameworks */,
+				176020B98A31476DB965C804 /* Sources */,
+				E3250C245CA2473798976467 /* Frameworks */,
 			);
 			buildRules = (
 			);
 			dependencies = (
-				A7188CBD713747939CDA3511 /* PBXTargetDependency */,
+				ECA3317E29BE4133890544F8 /* PBXTargetDependency */,
 			);
 			name = EglofTest;
 			productName = EglofTest;
-			productReference = 66709C09BB454B2C93A18CDF /* EglofTest */;
+			productReference = 30B37ADF5D0A4B4D9083FA10 /* EglofTest */;
 			productType = "com.apple.product-type.tool";
 		};
 /* End PBXNativeTarget section */
 
 /* Begin PBXProject section */
-		FC9D8ED773B643E584AB93B9 /* Project object */ = {
+		1B8F0D1C0A044F15ACA078FF /* Project object */ = {
 			isa = PBXProject;
 			attributes = {
 				BuildIndependentTargetsInParallel = YES;
 				LastUpgradeCheck = 1640;
 			};
-			buildConfigurationList = 716974F827574E8386B010D8 /* Build configuration list for PBXProject "EglofTest" */;
+			buildConfigurationList = 8CFB1855D6A24B458278BA47 /* Build configuration list for PBXProject "EglofTest" */;
 			buildSettings = {
 			};
 			buildStyles = (
-				BE810BFB59CA414D86A056B7 /* Debug */,
-				28C624CD5F0F435184F03B0E /* Release */,
-				D3BACCAF56F046559C40FFEB /* MinSizeRel */,
-				88FA1FF85BF44BE4B9307961 /* RelWithDebInfo */,
+				1A262DEC930B48E6ACF17A95 /* Debug */,
+				2D0DFB8E118041969E29032B /* Release */,
+				684B7E87E2664485B2C36E1C /* MinSizeRel */,
+				886C8C5DC16E4F6FBEABF453 /* RelWithDebInfo */,
 			);
 			compatibilityVersion = "Xcode 3.2";
 			hasScannedForEncodings = 0;
-			mainGroup = 4711E3E5333448DB892366D5;
+			mainGroup = E6984F1215574C5E9F6B4A7A;
 			projectDirPath = /Users/quargsgreene/code/Eglof/test;
 			projectRoot = "";
 			targets = (
@@ -540,421 +540,57 @@ fi
 /* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
-		865AEE7BC21B49B7AB52D3BB /* Sources */ = {
+		176020B98A31476DB965C804 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				3729312A6D194E2C9E14058D /* /Users/quargsgreene/code/Eglof/libs/juce/modules/juce_audio_basics/juce_audio_basics.mm */,
-				28E71E05D62F43F08C1D3AA1 /* /Users/quargsgreene/code/Eglof/libs/juce/modules/juce_audio_devices/juce_audio_devices.mm */,
-				AB24E07A80E946C99E703EA6 /* /Users/quargsgreene/code/Eglof/libs/juce/modules/juce_audio_formats/juce_audio_formats.mm */,
-				C0882742AE0C4B519B390B04 /* /Users/quargsgreene/code/Eglof/libs/juce/modules/juce_audio_processors/juce_audio_processors.mm */,
-				9C6525C4783A4B2987E901E4 /* /Users/quargsgreene/code/Eglof/libs/juce/modules/juce_audio_processors/juce_audio_processors_ara.cpp */,
-				78C083BAD5634C17B0E2196D /* /Users/quargsgreene/code/Eglof/libs/juce/modules/juce_audio_processors/juce_audio_processors_lv2_libs.cpp */,
-				39CA619EA34745F385235C85 /* /Users/quargsgreene/code/Eglof/libs/juce/modules/juce_audio_utils/juce_audio_utils.mm */,
-				1A5ED9E2D8344F21ADA22940 /* /Users/quargsgreene/code/Eglof/libs/juce/modules/juce_core/juce_core.mm */,
-				29A30E49B9B14D598C248C6F /* /Users/quargsgreene/code/Eglof/libs/juce/modules/juce_core/juce_core_CompilationTime.cpp */,
-				BF8C00B04D9D4BD9A96ED6E7 /* /Users/quargsgreene/code/Eglof/libs/juce/modules/juce_data_structures/juce_data_structures.mm */,
-				BC93CCE7E91140DAA8E227D0 /* /Users/quargsgreene/code/Eglof/libs/juce/modules/juce_events/juce_events.mm */,
-				CE7E4D755BF84266BD5506FC /* /Users/quargsgreene/code/Eglof/libs/juce/modules/juce_graphics/juce_graphics.mm */,
-				639793EB40D44F8E8BCC420D /* /Users/quargsgreene/code/Eglof/libs/juce/modules/juce_graphics/juce_graphics_Harfbuzz.cpp */,
-				8886B5106A814D77B69F4E84 /* /Users/quargsgreene/code/Eglof/libs/juce/modules/juce_graphics/juce_graphics_Sheenbidi.c */,
-				0A15FAE3A5BD48289299D34D /* /Users/quargsgreene/code/Eglof/libs/juce/modules/juce_gui_basics/juce_gui_basics.mm */,
-				D10F6BE5516E47F8B0C008DA /* /Users/quargsgreene/code/Eglof/libs/juce/modules/juce_gui_extra/juce_gui_extra.mm */,
-				A795C99E4E754283940E17D1 /* /Users/quargsgreene/code/Eglof/test/source/EglofTest.cpp */,
+				F06AE40950D649F98A111CD1 /* /Users/quargsgreene/code/Eglof/libs/juce/modules/juce_audio_basics/juce_audio_basics.mm */,
+				643820F35400477A815E5D6F /* /Users/quargsgreene/code/Eglof/libs/juce/modules/juce_audio_devices/juce_audio_devices.mm */,
+				A035A73A5F4C4A7682BF9CEB /* /Users/quargsgreene/code/Eglof/libs/juce/modules/juce_audio_formats/juce_audio_formats.mm */,
+				0E6FEF07435845DFA1765C65 /* /Users/quargsgreene/code/Eglof/libs/juce/modules/juce_audio_processors/juce_audio_processors.mm */,
+				7A57EC37D2234B6CA7D8A629 /* /Users/quargsgreene/code/Eglof/libs/juce/modules/juce_audio_processors/juce_audio_processors_ara.cpp */,
+				39C6D5AEA100429F9F3A3733 /* /Users/quargsgreene/code/Eglof/libs/juce/modules/juce_audio_processors/juce_audio_processors_lv2_libs.cpp */,
+				28DCA081C1B24E24BD82BE24 /* /Users/quargsgreene/code/Eglof/libs/juce/modules/juce_audio_utils/juce_audio_utils.mm */,
+				5FDF9352DEF44E2DB64696F9 /* /Users/quargsgreene/code/Eglof/libs/juce/modules/juce_core/juce_core.mm */,
+				459A2D6BA527412DB8FF53DF /* /Users/quargsgreene/code/Eglof/libs/juce/modules/juce_core/juce_core_CompilationTime.cpp */,
+				3D0CDD2509DE4A45A8263E39 /* /Users/quargsgreene/code/Eglof/libs/juce/modules/juce_data_structures/juce_data_structures.mm */,
+				AA0A2BA63C5E45CEAF4355F8 /* /Users/quargsgreene/code/Eglof/libs/juce/modules/juce_events/juce_events.mm */,
+				05CCB24764F94A81817A9A89 /* /Users/quargsgreene/code/Eglof/libs/juce/modules/juce_graphics/juce_graphics.mm */,
+				A4E5B3E261E142ED93EC8F86 /* /Users/quargsgreene/code/Eglof/libs/juce/modules/juce_graphics/juce_graphics_Harfbuzz.cpp */,
+				E55C29E45DA946B0BEF8BF6E /* /Users/quargsgreene/code/Eglof/libs/juce/modules/juce_graphics/juce_graphics_Sheenbidi.c */,
+				B551667727C64F65841CE0BC /* /Users/quargsgreene/code/Eglof/libs/juce/modules/juce_gui_basics/juce_gui_basics.mm */,
+				8AA5F62F466C4F57B296B3B9 /* /Users/quargsgreene/code/Eglof/libs/juce/modules/juce_gui_extra/juce_gui_extra.mm */,
+				E087B59A0B804D908959A1DC /* /Users/quargsgreene/code/Eglof/test/source/EglofTest.cpp */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXTargetDependency section */
-		A7188CBD713747939CDA3511 /* PBXTargetDependency */ = {
-			isa = PBXTargetDependency;
-			target = 5EEA550DB33BFCA79CC57774 /* ZERO_CHECK */;
-			targetProxy = D3747508B512475C9D602A70 /* PBXContainerItemProxy */;
-		};
-		B7A47916112A4C24940E6999 /* PBXTargetDependency */ = {
-			isa = PBXTargetDependency;
-			target = 23E06FD26E9839C0F8FECC90 /* ALL_BUILD */;
-			targetProxy = 1C6411BF552549AFBA0A7BD7 /* PBXContainerItemProxy */;
-		};
-		C8A3002EFD45496FAB5D8998 /* PBXTargetDependency */ = {
-			isa = PBXTargetDependency;
-			target = 5EEA550DB33BFCA79CC57774 /* ZERO_CHECK */;
-			targetProxy = 2715CBF0F53140DCA08B3CD6 /* PBXContainerItemProxy */;
-		};
-		FF10B943A81C440AB9B21A21 /* PBXTargetDependency */ = {
+		6DA5CE4E3C364B07AF03E491 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
 			target = 5E23FF3C7B0099B255253073 /* EglofTest */;
-			targetProxy = 62007F7BAE36420C9E8B54EA /* PBXContainerItemProxy */;
+			targetProxy = 3BD08531B7344B458FEB8CE5 /* PBXContainerItemProxy */;
+		};
+		E386D3230DE2465AB1E21342 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 5EEA550DB33BFCA79CC57774 /* ZERO_CHECK */;
+			targetProxy = 5874892BE87B44D8B7500AE2 /* PBXContainerItemProxy */;
+		};
+		ECA3317E29BE4133890544F8 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 5EEA550DB33BFCA79CC57774 /* ZERO_CHECK */;
+			targetProxy = 12D92343DB0D4A7DA13F9F73 /* PBXContainerItemProxy */;
+		};
+		FD0CA789E6324B449B0A4B2A /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 23E06FD26E9839C0F8FECC90 /* ALL_BUILD */;
+			targetProxy = 0A4A81B962C34D97815E59D3 /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
 
 /* Begin XCBuildConfiguration section */
-		0A2E08FA37DD4966A26C0CD7 /* MinSizeRel */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				ALWAYS_SEARCH_USER_PATHS = NO;
-				ARCHS = arm64;
-				COMBINE_HIDPI_IMAGES = YES;
-				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
-				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
-				GCC_OPTIMIZATION_LEVEL = 0;
-				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'","$(inherited)");
-				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
-				INSTALL_PATH = "";
-				ONLY_ACTIVE_ARCH = NO;
-				OTHER_LDFLAGS = ("","$(inherited)");
-				OTHER_REZFLAGS = "";
-				PRODUCT_NAME = ALL_BUILD;
-				SECTORDER_FLAGS = "";
-				USE_HEADERMAP = NO;
-				WARNING_CFLAGS = ("$(inherited)");
-			};
-			name = MinSizeRel;
-		};
-		21DC47D93888477AA2A03C0C /* RelWithDebInfo */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				ALWAYS_SEARCH_USER_PATHS = NO;
-				ARCHS = arm64;
-				COMBINE_HIDPI_IMAGES = YES;
-				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
-				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
-				GCC_OPTIMIZATION_LEVEL = 0;
-				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'","$(inherited)");
-				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
-				INSTALL_PATH = "";
-				ONLY_ACTIVE_ARCH = NO;
-				OTHER_LDFLAGS = ("","$(inherited)");
-				OTHER_REZFLAGS = "";
-				PRODUCT_NAME = ALL_BUILD;
-				SECTORDER_FLAGS = "";
-				USE_HEADERMAP = NO;
-				WARNING_CFLAGS = ("$(inherited)");
-			};
-			name = RelWithDebInfo;
-		};
-		286CEB7E4FD3477896FE5340 /* RelWithDebInfo */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				ALWAYS_SEARCH_USER_PATHS = NO;
-				ARCHS = arm64;
-				COMBINE_HIDPI_IMAGES = YES;
-				CONFIGURATION_BUILD_DIR = /Users/quargsgreene/code/Eglof/build/test/RelWithDebInfo;
-				EXECUTABLE_PREFIX = "";
-				EXECUTABLE_SUFFIX = "";
-				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
-				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
-				GCC_OPTIMIZATION_LEVEL = 2;
-				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'","'JUCE_GLOBAL_MODULE_SETTINGS_INCLUDED=1'","'NDEBUG=1'","'_NDEBUG=1'","'JucePlugin_IsSynth=0'","'JucePlugin_ManufacturerCode=0x516b7067'","'JucePlugin_Manufacturer=\"Quargs\"'","'JucePlugin_ManufacturerWebsite=\"\"'","'JucePlugin_ManufacturerEmail=\"\"'","'JucePlugin_PluginCode=0x45676c66'","'JucePlugin_ProducesMidiOutput=0'","'JucePlugin_IsMidiEffect=0'","'JucePlugin_WantsMidiInput=0'","'JucePlugin_EditorRequiresKeyboardFocus=0'","'JucePlugin_Name=\"Eglof\"'","'JucePlugin_Desc=\"Eglof\"'","'JucePlugin_Version=0.1.0'","'JucePlugin_VersionString=\"0.1.0\"'","'JucePlugin_VersionCode=0x100'","'JucePlugin_VSTUniqueID=JucePlugin_PluginCode'","'JucePlugin_VSTCategory=kPlugCategEffect'","'JucePlugin_Vst3Category=\"Fx\"'","'JucePlugin_AUMainType='\\''aufx'\\'''","'JucePlugin_AUSubType=JucePlugin_PluginCode'","'JucePlugin_AUExportPrefix=EglofAU'","'JucePlugin_AUExportPrefixQuoted=\"EglofAU\"'","'JucePlugin_AUManufacturerCode=JucePlugin_ManufacturerCode'","'JucePlugin_CFBundleIdentifier=com.Quargs.Eglof'","'JucePlugin_AAXIdentifier=com.Quargs.Eglof'","'JucePlugin_AAXManufacturerCode=JucePlugin_ManufacturerCode'","'JucePlugin_AAXProductId=JucePlugin_PluginCode'","'JucePlugin_AAXCategory=0'","'JucePlugin_AAXDisableBypass=0'","'JucePlugin_AAXDisableMultiMono=0'","'JucePlugin_VSTNumMidiInputs=16'","'JucePlugin_VSTNumMidiOutputs=16'","'JucePlugin_Enable_ARA=0'","'JucePlugin_ARAFactoryID=\"com.Quargs.Eglof.arafactory.0.1.0\"'","'JucePlugin_ARADocumentArchiveID=\"com.Quargs.Eglof.aradocumentarchive.1\"'","'JucePlugin_ARACompatibleArchiveIDs=\"\"'","'JucePlugin_ARAContentTypes=0'","'JucePlugin_ARATransformationFlags=0'","'JUCE_WEB_BROWSER=0'","'JUCE_USE_CURL=0'","'JUCE_VST3_CAN_REPLACE_VST2=0'","'JUCE_MODULE_AVAILABLE_juce_audio_plugin_client=1'","'JUCE_MODULE_AVAILABLE_juce_audio_processors=1'","'JUCE_MODULE_AVAILABLE_juce_gui_extra=1'","'JUCE_MODULE_AVAILABLE_juce_gui_basics=1'","'JUCE_MODULE_AVAILABLE_juce_graphics=1'","'JUCE_MODULE_AVAILABLE_juce_events=1'","'JUCE_MODULE_AVAILABLE_juce_core=1'","'JUCE_MODULE_AVAILABLE_juce_data_structures=1'","'JUCE_MODULE_AVAILABLE_juce_audio_basics=1'","'JUCE_MODULE_AVAILABLE_juce_audio_utils=1'","'JUCE_MODULE_AVAILABLE_juce_audio_formats=1'","'JUCE_MODULE_AVAILABLE_juce_audio_devices=1'","'JUCE_STANDALONE_APPLICATION=JucePlugin_Build_Standalone'","$(inherited)");
-				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
-				HEADER_SEARCH_PATHS = (/Users/quargsgreene/code/Eglof/plugin/include,/Users/quargsgreene/code/Eglof/libs/juce/modules/juce_audio_processors/format_types/VST3_SDK,/Users/quargsgreene/code/Eglof/libs/juce/modules/juce_audio_processors/format_types/LV2_SDK,/Users/quargsgreene/code/Eglof/libs/juce/modules/juce_audio_processors/format_types/LV2_SDK/lv2,/Users/quargsgreene/code/Eglof/libs/juce/modules/juce_audio_processors/format_types/LV2_SDK/serd,/Users/quargsgreene/code/Eglof/libs/juce/modules/juce_audio_processors/format_types/LV2_SDK/sord,/Users/quargsgreene/code/Eglof/libs/juce/modules/juce_audio_processors/format_types/LV2_SDK/sord/src,/Users/quargsgreene/code/Eglof/libs/juce/modules/juce_audio_processors/format_types/LV2_SDK/sratom,/Users/quargsgreene/code/Eglof/libs/juce/modules/juce_audio_processors/format_types/LV2_SDK/lilv,/Users/quargsgreene/code/Eglof/libs/juce/modules/juce_audio_processors/format_types/LV2_SDK/lilv/src,"$(inherited)");
-				INSTALL_PATH = "";
-				LD_NO_PIE = NO;
-				ONLY_ACTIVE_ARCH = NO;
-				OTHER_CFLAGS = ("       -DNDEBUG -fPIE -Wall -Wshadow-all -Wshorten-64-to-32 -Wstrict-aliasing -Wuninitialized -Wunused-parameter -Wconversion -Wsign-compare -Wint-conversion -Wconditional-uninitialized -Wconstant-conversion -Wsign-conversion -Wbool-conversion -Wextra-semi -Wunreachable-code -Wcast-align -Wshift-sign-overflow -Wmissing-prototypes -Wnullable-to-nonnull-conversion -Wno-ignored-qualifiers -Wswitch-enum -Wpedantic -Wdeprecated -Wfloat-equal -Wmissing-field-initializers ","$(inherited)");
-				OTHER_CPLUSPLUSFLAGS = "       -DNDEBUG '-std=gnu++2b' -fPIE -Wall -Wshadow-all -Wshorten-64-to-32 -Wstrict-aliasing -Wuninitialized -Wunused-parameter -Wconversion -Wsign-compare -Wint-conversion -Wconditional-uninitialized -Wconstant-conversion -Wsign-conversion -Wbool-conversion -Wextra-semi -Wunreachable-code -Wcast-align -Wshift-sign-overflow -Wmissing-prototypes -Wnullable-to-nonnull-conversion -Wno-ignored-qualifiers -Wswitch-enum -Wpedantic -Wdeprecated -Wfloat-equal -Wmissing-field-initializers -Wzero-as-null-pointer-constant -Wunused-private-field -Woverloaded-virtual -Wreorder -Winconsistent-missing-destructor-override ";
-				OTHER_LDFLAGS = (" -Wl,-search_paths_first -Wl,-headerpad_max_install_names",/Users/quargsgreene/code/Eglof/build/plugin/Eglof_artefacts/RelWithDebInfo/libEglof_SharedCode.a,/Users/quargsgreene/code/Eglof/build/lib/RelWithDebInfo/libgtest_main.a,"-framework WebKit","-weak_framework Metal","-weak_framework MetalKit","-framework CoreAudioKit","-framework DiscRecording","-framework QuartzCore","-framework CoreAudio","-framework CoreMIDI","-framework AudioToolbox","-framework Accelerate","-framework Cocoa","-framework Foundation","-framework IOKit","-framework Security",/Users/quargsgreene/code/Eglof/build/lib/RelWithDebInfo/libgtest.a,"$(inherited)");
-				OTHER_REZFLAGS = "";
-				PRODUCT_NAME = EglofTest;
-				SECTORDER_FLAGS = "";
-				SYSTEM_HEADER_SEARCH_PATHS = (/Users/quargsgreene/code/Eglof/libs/googletest/googletest/include,/Users/quargsgreene/code/Eglof/libs/juce/modules,/Users/quargsgreene/code/Eglof/libs/googletest/googletest,"$(inherited)");
-				TARGET_TEMP_DIR = "/Users/quargsgreene/code/Eglof/build/build/EglofTest.build/$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)";
-				USE_HEADERMAP = NO;
-				WARNING_CFLAGS = ("$(inherited)");
-			};
-			name = RelWithDebInfo;
-		};
-		31C1309BC3AB460283CA51C3 /* Debug */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				ALWAYS_SEARCH_USER_PATHS = NO;
-				ARCHS = arm64;
-				COMBINE_HIDPI_IMAGES = YES;
-				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
-				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
-				GCC_OPTIMIZATION_LEVEL = 0;
-				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'","$(inherited)");
-				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
-				INSTALL_PATH = "";
-				ONLY_ACTIVE_ARCH = NO;
-				OTHER_LDFLAGS = ("","$(inherited)");
-				OTHER_REZFLAGS = "";
-				PRODUCT_NAME = RUN_TESTS;
-				SECTORDER_FLAGS = "";
-				USE_HEADERMAP = NO;
-				WARNING_CFLAGS = ("$(inherited)");
-			};
-			name = Debug;
-		};
-		3B3EF1A7781643A5A6169016 /* Release */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				ALWAYS_SEARCH_USER_PATHS = NO;
-				ARCHS = arm64;
-				COMBINE_HIDPI_IMAGES = YES;
-				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
-				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
-				GCC_OPTIMIZATION_LEVEL = 0;
-				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'","$(inherited)");
-				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
-				INSTALL_PATH = "";
-				ONLY_ACTIVE_ARCH = NO;
-				OTHER_LDFLAGS = ("","$(inherited)");
-				OTHER_REZFLAGS = "";
-				PRODUCT_NAME = ALL_BUILD;
-				SECTORDER_FLAGS = "";
-				USE_HEADERMAP = NO;
-				WARNING_CFLAGS = ("$(inherited)");
-			};
-			name = Release;
-		};
-		3D337C8F82C34E09AD9DA13E /* RelWithDebInfo */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				ALWAYS_SEARCH_USER_PATHS = NO;
-				ARCHS = arm64;
-				COMBINE_HIDPI_IMAGES = YES;
-				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
-				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
-				GCC_OPTIMIZATION_LEVEL = 0;
-				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'","$(inherited)");
-				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
-				INSTALL_PATH = "";
-				ONLY_ACTIVE_ARCH = NO;
-				OTHER_LDFLAGS = ("","$(inherited)");
-				OTHER_REZFLAGS = "";
-				PRODUCT_NAME = RUN_TESTS;
-				SECTORDER_FLAGS = "";
-				USE_HEADERMAP = NO;
-				WARNING_CFLAGS = ("$(inherited)");
-			};
-			name = RelWithDebInfo;
-		};
-		40783F0ACEB843A8990923E5 /* Release */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				ARCHS = arm64;
-				SDKROOT = "";
-				SWIFT_COMPILATION_MODE = wholemodule;
-				SYMROOT = /Users/quargsgreene/code/Eglof/build/build;
-			};
-			name = Release;
-		};
-		449E5716EB4943E792473DD2 /* RelWithDebInfo */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				ALWAYS_SEARCH_USER_PATHS = NO;
-				ARCHS = arm64;
-				COMBINE_HIDPI_IMAGES = YES;
-				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
-				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
-				GCC_OPTIMIZATION_LEVEL = 0;
-				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'","$(inherited)");
-				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
-				INSTALL_PATH = "";
-				ONLY_ACTIVE_ARCH = NO;
-				OTHER_LDFLAGS = ("","$(inherited)");
-				OTHER_REZFLAGS = "";
-				PRODUCT_NAME = ZERO_CHECK;
-				SECTORDER_FLAGS = "";
-				USE_HEADERMAP = NO;
-				WARNING_CFLAGS = ("$(inherited)");
-			};
-			name = RelWithDebInfo;
-		};
-		4624C3E1A21149A6B68E070D /* Debug */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				ARCHS = arm64;
-				SDKROOT = "";
-				SYMROOT = /Users/quargsgreene/code/Eglof/build/build;
-			};
-			name = Debug;
-		};
-		4D08CE97A5744F90948DFAE0 /* Release */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				ALWAYS_SEARCH_USER_PATHS = NO;
-				ARCHS = arm64;
-				COMBINE_HIDPI_IMAGES = YES;
-				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
-				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
-				GCC_OPTIMIZATION_LEVEL = 0;
-				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'","$(inherited)");
-				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
-				INSTALL_PATH = "";
-				ONLY_ACTIVE_ARCH = NO;
-				OTHER_LDFLAGS = ("","$(inherited)");
-				OTHER_REZFLAGS = "";
-				PRODUCT_NAME = RUN_TESTS;
-				SECTORDER_FLAGS = "";
-				USE_HEADERMAP = NO;
-				WARNING_CFLAGS = ("$(inherited)");
-			};
-			name = Release;
-		};
-		4EEBD139BA934685BB969C62 /* MinSizeRel */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				ALWAYS_SEARCH_USER_PATHS = NO;
-				ARCHS = arm64;
-				COMBINE_HIDPI_IMAGES = YES;
-				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
-				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
-				GCC_OPTIMIZATION_LEVEL = 0;
-				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'","$(inherited)");
-				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
-				INSTALL_PATH = "";
-				ONLY_ACTIVE_ARCH = NO;
-				OTHER_LDFLAGS = ("","$(inherited)");
-				OTHER_REZFLAGS = "";
-				PRODUCT_NAME = ZERO_CHECK;
-				SECTORDER_FLAGS = "";
-				USE_HEADERMAP = NO;
-				WARNING_CFLAGS = ("$(inherited)");
-			};
-			name = MinSizeRel;
-		};
-		589B348AC4EE40518EC4C621 /* MinSizeRel */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				ARCHS = arm64;
-				SDKROOT = "";
-				SWIFT_COMPILATION_MODE = wholemodule;
-				SYMROOT = /Users/quargsgreene/code/Eglof/build/build;
-			};
-			name = MinSizeRel;
-		};
-		6DF52C53F08342A5A374F107 /* MinSizeRel */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				ALWAYS_SEARCH_USER_PATHS = NO;
-				ARCHS = arm64;
-				COMBINE_HIDPI_IMAGES = YES;
-				CONFIGURATION_BUILD_DIR = /Users/quargsgreene/code/Eglof/build/test/MinSizeRel;
-				EXECUTABLE_PREFIX = "";
-				EXECUTABLE_SUFFIX = "";
-				GCC_GENERATE_DEBUGGING_SYMBOLS = NO;
-				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
-				GCC_OPTIMIZATION_LEVEL = s;
-				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'","'JUCE_GLOBAL_MODULE_SETTINGS_INCLUDED=1'","'NDEBUG=1'","'_NDEBUG=1'","'JucePlugin_IsSynth=0'","'JucePlugin_ManufacturerCode=0x516b7067'","'JucePlugin_Manufacturer=\"Quargs\"'","'JucePlugin_ManufacturerWebsite=\"\"'","'JucePlugin_ManufacturerEmail=\"\"'","'JucePlugin_PluginCode=0x45676c66'","'JucePlugin_ProducesMidiOutput=0'","'JucePlugin_IsMidiEffect=0'","'JucePlugin_WantsMidiInput=0'","'JucePlugin_EditorRequiresKeyboardFocus=0'","'JucePlugin_Name=\"Eglof\"'","'JucePlugin_Desc=\"Eglof\"'","'JucePlugin_Version=0.1.0'","'JucePlugin_VersionString=\"0.1.0\"'","'JucePlugin_VersionCode=0x100'","'JucePlugin_VSTUniqueID=JucePlugin_PluginCode'","'JucePlugin_VSTCategory=kPlugCategEffect'","'JucePlugin_Vst3Category=\"Fx\"'","'JucePlugin_AUMainType='\\''aufx'\\'''","'JucePlugin_AUSubType=JucePlugin_PluginCode'","'JucePlugin_AUExportPrefix=EglofAU'","'JucePlugin_AUExportPrefixQuoted=\"EglofAU\"'","'JucePlugin_AUManufacturerCode=JucePlugin_ManufacturerCode'","'JucePlugin_CFBundleIdentifier=com.Quargs.Eglof'","'JucePlugin_AAXIdentifier=com.Quargs.Eglof'","'JucePlugin_AAXManufacturerCode=JucePlugin_ManufacturerCode'","'JucePlugin_AAXProductId=JucePlugin_PluginCode'","'JucePlugin_AAXCategory=0'","'JucePlugin_AAXDisableBypass=0'","'JucePlugin_AAXDisableMultiMono=0'","'JucePlugin_VSTNumMidiInputs=16'","'JucePlugin_VSTNumMidiOutputs=16'","'JucePlugin_Enable_ARA=0'","'JucePlugin_ARAFactoryID=\"com.Quargs.Eglof.arafactory.0.1.0\"'","'JucePlugin_ARADocumentArchiveID=\"com.Quargs.Eglof.aradocumentarchive.1\"'","'JucePlugin_ARACompatibleArchiveIDs=\"\"'","'JucePlugin_ARAContentTypes=0'","'JucePlugin_ARATransformationFlags=0'","'JUCE_WEB_BROWSER=0'","'JUCE_USE_CURL=0'","'JUCE_VST3_CAN_REPLACE_VST2=0'","'JUCE_MODULE_AVAILABLE_juce_audio_plugin_client=1'","'JUCE_MODULE_AVAILABLE_juce_audio_processors=1'","'JUCE_MODULE_AVAILABLE_juce_gui_extra=1'","'JUCE_MODULE_AVAILABLE_juce_gui_basics=1'","'JUCE_MODULE_AVAILABLE_juce_graphics=1'","'JUCE_MODULE_AVAILABLE_juce_events=1'","'JUCE_MODULE_AVAILABLE_juce_core=1'","'JUCE_MODULE_AVAILABLE_juce_data_structures=1'","'JUCE_MODULE_AVAILABLE_juce_audio_basics=1'","'JUCE_MODULE_AVAILABLE_juce_audio_utils=1'","'JUCE_MODULE_AVAILABLE_juce_audio_formats=1'","'JUCE_MODULE_AVAILABLE_juce_audio_devices=1'","'JUCE_STANDALONE_APPLICATION=JucePlugin_Build_Standalone'","$(inherited)");
-				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
-				HEADER_SEARCH_PATHS = (/Users/quargsgreene/code/Eglof/plugin/include,/Users/quargsgreene/code/Eglof/libs/juce/modules/juce_audio_processors/format_types/VST3_SDK,/Users/quargsgreene/code/Eglof/libs/juce/modules/juce_audio_processors/format_types/LV2_SDK,/Users/quargsgreene/code/Eglof/libs/juce/modules/juce_audio_processors/format_types/LV2_SDK/lv2,/Users/quargsgreene/code/Eglof/libs/juce/modules/juce_audio_processors/format_types/LV2_SDK/serd,/Users/quargsgreene/code/Eglof/libs/juce/modules/juce_audio_processors/format_types/LV2_SDK/sord,/Users/quargsgreene/code/Eglof/libs/juce/modules/juce_audio_processors/format_types/LV2_SDK/sord/src,/Users/quargsgreene/code/Eglof/libs/juce/modules/juce_audio_processors/format_types/LV2_SDK/sratom,/Users/quargsgreene/code/Eglof/libs/juce/modules/juce_audio_processors/format_types/LV2_SDK/lilv,/Users/quargsgreene/code/Eglof/libs/juce/modules/juce_audio_processors/format_types/LV2_SDK/lilv/src,"$(inherited)");
-				INSTALL_PATH = "";
-				LD_NO_PIE = NO;
-				ONLY_ACTIVE_ARCH = NO;
-				OTHER_CFLAGS = ("    -DNDEBUG -fPIE -Wall -Wshadow-all -Wshorten-64-to-32 -Wstrict-aliasing -Wuninitialized -Wunused-parameter -Wconversion -Wsign-compare -Wint-conversion -Wconditional-uninitialized -Wconstant-conversion -Wsign-conversion -Wbool-conversion -Wextra-semi -Wunreachable-code -Wcast-align -Wshift-sign-overflow -Wmissing-prototypes -Wnullable-to-nonnull-conversion -Wno-ignored-qualifiers -Wswitch-enum -Wpedantic -Wdeprecated -Wfloat-equal -Wmissing-field-initializers ","$(inherited)");
-				OTHER_CPLUSPLUSFLAGS = "    -DNDEBUG '-std=gnu++2b' -fPIE -Wall -Wshadow-all -Wshorten-64-to-32 -Wstrict-aliasing -Wuninitialized -Wunused-parameter -Wconversion -Wsign-compare -Wint-conversion -Wconditional-uninitialized -Wconstant-conversion -Wsign-conversion -Wbool-conversion -Wextra-semi -Wunreachable-code -Wcast-align -Wshift-sign-overflow -Wmissing-prototypes -Wnullable-to-nonnull-conversion -Wno-ignored-qualifiers -Wswitch-enum -Wpedantic -Wdeprecated -Wfloat-equal -Wmissing-field-initializers -Wzero-as-null-pointer-constant -Wunused-private-field -Woverloaded-virtual -Wreorder -Winconsistent-missing-destructor-override ";
-				OTHER_LDFLAGS = (" -Wl,-search_paths_first -Wl,-headerpad_max_install_names",/Users/quargsgreene/code/Eglof/build/plugin/Eglof_artefacts/MinSizeRel/libEglof_SharedCode.a,/Users/quargsgreene/code/Eglof/build/lib/MinSizeRel/libgtest_main.a,"-framework WebKit","-weak_framework Metal","-weak_framework MetalKit","-framework CoreAudioKit","-framework DiscRecording","-framework QuartzCore","-framework CoreAudio","-framework CoreMIDI","-framework AudioToolbox","-framework Accelerate","-framework Cocoa","-framework Foundation","-framework IOKit","-framework Security",/Users/quargsgreene/code/Eglof/build/lib/MinSizeRel/libgtest.a,"$(inherited)");
-				OTHER_REZFLAGS = "";
-				PRODUCT_NAME = EglofTest;
-				SECTORDER_FLAGS = "";
-				SYSTEM_HEADER_SEARCH_PATHS = (/Users/quargsgreene/code/Eglof/libs/googletest/googletest/include,/Users/quargsgreene/code/Eglof/libs/juce/modules,/Users/quargsgreene/code/Eglof/libs/googletest/googletest,"$(inherited)");
-				TARGET_TEMP_DIR = "/Users/quargsgreene/code/Eglof/build/build/EglofTest.build/$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)";
-				USE_HEADERMAP = NO;
-				WARNING_CFLAGS = ("$(inherited)");
-			};
-			name = MinSizeRel;
-		};
-		74554F804FF64304B8F1E90B /* Debug */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				ALWAYS_SEARCH_USER_PATHS = NO;
-				ARCHS = arm64;
-				COMBINE_HIDPI_IMAGES = YES;
-				CONFIGURATION_BUILD_DIR = /Users/quargsgreene/code/Eglof/build/test/Debug;
-				EXECUTABLE_PREFIX = "";
-				EXECUTABLE_SUFFIX = "";
-				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
-				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
-				GCC_OPTIMIZATION_LEVEL = 0;
-				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'","'JUCE_GLOBAL_MODULE_SETTINGS_INCLUDED=1'","'DEBUG=1'","'_DEBUG=1'","'JucePlugin_IsSynth=0'","'JucePlugin_ManufacturerCode=0x516b7067'","'JucePlugin_Manufacturer=\"Quargs\"'","'JucePlugin_ManufacturerWebsite=\"\"'","'JucePlugin_ManufacturerEmail=\"\"'","'JucePlugin_PluginCode=0x45676c66'","'JucePlugin_ProducesMidiOutput=0'","'JucePlugin_IsMidiEffect=0'","'JucePlugin_WantsMidiInput=0'","'JucePlugin_EditorRequiresKeyboardFocus=0'","'JucePlugin_Name=\"Eglof\"'","'JucePlugin_Desc=\"Eglof\"'","'JucePlugin_Version=0.1.0'","'JucePlugin_VersionString=\"0.1.0\"'","'JucePlugin_VersionCode=0x100'","'JucePlugin_VSTUniqueID=JucePlugin_PluginCode'","'JucePlugin_VSTCategory=kPlugCategEffect'","'JucePlugin_Vst3Category=\"Fx\"'","'JucePlugin_AUMainType='\\''aufx'\\'''","'JucePlugin_AUSubType=JucePlugin_PluginCode'","'JucePlugin_AUExportPrefix=EglofAU'","'JucePlugin_AUExportPrefixQuoted=\"EglofAU\"'","'JucePlugin_AUManufacturerCode=JucePlugin_ManufacturerCode'","'JucePlugin_CFBundleIdentifier=com.Quargs.Eglof'","'JucePlugin_AAXIdentifier=com.Quargs.Eglof'","'JucePlugin_AAXManufacturerCode=JucePlugin_ManufacturerCode'","'JucePlugin_AAXProductId=JucePlugin_PluginCode'","'JucePlugin_AAXCategory=0'","'JucePlugin_AAXDisableBypass=0'","'JucePlugin_AAXDisableMultiMono=0'","'JucePlugin_VSTNumMidiInputs=16'","'JucePlugin_VSTNumMidiOutputs=16'","'JucePlugin_Enable_ARA=0'","'JucePlugin_ARAFactoryID=\"com.Quargs.Eglof.arafactory.0.1.0\"'","'JucePlugin_ARADocumentArchiveID=\"com.Quargs.Eglof.aradocumentarchive.1\"'","'JucePlugin_ARACompatibleArchiveIDs=\"\"'","'JucePlugin_ARAContentTypes=0'","'JucePlugin_ARATransformationFlags=0'","'JUCE_WEB_BROWSER=0'","'JUCE_USE_CURL=0'","'JUCE_VST3_CAN_REPLACE_VST2=0'","'JUCE_MODULE_AVAILABLE_juce_audio_plugin_client=1'","'JUCE_MODULE_AVAILABLE_juce_audio_processors=1'","'JUCE_MODULE_AVAILABLE_juce_gui_extra=1'","'JUCE_MODULE_AVAILABLE_juce_gui_basics=1'","'JUCE_MODULE_AVAILABLE_juce_graphics=1'","'JUCE_MODULE_AVAILABLE_juce_events=1'","'JUCE_MODULE_AVAILABLE_juce_core=1'","'JUCE_MODULE_AVAILABLE_juce_data_structures=1'","'JUCE_MODULE_AVAILABLE_juce_audio_basics=1'","'JUCE_MODULE_AVAILABLE_juce_audio_utils=1'","'JUCE_MODULE_AVAILABLE_juce_audio_formats=1'","'JUCE_MODULE_AVAILABLE_juce_audio_devices=1'","'JUCE_STANDALONE_APPLICATION=JucePlugin_Build_Standalone'","$(inherited)");
-				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
-				HEADER_SEARCH_PATHS = (/Users/quargsgreene/code/Eglof/plugin/include,/Users/quargsgreene/code/Eglof/libs/juce/modules/juce_audio_processors/format_types/VST3_SDK,/Users/quargsgreene/code/Eglof/libs/juce/modules/juce_audio_processors/format_types/LV2_SDK,/Users/quargsgreene/code/Eglof/libs/juce/modules/juce_audio_processors/format_types/LV2_SDK/lv2,/Users/quargsgreene/code/Eglof/libs/juce/modules/juce_audio_processors/format_types/LV2_SDK/serd,/Users/quargsgreene/code/Eglof/libs/juce/modules/juce_audio_processors/format_types/LV2_SDK/sord,/Users/quargsgreene/code/Eglof/libs/juce/modules/juce_audio_processors/format_types/LV2_SDK/sord/src,/Users/quargsgreene/code/Eglof/libs/juce/modules/juce_audio_processors/format_types/LV2_SDK/sratom,/Users/quargsgreene/code/Eglof/libs/juce/modules/juce_audio_processors/format_types/LV2_SDK/lilv,/Users/quargsgreene/code/Eglof/libs/juce/modules/juce_audio_processors/format_types/LV2_SDK/lilv/src,"$(inherited)");
-				INSTALL_PATH = "";
-				LD_NO_PIE = NO;
-				ONLY_ACTIVE_ARCH = NO;
-				OTHER_CFLAGS = ("   -fPIE        -Wall -Wshadow-all -Wshorten-64-to-32 -Wstrict-aliasing -Wuninitialized -Wunused-parameter -Wconversion -Wsign-compare -Wint-conversion -Wconditional-uninitialized -Wconstant-conversion -Wsign-conversion -Wbool-conversion -Wextra-semi -Wunreachable-code -Wcast-align -Wshift-sign-overflow -Wmissing-prototypes -Wnullable-to-nonnull-conversion -Wno-ignored-qualifiers -Wswitch-enum -Wpedantic -Wdeprecated -Wfloat-equal -Wmissing-field-initializers ","$(inherited)");
-				OTHER_CPLUSPLUSFLAGS = "   '-std=gnu++2b' -fPIE        -Wall -Wshadow-all -Wshorten-64-to-32 -Wstrict-aliasing -Wuninitialized -Wunused-parameter -Wconversion -Wsign-compare -Wint-conversion -Wconditional-uninitialized -Wconstant-conversion -Wsign-conversion -Wbool-conversion -Wextra-semi -Wunreachable-code -Wcast-align -Wshift-sign-overflow -Wmissing-prototypes -Wnullable-to-nonnull-conversion -Wno-ignored-qualifiers -Wswitch-enum -Wpedantic -Wdeprecated -Wfloat-equal -Wmissing-field-initializers -Wzero-as-null-pointer-constant -Wunused-private-field -Woverloaded-virtual -Wreorder -Winconsistent-missing-destructor-override ";
-				OTHER_LDFLAGS = (" -Wl,-search_paths_first -Wl,-headerpad_max_install_names",/Users/quargsgreene/code/Eglof/build/plugin/Eglof_artefacts/Debug/libEglof_SharedCode.a,/Users/quargsgreene/code/Eglof/build/lib/Debug/libgtest_main.a,"-framework WebKit","-weak_framework Metal","-weak_framework MetalKit","-framework CoreAudioKit","-framework DiscRecording","-framework QuartzCore","-framework CoreAudio","-framework CoreMIDI","-framework AudioToolbox","-framework Accelerate","-framework Cocoa","-framework Foundation","-framework IOKit","-framework Security",/Users/quargsgreene/code/Eglof/build/lib/Debug/libgtest.a,"$(inherited)");
-				OTHER_REZFLAGS = "";
-				PRODUCT_NAME = EglofTest;
-				SECTORDER_FLAGS = "";
-				SYSTEM_HEADER_SEARCH_PATHS = (/Users/quargsgreene/code/Eglof/libs/googletest/googletest/include,/Users/quargsgreene/code/Eglof/libs/juce/modules,/Users/quargsgreene/code/Eglof/libs/googletest/googletest,"$(inherited)");
-				TARGET_TEMP_DIR = "/Users/quargsgreene/code/Eglof/build/build/EglofTest.build/$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)";
-				USE_HEADERMAP = NO;
-				WARNING_CFLAGS = ("$(inherited)");
-			};
-			name = Debug;
-		};
-		83B8029C673A4B8EBE72C29D /* RelWithDebInfo */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				ALWAYS_SEARCH_USER_PATHS = NO;
-				ARCHS = arm64;
-				COMBINE_HIDPI_IMAGES = YES;
-				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
-				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
-				GCC_OPTIMIZATION_LEVEL = 0;
-				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'","$(inherited)");
-				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
-				INSTALL_PATH = "";
-				ONLY_ACTIVE_ARCH = NO;
-				OTHER_LDFLAGS = ("","$(inherited)");
-				OTHER_REZFLAGS = "";
-				PRODUCT_NAME = install;
-				SECTORDER_FLAGS = "";
-				USE_HEADERMAP = NO;
-				WARNING_CFLAGS = ("$(inherited)");
-			};
-			name = RelWithDebInfo;
-		};
-		90C32F72817844F48E41095C /* Debug */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				ALWAYS_SEARCH_USER_PATHS = NO;
-				ARCHS = arm64;
-				COMBINE_HIDPI_IMAGES = YES;
-				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
-				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
-				GCC_OPTIMIZATION_LEVEL = 0;
-				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'","$(inherited)");
-				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
-				INSTALL_PATH = "";
-				ONLY_ACTIVE_ARCH = NO;
-				OTHER_LDFLAGS = ("","$(inherited)");
-				OTHER_REZFLAGS = "";
-				PRODUCT_NAME = ZERO_CHECK;
-				SECTORDER_FLAGS = "";
-				USE_HEADERMAP = NO;
-				WARNING_CFLAGS = ("$(inherited)");
-			};
-			name = Debug;
-		};
-		95BFB08628B346AFB8FCCA00 /* MinSizeRel */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				ALWAYS_SEARCH_USER_PATHS = NO;
-				ARCHS = arm64;
-				COMBINE_HIDPI_IMAGES = YES;
-				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
-				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
-				GCC_OPTIMIZATION_LEVEL = 0;
-				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'","$(inherited)");
-				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
-				INSTALL_PATH = "";
-				ONLY_ACTIVE_ARCH = NO;
-				OTHER_LDFLAGS = ("","$(inherited)");
-				OTHER_REZFLAGS = "";
-				PRODUCT_NAME = install;
-				SECTORDER_FLAGS = "";
-				USE_HEADERMAP = NO;
-				WARNING_CFLAGS = ("$(inherited)");
-			};
-			name = MinSizeRel;
-		};
-		96DFCAD81E37497A8E83129B /* Release */ = {
+		1659B9F76BF54E89B164FDE6 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
@@ -985,7 +621,60 @@ fi
 			};
 			name = Release;
 		};
-		B2F6CBC024994140881CBD6C /* RelWithDebInfo */ = {
+		1896B1DB09CF48C0A5913364 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = arm64;
+				SDKROOT = "";
+				SYMROOT = /Users/quargsgreene/code/Eglof/build/build;
+			};
+			name = Debug;
+		};
+		1A5F04A14A934586BB5A9075 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = arm64;
+				COMBINE_HIDPI_IMAGES = YES;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'","$(inherited)");
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				INSTALL_PATH = "";
+				ONLY_ACTIVE_ARCH = NO;
+				OTHER_LDFLAGS = ("","$(inherited)");
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = install;
+				SECTORDER_FLAGS = "";
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("$(inherited)");
+			};
+			name = Debug;
+		};
+		27E0A735FBD94683BB8FC2FC /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = arm64;
+				COMBINE_HIDPI_IMAGES = YES;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'","$(inherited)");
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				INSTALL_PATH = "";
+				ONLY_ACTIVE_ARCH = NO;
+				OTHER_LDFLAGS = ("","$(inherited)");
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = RUN_TESTS;
+				SECTORDER_FLAGS = "";
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("$(inherited)");
+			};
+			name = Release;
+		};
+		2D35D8FED7E54FB1AE7B4660 /* RelWithDebInfo */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ARCHS = arm64;
@@ -995,7 +684,70 @@ fi
 			};
 			name = RelWithDebInfo;
 		};
-		BBF425C7273A4E9D9E5F3D30 /* Debug */ = {
+		36F3EB029ECA4942A32FD41E /* RelWithDebInfo */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = arm64;
+				COMBINE_HIDPI_IMAGES = YES;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'","$(inherited)");
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				INSTALL_PATH = "";
+				ONLY_ACTIVE_ARCH = NO;
+				OTHER_LDFLAGS = ("","$(inherited)");
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = ALL_BUILD;
+				SECTORDER_FLAGS = "";
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("$(inherited)");
+			};
+			name = RelWithDebInfo;
+		};
+		38A5E1FFA6CA4ED8AEB6F5C9 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = arm64;
+				SDKROOT = "";
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SYMROOT = /Users/quargsgreene/code/Eglof/build/build;
+			};
+			name = Release;
+		};
+		3C936C70312246D284A7A6E9 /* RelWithDebInfo */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = arm64;
+				COMBINE_HIDPI_IMAGES = YES;
+				CONFIGURATION_BUILD_DIR = /Users/quargsgreene/code/Eglof/build/test/RelWithDebInfo;
+				EXECUTABLE_PREFIX = "";
+				EXECUTABLE_SUFFIX = "";
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 2;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'","'JUCE_GLOBAL_MODULE_SETTINGS_INCLUDED=1'","'NDEBUG=1'","'_NDEBUG=1'","'JucePlugin_IsSynth=0'","'JucePlugin_ManufacturerCode=0x516b7067'","'JucePlugin_Manufacturer=\"Quargs\"'","'JucePlugin_ManufacturerWebsite=\"\"'","'JucePlugin_ManufacturerEmail=\"\"'","'JucePlugin_PluginCode=0x45676c66'","'JucePlugin_ProducesMidiOutput=0'","'JucePlugin_IsMidiEffect=0'","'JucePlugin_WantsMidiInput=0'","'JucePlugin_EditorRequiresKeyboardFocus=0'","'JucePlugin_Name=\"Eglof\"'","'JucePlugin_Desc=\"Eglof\"'","'JucePlugin_Version=0.1.0'","'JucePlugin_VersionString=\"0.1.0\"'","'JucePlugin_VersionCode=0x100'","'JucePlugin_VSTUniqueID=JucePlugin_PluginCode'","'JucePlugin_VSTCategory=kPlugCategEffect'","'JucePlugin_Vst3Category=\"Fx\"'","'JucePlugin_AUMainType='\\''aufx'\\'''","'JucePlugin_AUSubType=JucePlugin_PluginCode'","'JucePlugin_AUExportPrefix=EglofAU'","'JucePlugin_AUExportPrefixQuoted=\"EglofAU\"'","'JucePlugin_AUManufacturerCode=JucePlugin_ManufacturerCode'","'JucePlugin_CFBundleIdentifier=com.Quargs.Eglof'","'JucePlugin_AAXIdentifier=com.Quargs.Eglof'","'JucePlugin_AAXManufacturerCode=JucePlugin_ManufacturerCode'","'JucePlugin_AAXProductId=JucePlugin_PluginCode'","'JucePlugin_AAXCategory=0'","'JucePlugin_AAXDisableBypass=0'","'JucePlugin_AAXDisableMultiMono=0'","'JucePlugin_VSTNumMidiInputs=16'","'JucePlugin_VSTNumMidiOutputs=16'","'JucePlugin_Enable_ARA=0'","'JucePlugin_ARAFactoryID=\"com.Quargs.Eglof.arafactory.0.1.0\"'","'JucePlugin_ARADocumentArchiveID=\"com.Quargs.Eglof.aradocumentarchive.1\"'","'JucePlugin_ARACompatibleArchiveIDs=\"\"'","'JucePlugin_ARAContentTypes=0'","'JucePlugin_ARATransformationFlags=0'","'JUCE_WEB_BROWSER=0'","'JUCE_USE_CURL=0'","'JUCE_VST3_CAN_REPLACE_VST2=0'","'JUCE_MODULE_AVAILABLE_juce_audio_plugin_client=1'","'JUCE_MODULE_AVAILABLE_juce_audio_processors=1'","'JUCE_MODULE_AVAILABLE_juce_gui_extra=1'","'JUCE_MODULE_AVAILABLE_juce_gui_basics=1'","'JUCE_MODULE_AVAILABLE_juce_graphics=1'","'JUCE_MODULE_AVAILABLE_juce_events=1'","'JUCE_MODULE_AVAILABLE_juce_core=1'","'JUCE_MODULE_AVAILABLE_juce_data_structures=1'","'JUCE_MODULE_AVAILABLE_juce_audio_basics=1'","'JUCE_MODULE_AVAILABLE_juce_audio_utils=1'","'JUCE_MODULE_AVAILABLE_juce_audio_formats=1'","'JUCE_MODULE_AVAILABLE_juce_audio_devices=1'","'JUCE_STANDALONE_APPLICATION=JucePlugin_Build_Standalone'","$(inherited)");
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				HEADER_SEARCH_PATHS = (/Users/quargsgreene/code/Eglof/plugin/include,/Users/quargsgreene/code/Eglof/libs/juce/modules/juce_audio_processors/format_types/VST3_SDK,/Users/quargsgreene/code/Eglof/libs/juce/modules/juce_audio_processors/format_types/LV2_SDK,/Users/quargsgreene/code/Eglof/libs/juce/modules/juce_audio_processors/format_types/LV2_SDK/lv2,/Users/quargsgreene/code/Eglof/libs/juce/modules/juce_audio_processors/format_types/LV2_SDK/serd,/Users/quargsgreene/code/Eglof/libs/juce/modules/juce_audio_processors/format_types/LV2_SDK/sord,/Users/quargsgreene/code/Eglof/libs/juce/modules/juce_audio_processors/format_types/LV2_SDK/sord/src,/Users/quargsgreene/code/Eglof/libs/juce/modules/juce_audio_processors/format_types/LV2_SDK/sratom,/Users/quargsgreene/code/Eglof/libs/juce/modules/juce_audio_processors/format_types/LV2_SDK/lilv,/Users/quargsgreene/code/Eglof/libs/juce/modules/juce_audio_processors/format_types/LV2_SDK/lilv/src,"$(inherited)");
+				INSTALL_PATH = "";
+				LD_NO_PIE = NO;
+				ONLY_ACTIVE_ARCH = NO;
+				OTHER_CFLAGS = ("       -DNDEBUG -fPIE -Wall -Wshadow-all -Wshorten-64-to-32 -Wstrict-aliasing -Wuninitialized -Wunused-parameter -Wconversion -Wsign-compare -Wint-conversion -Wconditional-uninitialized -Wconstant-conversion -Wsign-conversion -Wbool-conversion -Wextra-semi -Wunreachable-code -Wcast-align -Wshift-sign-overflow -Wmissing-prototypes -Wnullable-to-nonnull-conversion -Wno-ignored-qualifiers -Wswitch-enum -Wpedantic -Wdeprecated -Wfloat-equal -Wmissing-field-initializers ","$(inherited)");
+				OTHER_CPLUSPLUSFLAGS = "       -DNDEBUG '-std=gnu++2b' -fPIE -Wall -Wshadow-all -Wshorten-64-to-32 -Wstrict-aliasing -Wuninitialized -Wunused-parameter -Wconversion -Wsign-compare -Wint-conversion -Wconditional-uninitialized -Wconstant-conversion -Wsign-conversion -Wbool-conversion -Wextra-semi -Wunreachable-code -Wcast-align -Wshift-sign-overflow -Wmissing-prototypes -Wnullable-to-nonnull-conversion -Wno-ignored-qualifiers -Wswitch-enum -Wpedantic -Wdeprecated -Wfloat-equal -Wmissing-field-initializers -Wzero-as-null-pointer-constant -Wunused-private-field -Woverloaded-virtual -Wreorder -Winconsistent-missing-destructor-override ";
+				OTHER_LDFLAGS = (" -Wl,-search_paths_first -Wl,-headerpad_max_install_names",/Users/quargsgreene/code/Eglof/build/plugin/Eglof_artefacts/RelWithDebInfo/libEglof_SharedCode.a,/Users/quargsgreene/code/Eglof/build/lib/RelWithDebInfo/libgtest_main.a,"-framework WebKit","-weak_framework Metal","-weak_framework MetalKit","-framework CoreAudioKit","-framework DiscRecording","-framework QuartzCore","-framework CoreAudio","-framework CoreMIDI","-framework AudioToolbox","-framework Accelerate","-framework Cocoa","-framework Foundation","-framework IOKit","-framework Security",/Users/quargsgreene/code/Eglof/build/lib/RelWithDebInfo/libgtest.a,"$(inherited)");
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = EglofTest;
+				SECTORDER_FLAGS = "";
+				SYSTEM_HEADER_SEARCH_PATHS = (/Users/quargsgreene/code/Eglof/libs/googletest/googletest/include,/Users/quargsgreene/code/Eglof/libs/juce/modules,/Users/quargsgreene/code/Eglof/libs/googletest/googletest,"$(inherited)");
+				TARGET_TEMP_DIR = "/Users/quargsgreene/code/Eglof/build/build/EglofTest.build/$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)";
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("$(inherited)");
+			};
+			name = RelWithDebInfo;
+		};
+		4B26C37EEA9642FF9C0CB842 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
@@ -1017,7 +769,73 @@ fi
 			};
 			name = Debug;
 		};
-		CD3E55E825DD405B9FC67A2C /* Release */ = {
+		556529A3D0204D00B1B844D2 /* RelWithDebInfo */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = arm64;
+				COMBINE_HIDPI_IMAGES = YES;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'","$(inherited)");
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				INSTALL_PATH = "";
+				ONLY_ACTIVE_ARCH = NO;
+				OTHER_LDFLAGS = ("","$(inherited)");
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = RUN_TESTS;
+				SECTORDER_FLAGS = "";
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("$(inherited)");
+			};
+			name = RelWithDebInfo;
+		};
+		6F2DD78C2A834C0BB83F17EB /* MinSizeRel */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = arm64;
+				COMBINE_HIDPI_IMAGES = YES;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'","$(inherited)");
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				INSTALL_PATH = "";
+				ONLY_ACTIVE_ARCH = NO;
+				OTHER_LDFLAGS = ("","$(inherited)");
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = ALL_BUILD;
+				SECTORDER_FLAGS = "";
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("$(inherited)");
+			};
+			name = MinSizeRel;
+		};
+		96EEF446C7A04B80957272FF /* MinSizeRel */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = arm64;
+				COMBINE_HIDPI_IMAGES = YES;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'","$(inherited)");
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				INSTALL_PATH = "";
+				ONLY_ACTIVE_ARCH = NO;
+				OTHER_LDFLAGS = ("","$(inherited)");
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = install;
+				SECTORDER_FLAGS = "";
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("$(inherited)");
+			};
+			name = MinSizeRel;
+		};
+		9AE5573FDCCA4AF39B17C1AB /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
@@ -1039,7 +857,48 @@ fi
 			};
 			name = Release;
 		};
-		DA9E749C3E944EAE922A7C53 /* Debug */ = {
+		AB1EE2A0E2AC4929B4015F9C /* MinSizeRel */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = arm64;
+				SDKROOT = "";
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SYMROOT = /Users/quargsgreene/code/Eglof/build/build;
+			};
+			name = MinSizeRel;
+		};
+		B568478B130A404289082ECA /* MinSizeRel */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = arm64;
+				COMBINE_HIDPI_IMAGES = YES;
+				CONFIGURATION_BUILD_DIR = /Users/quargsgreene/code/Eglof/build/test/MinSizeRel;
+				EXECUTABLE_PREFIX = "";
+				EXECUTABLE_SUFFIX = "";
+				GCC_GENERATE_DEBUGGING_SYMBOLS = NO;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = s;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'","'JUCE_GLOBAL_MODULE_SETTINGS_INCLUDED=1'","'NDEBUG=1'","'_NDEBUG=1'","'JucePlugin_IsSynth=0'","'JucePlugin_ManufacturerCode=0x516b7067'","'JucePlugin_Manufacturer=\"Quargs\"'","'JucePlugin_ManufacturerWebsite=\"\"'","'JucePlugin_ManufacturerEmail=\"\"'","'JucePlugin_PluginCode=0x45676c66'","'JucePlugin_ProducesMidiOutput=0'","'JucePlugin_IsMidiEffect=0'","'JucePlugin_WantsMidiInput=0'","'JucePlugin_EditorRequiresKeyboardFocus=0'","'JucePlugin_Name=\"Eglof\"'","'JucePlugin_Desc=\"Eglof\"'","'JucePlugin_Version=0.1.0'","'JucePlugin_VersionString=\"0.1.0\"'","'JucePlugin_VersionCode=0x100'","'JucePlugin_VSTUniqueID=JucePlugin_PluginCode'","'JucePlugin_VSTCategory=kPlugCategEffect'","'JucePlugin_Vst3Category=\"Fx\"'","'JucePlugin_AUMainType='\\''aufx'\\'''","'JucePlugin_AUSubType=JucePlugin_PluginCode'","'JucePlugin_AUExportPrefix=EglofAU'","'JucePlugin_AUExportPrefixQuoted=\"EglofAU\"'","'JucePlugin_AUManufacturerCode=JucePlugin_ManufacturerCode'","'JucePlugin_CFBundleIdentifier=com.Quargs.Eglof'","'JucePlugin_AAXIdentifier=com.Quargs.Eglof'","'JucePlugin_AAXManufacturerCode=JucePlugin_ManufacturerCode'","'JucePlugin_AAXProductId=JucePlugin_PluginCode'","'JucePlugin_AAXCategory=0'","'JucePlugin_AAXDisableBypass=0'","'JucePlugin_AAXDisableMultiMono=0'","'JucePlugin_VSTNumMidiInputs=16'","'JucePlugin_VSTNumMidiOutputs=16'","'JucePlugin_Enable_ARA=0'","'JucePlugin_ARAFactoryID=\"com.Quargs.Eglof.arafactory.0.1.0\"'","'JucePlugin_ARADocumentArchiveID=\"com.Quargs.Eglof.aradocumentarchive.1\"'","'JucePlugin_ARACompatibleArchiveIDs=\"\"'","'JucePlugin_ARAContentTypes=0'","'JucePlugin_ARATransformationFlags=0'","'JUCE_WEB_BROWSER=0'","'JUCE_USE_CURL=0'","'JUCE_VST3_CAN_REPLACE_VST2=0'","'JUCE_MODULE_AVAILABLE_juce_audio_plugin_client=1'","'JUCE_MODULE_AVAILABLE_juce_audio_processors=1'","'JUCE_MODULE_AVAILABLE_juce_gui_extra=1'","'JUCE_MODULE_AVAILABLE_juce_gui_basics=1'","'JUCE_MODULE_AVAILABLE_juce_graphics=1'","'JUCE_MODULE_AVAILABLE_juce_events=1'","'JUCE_MODULE_AVAILABLE_juce_core=1'","'JUCE_MODULE_AVAILABLE_juce_data_structures=1'","'JUCE_MODULE_AVAILABLE_juce_audio_basics=1'","'JUCE_MODULE_AVAILABLE_juce_audio_utils=1'","'JUCE_MODULE_AVAILABLE_juce_audio_formats=1'","'JUCE_MODULE_AVAILABLE_juce_audio_devices=1'","'JUCE_STANDALONE_APPLICATION=JucePlugin_Build_Standalone'","$(inherited)");
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				HEADER_SEARCH_PATHS = (/Users/quargsgreene/code/Eglof/plugin/include,/Users/quargsgreene/code/Eglof/libs/juce/modules/juce_audio_processors/format_types/VST3_SDK,/Users/quargsgreene/code/Eglof/libs/juce/modules/juce_audio_processors/format_types/LV2_SDK,/Users/quargsgreene/code/Eglof/libs/juce/modules/juce_audio_processors/format_types/LV2_SDK/lv2,/Users/quargsgreene/code/Eglof/libs/juce/modules/juce_audio_processors/format_types/LV2_SDK/serd,/Users/quargsgreene/code/Eglof/libs/juce/modules/juce_audio_processors/format_types/LV2_SDK/sord,/Users/quargsgreene/code/Eglof/libs/juce/modules/juce_audio_processors/format_types/LV2_SDK/sord/src,/Users/quargsgreene/code/Eglof/libs/juce/modules/juce_audio_processors/format_types/LV2_SDK/sratom,/Users/quargsgreene/code/Eglof/libs/juce/modules/juce_audio_processors/format_types/LV2_SDK/lilv,/Users/quargsgreene/code/Eglof/libs/juce/modules/juce_audio_processors/format_types/LV2_SDK/lilv/src,"$(inherited)");
+				INSTALL_PATH = "";
+				LD_NO_PIE = NO;
+				ONLY_ACTIVE_ARCH = NO;
+				OTHER_CFLAGS = ("    -DNDEBUG -fPIE -Wall -Wshadow-all -Wshorten-64-to-32 -Wstrict-aliasing -Wuninitialized -Wunused-parameter -Wconversion -Wsign-compare -Wint-conversion -Wconditional-uninitialized -Wconstant-conversion -Wsign-conversion -Wbool-conversion -Wextra-semi -Wunreachable-code -Wcast-align -Wshift-sign-overflow -Wmissing-prototypes -Wnullable-to-nonnull-conversion -Wno-ignored-qualifiers -Wswitch-enum -Wpedantic -Wdeprecated -Wfloat-equal -Wmissing-field-initializers ","$(inherited)");
+				OTHER_CPLUSPLUSFLAGS = "    -DNDEBUG '-std=gnu++2b' -fPIE -Wall -Wshadow-all -Wshorten-64-to-32 -Wstrict-aliasing -Wuninitialized -Wunused-parameter -Wconversion -Wsign-compare -Wint-conversion -Wconditional-uninitialized -Wconstant-conversion -Wsign-conversion -Wbool-conversion -Wextra-semi -Wunreachable-code -Wcast-align -Wshift-sign-overflow -Wmissing-prototypes -Wnullable-to-nonnull-conversion -Wno-ignored-qualifiers -Wswitch-enum -Wpedantic -Wdeprecated -Wfloat-equal -Wmissing-field-initializers -Wzero-as-null-pointer-constant -Wunused-private-field -Woverloaded-virtual -Wreorder -Winconsistent-missing-destructor-override ";
+				OTHER_LDFLAGS = (" -Wl,-search_paths_first -Wl,-headerpad_max_install_names",/Users/quargsgreene/code/Eglof/build/plugin/Eglof_artefacts/MinSizeRel/libEglof_SharedCode.a,/Users/quargsgreene/code/Eglof/build/lib/MinSizeRel/libgtest_main.a,"-framework WebKit","-weak_framework Metal","-weak_framework MetalKit","-framework CoreAudioKit","-framework DiscRecording","-framework QuartzCore","-framework CoreAudio","-framework CoreMIDI","-framework AudioToolbox","-framework Accelerate","-framework Cocoa","-framework Foundation","-framework IOKit","-framework Security",/Users/quargsgreene/code/Eglof/build/lib/MinSizeRel/libgtest.a,"$(inherited)");
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = EglofTest;
+				SECTORDER_FLAGS = "";
+				SYSTEM_HEADER_SEARCH_PATHS = (/Users/quargsgreene/code/Eglof/libs/googletest/googletest/include,/Users/quargsgreene/code/Eglof/libs/juce/modules,/Users/quargsgreene/code/Eglof/libs/googletest/googletest,"$(inherited)");
+				TARGET_TEMP_DIR = "/Users/quargsgreene/code/Eglof/build/build/EglofTest.build/$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)";
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("$(inherited)");
+			};
+			name = MinSizeRel;
+		};
+		B797FD6B054241C1A0A3A3A5 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
@@ -1054,14 +913,36 @@ fi
 				ONLY_ACTIVE_ARCH = NO;
 				OTHER_LDFLAGS = ("","$(inherited)");
 				OTHER_REZFLAGS = "";
-				PRODUCT_NAME = install;
+				PRODUCT_NAME = ZERO_CHECK;
 				SECTORDER_FLAGS = "";
 				USE_HEADERMAP = NO;
 				WARNING_CFLAGS = ("$(inherited)");
 			};
 			name = Debug;
 		};
-		DB2522DD635A44BF920B2AFA /* MinSizeRel */ = {
+		B84DD6B817504665828E2882 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = arm64;
+				COMBINE_HIDPI_IMAGES = YES;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'","$(inherited)");
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				INSTALL_PATH = "";
+				ONLY_ACTIVE_ARCH = NO;
+				OTHER_LDFLAGS = ("","$(inherited)");
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = ALL_BUILD;
+				SECTORDER_FLAGS = "";
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("$(inherited)");
+			};
+			name = Release;
+		};
+		E52DDCEB6C004D5284F8A913 /* MinSizeRel */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
@@ -1083,7 +964,60 @@ fi
 			};
 			name = MinSizeRel;
 		};
-		FBF101142BCB4903AC7AAB2C /* Release */ = {
+		E60F085EFBEA44A38A3D573A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = arm64;
+				COMBINE_HIDPI_IMAGES = YES;
+				CONFIGURATION_BUILD_DIR = /Users/quargsgreene/code/Eglof/build/test/Debug;
+				EXECUTABLE_PREFIX = "";
+				EXECUTABLE_SUFFIX = "";
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'","'JUCE_GLOBAL_MODULE_SETTINGS_INCLUDED=1'","'DEBUG=1'","'_DEBUG=1'","'JucePlugin_IsSynth=0'","'JucePlugin_ManufacturerCode=0x516b7067'","'JucePlugin_Manufacturer=\"Quargs\"'","'JucePlugin_ManufacturerWebsite=\"\"'","'JucePlugin_ManufacturerEmail=\"\"'","'JucePlugin_PluginCode=0x45676c66'","'JucePlugin_ProducesMidiOutput=0'","'JucePlugin_IsMidiEffect=0'","'JucePlugin_WantsMidiInput=0'","'JucePlugin_EditorRequiresKeyboardFocus=0'","'JucePlugin_Name=\"Eglof\"'","'JucePlugin_Desc=\"Eglof\"'","'JucePlugin_Version=0.1.0'","'JucePlugin_VersionString=\"0.1.0\"'","'JucePlugin_VersionCode=0x100'","'JucePlugin_VSTUniqueID=JucePlugin_PluginCode'","'JucePlugin_VSTCategory=kPlugCategEffect'","'JucePlugin_Vst3Category=\"Fx\"'","'JucePlugin_AUMainType='\\''aufx'\\'''","'JucePlugin_AUSubType=JucePlugin_PluginCode'","'JucePlugin_AUExportPrefix=EglofAU'","'JucePlugin_AUExportPrefixQuoted=\"EglofAU\"'","'JucePlugin_AUManufacturerCode=JucePlugin_ManufacturerCode'","'JucePlugin_CFBundleIdentifier=com.Quargs.Eglof'","'JucePlugin_AAXIdentifier=com.Quargs.Eglof'","'JucePlugin_AAXManufacturerCode=JucePlugin_ManufacturerCode'","'JucePlugin_AAXProductId=JucePlugin_PluginCode'","'JucePlugin_AAXCategory=0'","'JucePlugin_AAXDisableBypass=0'","'JucePlugin_AAXDisableMultiMono=0'","'JucePlugin_VSTNumMidiInputs=16'","'JucePlugin_VSTNumMidiOutputs=16'","'JucePlugin_Enable_ARA=0'","'JucePlugin_ARAFactoryID=\"com.Quargs.Eglof.arafactory.0.1.0\"'","'JucePlugin_ARADocumentArchiveID=\"com.Quargs.Eglof.aradocumentarchive.1\"'","'JucePlugin_ARACompatibleArchiveIDs=\"\"'","'JucePlugin_ARAContentTypes=0'","'JucePlugin_ARATransformationFlags=0'","'JUCE_WEB_BROWSER=0'","'JUCE_USE_CURL=0'","'JUCE_VST3_CAN_REPLACE_VST2=0'","'JUCE_MODULE_AVAILABLE_juce_audio_plugin_client=1'","'JUCE_MODULE_AVAILABLE_juce_audio_processors=1'","'JUCE_MODULE_AVAILABLE_juce_gui_extra=1'","'JUCE_MODULE_AVAILABLE_juce_gui_basics=1'","'JUCE_MODULE_AVAILABLE_juce_graphics=1'","'JUCE_MODULE_AVAILABLE_juce_events=1'","'JUCE_MODULE_AVAILABLE_juce_core=1'","'JUCE_MODULE_AVAILABLE_juce_data_structures=1'","'JUCE_MODULE_AVAILABLE_juce_audio_basics=1'","'JUCE_MODULE_AVAILABLE_juce_audio_utils=1'","'JUCE_MODULE_AVAILABLE_juce_audio_formats=1'","'JUCE_MODULE_AVAILABLE_juce_audio_devices=1'","'JUCE_STANDALONE_APPLICATION=JucePlugin_Build_Standalone'","$(inherited)");
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				HEADER_SEARCH_PATHS = (/Users/quargsgreene/code/Eglof/plugin/include,/Users/quargsgreene/code/Eglof/libs/juce/modules/juce_audio_processors/format_types/VST3_SDK,/Users/quargsgreene/code/Eglof/libs/juce/modules/juce_audio_processors/format_types/LV2_SDK,/Users/quargsgreene/code/Eglof/libs/juce/modules/juce_audio_processors/format_types/LV2_SDK/lv2,/Users/quargsgreene/code/Eglof/libs/juce/modules/juce_audio_processors/format_types/LV2_SDK/serd,/Users/quargsgreene/code/Eglof/libs/juce/modules/juce_audio_processors/format_types/LV2_SDK/sord,/Users/quargsgreene/code/Eglof/libs/juce/modules/juce_audio_processors/format_types/LV2_SDK/sord/src,/Users/quargsgreene/code/Eglof/libs/juce/modules/juce_audio_processors/format_types/LV2_SDK/sratom,/Users/quargsgreene/code/Eglof/libs/juce/modules/juce_audio_processors/format_types/LV2_SDK/lilv,/Users/quargsgreene/code/Eglof/libs/juce/modules/juce_audio_processors/format_types/LV2_SDK/lilv/src,"$(inherited)");
+				INSTALL_PATH = "";
+				LD_NO_PIE = NO;
+				ONLY_ACTIVE_ARCH = NO;
+				OTHER_CFLAGS = ("   -fPIE        -Wall -Wshadow-all -Wshorten-64-to-32 -Wstrict-aliasing -Wuninitialized -Wunused-parameter -Wconversion -Wsign-compare -Wint-conversion -Wconditional-uninitialized -Wconstant-conversion -Wsign-conversion -Wbool-conversion -Wextra-semi -Wunreachable-code -Wcast-align -Wshift-sign-overflow -Wmissing-prototypes -Wnullable-to-nonnull-conversion -Wno-ignored-qualifiers -Wswitch-enum -Wpedantic -Wdeprecated -Wfloat-equal -Wmissing-field-initializers ","$(inherited)");
+				OTHER_CPLUSPLUSFLAGS = "   '-std=gnu++2b' -fPIE        -Wall -Wshadow-all -Wshorten-64-to-32 -Wstrict-aliasing -Wuninitialized -Wunused-parameter -Wconversion -Wsign-compare -Wint-conversion -Wconditional-uninitialized -Wconstant-conversion -Wsign-conversion -Wbool-conversion -Wextra-semi -Wunreachable-code -Wcast-align -Wshift-sign-overflow -Wmissing-prototypes -Wnullable-to-nonnull-conversion -Wno-ignored-qualifiers -Wswitch-enum -Wpedantic -Wdeprecated -Wfloat-equal -Wmissing-field-initializers -Wzero-as-null-pointer-constant -Wunused-private-field -Woverloaded-virtual -Wreorder -Winconsistent-missing-destructor-override ";
+				OTHER_LDFLAGS = (" -Wl,-search_paths_first -Wl,-headerpad_max_install_names",/Users/quargsgreene/code/Eglof/build/plugin/Eglof_artefacts/Debug/libEglof_SharedCode.a,/Users/quargsgreene/code/Eglof/build/lib/Debug/libgtest_main.a,"-framework WebKit","-weak_framework Metal","-weak_framework MetalKit","-framework CoreAudioKit","-framework DiscRecording","-framework QuartzCore","-framework CoreAudio","-framework CoreMIDI","-framework AudioToolbox","-framework Accelerate","-framework Cocoa","-framework Foundation","-framework IOKit","-framework Security",/Users/quargsgreene/code/Eglof/build/lib/Debug/libgtest.a,"$(inherited)");
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = EglofTest;
+				SECTORDER_FLAGS = "";
+				SYSTEM_HEADER_SEARCH_PATHS = (/Users/quargsgreene/code/Eglof/libs/googletest/googletest/include,/Users/quargsgreene/code/Eglof/libs/juce/modules,/Users/quargsgreene/code/Eglof/libs/googletest/googletest,"$(inherited)");
+				TARGET_TEMP_DIR = "/Users/quargsgreene/code/Eglof/build/build/EglofTest.build/$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)";
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("$(inherited)");
+			};
+			name = Debug;
+		};
+		F751EF56440F40B189748FAE /* MinSizeRel */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = arm64;
+				COMBINE_HIDPI_IMAGES = YES;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'","$(inherited)");
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				INSTALL_PATH = "";
+				ONLY_ACTIVE_ARCH = NO;
+				OTHER_LDFLAGS = ("","$(inherited)");
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = ZERO_CHECK;
+				SECTORDER_FLAGS = "";
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("$(inherited)");
+			};
+			name = MinSizeRel;
+		};
+		F8A4D6273A7F4D54871D458A /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
@@ -1105,76 +1039,142 @@ fi
 			};
 			name = Release;
 		};
+		FB9295C8DC5A426EA18A73E1 /* RelWithDebInfo */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = arm64;
+				COMBINE_HIDPI_IMAGES = YES;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'","$(inherited)");
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				INSTALL_PATH = "";
+				ONLY_ACTIVE_ARCH = NO;
+				OTHER_LDFLAGS = ("","$(inherited)");
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = ZERO_CHECK;
+				SECTORDER_FLAGS = "";
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("$(inherited)");
+			};
+			name = RelWithDebInfo;
+		};
+		FE0908540D9742D3983B59F0 /* RelWithDebInfo */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = arm64;
+				COMBINE_HIDPI_IMAGES = YES;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'","$(inherited)");
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				INSTALL_PATH = "";
+				ONLY_ACTIVE_ARCH = NO;
+				OTHER_LDFLAGS = ("","$(inherited)");
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = install;
+				SECTORDER_FLAGS = "";
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("$(inherited)");
+			};
+			name = RelWithDebInfo;
+		};
+		FE21D780F25348EBA405D597 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = arm64;
+				COMBINE_HIDPI_IMAGES = YES;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'","$(inherited)");
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				INSTALL_PATH = "";
+				ONLY_ACTIVE_ARCH = NO;
+				OTHER_LDFLAGS = ("","$(inherited)");
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = RUN_TESTS;
+				SECTORDER_FLAGS = "";
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("$(inherited)");
+			};
+			name = Debug;
+		};
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		04C4CA400030494D942C74F6 /* Build configuration list for PBXAggregateTarget "ALL_BUILD" */ = {
+		0E25BC451229469EA9DF7397 /* Build configuration list for PBXAggregateTarget "ZERO_CHECK" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				BBF425C7273A4E9D9E5F3D30 /* Debug */,
-				3B3EF1A7781643A5A6169016 /* Release */,
-				0A2E08FA37DD4966A26C0CD7 /* MinSizeRel */,
-				21DC47D93888477AA2A03C0C /* RelWithDebInfo */,
+				B797FD6B054241C1A0A3A3A5 /* Debug */,
+				9AE5573FDCCA4AF39B17C1AB /* Release */,
+				F751EF56440F40B189748FAE /* MinSizeRel */,
+				FB9295C8DC5A426EA18A73E1 /* RelWithDebInfo */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Debug;
 		};
-		0FA6A60371E044E695FBDBD2 /* Build configuration list for PBXAggregateTarget "RUN_TESTS" */ = {
+		1AC4EC2A0D7D4B688B86A396 /* Build configuration list for PBXNativeTarget "EglofTest" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				31C1309BC3AB460283CA51C3 /* Debug */,
-				4D08CE97A5744F90948DFAE0 /* Release */,
-				DB2522DD635A44BF920B2AFA /* MinSizeRel */,
-				3D337C8F82C34E09AD9DA13E /* RelWithDebInfo */,
+				E60F085EFBEA44A38A3D573A /* Debug */,
+				1659B9F76BF54E89B164FDE6 /* Release */,
+				B568478B130A404289082ECA /* MinSizeRel */,
+				3C936C70312246D284A7A6E9 /* RelWithDebInfo */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Debug;
 		};
-		35B4447BCAC244A3B4452F8A /* Build configuration list for PBXNativeTarget "EglofTest" */ = {
+		5FB89C2976BD4706926BB65C /* Build configuration list for PBXAggregateTarget "ALL_BUILD" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				74554F804FF64304B8F1E90B /* Debug */,
-				96DFCAD81E37497A8E83129B /* Release */,
-				6DF52C53F08342A5A374F107 /* MinSizeRel */,
-				286CEB7E4FD3477896FE5340 /* RelWithDebInfo */,
+				4B26C37EEA9642FF9C0CB842 /* Debug */,
+				B84DD6B817504665828E2882 /* Release */,
+				6F2DD78C2A834C0BB83F17EB /* MinSizeRel */,
+				36F3EB029ECA4942A32FD41E /* RelWithDebInfo */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Debug;
 		};
-		716974F827574E8386B010D8 /* Build configuration list for PBXProject "EglofTest" */ = {
+		713063E4EE9D42EABFC5BFD5 /* Build configuration list for PBXAggregateTarget "install" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				4624C3E1A21149A6B68E070D /* Debug */,
-				40783F0ACEB843A8990923E5 /* Release */,
-				589B348AC4EE40518EC4C621 /* MinSizeRel */,
-				B2F6CBC024994140881CBD6C /* RelWithDebInfo */,
+				1A5F04A14A934586BB5A9075 /* Debug */,
+				F8A4D6273A7F4D54871D458A /* Release */,
+				96EEF446C7A04B80957272FF /* MinSizeRel */,
+				FE0908540D9742D3983B59F0 /* RelWithDebInfo */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Debug;
 		};
-		74E2E9316F4145BE8C1DB6D7 /* Build configuration list for PBXAggregateTarget "ZERO_CHECK" */ = {
+		8C9DD2426CFE45C59AAD1B9E /* Build configuration list for PBXAggregateTarget "RUN_TESTS" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				90C32F72817844F48E41095C /* Debug */,
-				CD3E55E825DD405B9FC67A2C /* Release */,
-				4EEBD139BA934685BB969C62 /* MinSizeRel */,
-				449E5716EB4943E792473DD2 /* RelWithDebInfo */,
+				FE21D780F25348EBA405D597 /* Debug */,
+				27E0A735FBD94683BB8FC2FC /* Release */,
+				E52DDCEB6C004D5284F8A913 /* MinSizeRel */,
+				556529A3D0204D00B1B844D2 /* RelWithDebInfo */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Debug;
 		};
-		97F2D4832F8C412B846DF2FA /* Build configuration list for PBXAggregateTarget "install" */ = {
+		8CFB1855D6A24B458278BA47 /* Build configuration list for PBXProject "EglofTest" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				DA9E749C3E944EAE922A7C53 /* Debug */,
-				FBF101142BCB4903AC7AAB2C /* Release */,
-				95BFB08628B346AFB8FCCA00 /* MinSizeRel */,
-				83B8029C673A4B8EBE72C29D /* RelWithDebInfo */,
+				1896B1DB09CF48C0A5913364 /* Debug */,
+				38A5E1FFA6CA4ED8AEB6F5C9 /* Release */,
+				AB1EE2A0E2AC4929B4015F9C /* MinSizeRel */,
+				2D35D8FED7E54FB1AE7B4660 /* RelWithDebInfo */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Debug;
 		};
 /* End XCConfigurationList section */
 	};
-	rootObject = FC9D8ED773B643E584AB93B9 /* Project object */;
+	rootObject = 1B8F0D1C0A044F15ACA078FF /* Project object */;
 }

@@ -12,7 +12,7 @@ EglofAudioProcessorEditor::EglofAudioProcessorEditor(
         int textBoxSizeY = 25;
         bool readOnly = false;
         
-        setSize(850, 500);
+        setSize(1200, 800);
         
         addAndMakeVisible(&qRangeSlider);
 //        qRangeSlider.setLookAndFeel(&knob);
@@ -40,7 +40,13 @@ EglofAudioProcessorEditor::EglofAudioProcessorEditor(
         resonanceRangeSlider.setSliderStyle(juce::Slider::SliderStyle::Rotary);
         resonanceRangeSlider.setTextBoxStyle(juce::Slider::TextBoxBelow, readOnly, textBoxSizeX, textBoxSizeY);
         resonanceRangeSlider.setRange(0.1, 10, 0.1);
-        resonanceRangeSlider.setValue(1);q
+        resonanceRangeSlider.setValue(1);
+        
+        addAndMakeVisible(&presetMenu);
+        addAndMakeVisible(&dataColumnMenu1);
+        addAndMakeVisible(&dataColumnMenu2);
+        addAndMakeVisible(&dataColumnMenu3);
+        addAndMakeVisible(&dataColumnMenu4);
         
 //        addAndMakeVisible(&gainRangeSlider);
 //        gainRangeSlider.setLookAndFeel(&knob);
@@ -70,8 +76,8 @@ void EglofAudioProcessorEditor::paint(juce::Graphics& g) {
 
   g.setColour(juce::Colours::white);
   g.setFont(15.0f);
-//  g.drawFittedText("Hello World!", getLocalBounds(),
-//                   juce::Justification::centred, 1);
+  g.drawFittedText("Eglof FILTER", getLocalBounds(),
+                   juce::Justification::centredTop, 1);
 }
 
 void EglofAudioProcessorEditor::resized() {
@@ -87,15 +93,24 @@ void EglofAudioProcessorEditor::resized() {
 //    gainRangeSlider.setBounds(knobMaxLeft + knobGap, knobMaxTop, knobSizeX, knobSizeY);
 //    cutoffRangeSlider.setBounds(knobMaxLeft + 2*knobGap, knobMaxTop, knobSizeX, knobSizeY);
 //    resonanceRangeSlider.setBounds(knobMaxLeft + 3*knobGap, knobMaxTop, knobSizeX, knobSizeY);
-    int marginX = getWidth()/40;
-    const int marginY = 15;
-    int dialWidth = (getWidth() - marginX)/6;
-    int dialHeight = (getWidth() - marginX)/6;
+    int marginX = getWidth()/20;
+    int marginY = 90;
+    int dialWidth = (getWidth() - marginX)/8;
+    int dialHeight = (getWidth() - marginX)/8;
+    int menuWidth = (getWidth() - marginX)/4;
+    int menuHeight = (getWidth() - marginX)/32;
     int gapX = 150;
+    int gapY = gapX/3;
     
     qRangeSlider.setBounds(marginX, marginY, dialWidth, dialHeight);
     gainRangeSlider.setBounds(marginX + gapX, marginY, dialWidth, dialHeight);
     cutoffRangeSlider.setBounds(marginX + 2 * gapX, marginY, dialWidth, dialHeight);
     resonanceRangeSlider.setBounds(marginX + 3 * gapX, marginY, dialWidth, dialHeight);
+    
+    presetMenu.setBounds(marginX + gapX/3, marginY - 80, menuWidth, menuHeight);
+    dataColumnMenu1.setBounds(marginX + 4 * gapX + 15, marginY, menuWidth/2, menuHeight);
+    dataColumnMenu2.setBounds(marginX + 5 * gapX + 30, marginY, menuWidth/2, menuHeight);
+    dataColumnMenu3.setBounds(marginX + 4 * gapX + 15, marginY + gapY, menuWidth/2, menuHeight);
+    dataColumnMenu4.setBounds(marginX + 5 * gapX + 30, marginY + gapY, menuWidth/2, menuHeight);
 }
 }  // namespace audio_plugin

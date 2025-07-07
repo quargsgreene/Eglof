@@ -2,6 +2,7 @@
 
 #include "PluginProcessor.h"
 #include "Knob.h"
+#include "Menu.h"
 
 namespace audio_plugin {
 
@@ -21,6 +22,12 @@ private:
     juce::Slider gainRangeSlider;
     juce::Slider cutoffRangeSlider;
     juce::Slider resonanceRangeSlider;
+    
+    juce::ComboBox presetMenu;
+    juce::ComboBox dataColumnMenu1;
+    juce::ComboBox dataColumnMenu2;
+    juce::ComboBox dataColumnMenu3;
+    juce::ComboBox dataColumnMenu4;
     
 
   EglofAudioProcessor& processorRef;
