@@ -77,6 +77,12 @@ void EglofAudioProcessorEditor::paint(juce::Graphics& g) {
   g.setFont(15.0f);
   g.drawFittedText("Eglof FILTER", getLocalBounds(),
                    juce::Justification::centredTop, 1);
+
+  g.setColour(juce::Colours::purple);
+  g.fillRect(dragDrop);
+  g.setColour(juce::Colours::white);
+  g.drawText("Drag and drop a CSV!", 1000, 35, 190, 200, juce::Justification::centred, true);
+
 }
 
 void EglofAudioProcessorEditor::resized() {

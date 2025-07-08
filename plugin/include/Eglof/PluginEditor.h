@@ -38,6 +38,8 @@ private:
     juce::TextButton pasteButton{"Paste"};
     juce::TextButton chooseRandomDataButton{"Choose data for me!"};
     juce::TextButton downloadCSVButton{"Download CSV"};
+    
+    juce::Rectangle<int> dragDrop {1000, 35, 190, 200};
 
   EglofAudioProcessor& processorRef;
 
