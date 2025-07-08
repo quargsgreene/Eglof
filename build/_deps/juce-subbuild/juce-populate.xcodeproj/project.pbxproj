@@ -9,20 +9,20 @@
 /* Begin PBXAggregateTarget section */
 		19BF5B57FEA1A3D87A4A59D1 /* ALL_BUILD */ = {
 			isa = PBXAggregateTarget;
-			buildConfigurationList = C37FEB3362FB466B857D0D78 /* Build configuration list for PBXAggregateTarget "ALL_BUILD" */;
+			buildConfigurationList = A96693114F3B4BD08133E58C /* Build configuration list for PBXAggregateTarget "ALL_BUILD" */;
 			buildPhases = (
 				66F366CC2CC1EEA5FD8AC452 /* Generate CMakeFiles/ALL_BUILD */,
 			);
 			dependencies = (
-				6D1127EA70414978ABA0168F /* PBXTargetDependency */,
-				4483E02F6F2E4ECD89D33A6E /* PBXTargetDependency */,
+				E1F387ECF73F45B8973246BB /* PBXTargetDependency */,
+				80A871011C584D49A26BE6E3 /* PBXTargetDependency */,
 			);
 			name = ALL_BUILD;
 			productName = ALL_BUILD;
 		};
 		9FEB34CD54B353AD602ECA66 /* ZERO_CHECK */ = {
 			isa = PBXAggregateTarget;
-			buildConfigurationList = AD67DDA53AE54F6F9F3B79C1 /* Build configuration list for PBXAggregateTarget "ZERO_CHECK" */;
+			buildConfigurationList = 557F684777EA4D1EB48EEC0A /* Build configuration list for PBXAggregateTarget "ZERO_CHECK" */;
 			buildPhases = (
 				66E5DD34D4E17C4A7902A5AE /* Generate CMakeFiles/ZERO_CHECK */,
 			);
@@ -33,7 +33,7 @@
 		};
 		D84C0589DAE62688E8262372 /* juce-populate */ = {
 			isa = PBXAggregateTarget;
-			buildConfigurationList = F80AAB74BD8443D69C695759 /* Build configuration list for PBXAggregateTarget "juce-populate" */;
+			buildConfigurationList = 0CAE71086DBB451EA7FE4D58 /* Build configuration list for PBXAggregateTarget "juce-populate" */;
 			buildPhases = (
 				0F54FD92829FEC1E670831AD /* Generate juce-populate-prefix/src/juce-populate-stamp/$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)/juce-populate-mkdir */,
 				3CE2AC36225997FB3584C846 /* Generate juce-populate-prefix/src/juce-populate-stamp/$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)/juce-populate-download */,
@@ -47,7 +47,7 @@
 				DD1F335F3FA0D7AD08DC5C4D /* Generate CMakeFiles/juce-populate */,
 			);
 			dependencies = (
-				CE0485E4DDF74F988C7EC67A /* PBXTargetDependency */,
+				994AEE049FE2490FB9FECCE8 /* PBXTargetDependency */,
 			);
 			name = "juce-populate";
 			productName = "juce-populate";
@@ -55,7 +55,7 @@
 /* End PBXAggregateTarget section */
 
 /* Begin PBXBuildStyle section */
-		CDF96FEC16B04351A17CE7CB /* Debug */ = {
+		0F182BF81D7648B48BA670FA /* Debug */ = {
 			isa = PBXBuildStyle;
 			buildSettings = {
 				COPY_PHASE_STRIP = NO;
@@ -65,23 +65,23 @@
 /* End PBXBuildStyle section */
 
 /* Begin PBXContainerItemProxy section */
-		9F8694F588C842A29FF96729 /* PBXContainerItemProxy */ = {
+		4E2A84E21E9540799CDD6F97 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
-			containerPortal = C5C631CEBD2E476E9729E472 /* Project object */;
-			proxyType = 1;
-			remoteGlobalIDString = D84C0589DAE62688E8262372;
-			remoteInfo = "juce-populate";
-		};
-		A426C6DB16EC40ECAD630D85 /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = C5C631CEBD2E476E9729E472 /* Project object */;
+			containerPortal = 99D4183AFBDF4C5C85CC1095 /* Project object */;
 			proxyType = 1;
 			remoteGlobalIDString = 9FEB34CD54B353AD602ECA66;
 			remoteInfo = ZERO_CHECK;
 		};
-		D1868210F22742AF938434E0 /* PBXContainerItemProxy */ = {
+		B04E0E28F8A649DA9509E641 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
-			containerPortal = C5C631CEBD2E476E9729E472 /* Project object */;
+			containerPortal = 99D4183AFBDF4C5C85CC1095 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = D84C0589DAE62688E8262372;
+			remoteInfo = "juce-populate";
+		};
+		B74E53112EC746D3A584B473 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 99D4183AFBDF4C5C85CC1095 /* Project object */;
 			proxyType = 1;
 			remoteGlobalIDString = 9FEB34CD54B353AD602ECA66;
 			remoteInfo = ZERO_CHECK;
@@ -89,109 +89,109 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		9F8814D5419644D0B39E29EE /* /Users/quargsgreene/code/Eglof/build/_deps/juce-subbuild/CMakeLists.txt */ = {isa = PBXFileReference; explicitFileType = sourcecode.text; fileEncoding = 4; name = CMakeLists.txt; path = CMakeLists.txt; sourceTree = SOURCE_ROOT; };
-		B5BBA6A1D090426598994A64 /* /Users/quargsgreene/code/Eglof/build/_deps/juce-subbuild/CMakeLists.txt */ = {isa = PBXFileReference; explicitFileType = sourcecode.text; fileEncoding = 4; name = CMakeLists.txt; path = CMakeLists.txt; sourceTree = SOURCE_ROOT; };
+		F1F0E890074E425F93D68900 /* /Users/quargsgreene/code/Eglof/build/_deps/juce-subbuild/CMakeLists.txt */ = {isa = PBXFileReference; explicitFileType = sourcecode.text; fileEncoding = 4; name = CMakeLists.txt; path = CMakeLists.txt; sourceTree = SOURCE_ROOT; };
+		F2D2413F734E4582BE412788 /* /Users/quargsgreene/code/Eglof/build/_deps/juce-subbuild/CMakeLists.txt */ = {isa = PBXFileReference; explicitFileType = sourcecode.text; fileEncoding = 4; name = CMakeLists.txt; path = CMakeLists.txt; sourceTree = SOURCE_ROOT; };
 /* End PBXFileReference section */
 
 /* Begin PBXGroup section */
-		042F42C0934F4E55A9C52DB6 /* Frameworks */ = {
-			isa = PBXGroup;
-			children = (
-			);
-			name = Frameworks;
-			sourceTree = "<group>";
-		};
-		08670DCEDEB041978DD388E4 /* juce-populate */ = {
-			isa = PBXGroup;
-			children = (
-				E08FB0DD93934732B5A6AD48 /* juce-populate */,
-			);
-			name = "juce-populate";
-			sourceTree = "<group>";
-		};
-		162C1A21440342399BA2BE1B /* CMake Rules */ = {
-			isa = PBXGroup;
-			children = (
-			);
-			name = "CMake Rules";
-			sourceTree = "<group>";
-		};
-		235AB0D284F54E54BD22622C = {
-			isa = PBXGroup;
-			children = (
-				B90D764A901D4772B9EDB963 /* ExternalProjectTargets */,
-				C4A09FF12612460089670E19 /* ALL_BUILD */,
-				548B988545C5400E982FD128 /* Products */,
-				042F42C0934F4E55A9C52DB6 /* Frameworks */,
-				2C49AAA814514117B273E5BC /* Resources */,
-			);
-			sourceTree = "<group>";
-		};
-		2C49AAA814514117B273E5BC /* Resources */ = {
+		085DB35C3B51475B92B87142 /* Resources */ = {
 			isa = PBXGroup;
 			children = (
 			);
 			name = Resources;
 			sourceTree = "<group>";
 		};
-		548B988545C5400E982FD128 /* Products */ = {
+		0A4D15E8407B4E96BE556E3C /* Products */ = {
 			isa = PBXGroup;
 			children = (
 			);
 			name = Products;
 			sourceTree = "<group>";
 		};
-		B90D764A901D4772B9EDB963 /* ExternalProjectTargets */ = {
+		1931918DB23744D09E63A402 /* juce-populate */ = {
 			isa = PBXGroup;
 			children = (
-				08670DCEDEB041978DD388E4 /* juce-populate */,
-			);
-			name = ExternalProjectTargets;
-			sourceTree = "<group>";
-		};
-		C4A09FF12612460089670E19 /* ALL_BUILD */ = {
-			isa = PBXGroup;
-			children = (
-				162C1A21440342399BA2BE1B /* CMake Rules */,
-				B5BBA6A1D090426598994A64 /* /Users/quargsgreene/code/Eglof/build/_deps/juce-subbuild/CMakeLists.txt */,
-			);
-			name = ALL_BUILD;
-			sourceTree = "<group>";
-		};
-		E08FB0DD93934732B5A6AD48 /* juce-populate */ = {
-			isa = PBXGroup;
-			children = (
-				FC54506ED66546EC911E9CE4 /* CMake Rules */,
-				9F8814D5419644D0B39E29EE /* /Users/quargsgreene/code/Eglof/build/_deps/juce-subbuild/CMakeLists.txt */,
+				B002FA49B3BD43A893514A37 /* juce-populate */,
 			);
 			name = "juce-populate";
 			sourceTree = "<group>";
 		};
-		FC54506ED66546EC911E9CE4 /* CMake Rules */ = {
+		29553525C6E64CD48BC80C77 /* ExternalProjectTargets */ = {
+			isa = PBXGroup;
+			children = (
+				1931918DB23744D09E63A402 /* juce-populate */,
+			);
+			name = ExternalProjectTargets;
+			sourceTree = "<group>";
+		};
+		4528D7901F4C4CD3A471A9A4 /* ALL_BUILD */ = {
+			isa = PBXGroup;
+			children = (
+				4D8C58B6AF6C4A0B961A3AC9 /* CMake Rules */,
+				F1F0E890074E425F93D68900 /* /Users/quargsgreene/code/Eglof/build/_deps/juce-subbuild/CMakeLists.txt */,
+			);
+			name = ALL_BUILD;
+			sourceTree = "<group>";
+		};
+		4C2C9FF97D4D4861BFE15C8A /* CMake Rules */ = {
 			isa = PBXGroup;
 			children = (
 			);
 			name = "CMake Rules";
 			sourceTree = "<group>";
 		};
+		4D8C58B6AF6C4A0B961A3AC9 /* CMake Rules */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = "CMake Rules";
+			sourceTree = "<group>";
+		};
+		91E3045C5BFE4B0682B8A48F /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		B002FA49B3BD43A893514A37 /* juce-populate */ = {
+			isa = PBXGroup;
+			children = (
+				4C2C9FF97D4D4861BFE15C8A /* CMake Rules */,
+				F2D2413F734E4582BE412788 /* /Users/quargsgreene/code/Eglof/build/_deps/juce-subbuild/CMakeLists.txt */,
+			);
+			name = "juce-populate";
+			sourceTree = "<group>";
+		};
+		DC4AE7F62AF945EABA777105 = {
+			isa = PBXGroup;
+			children = (
+				29553525C6E64CD48BC80C77 /* ExternalProjectTargets */,
+				4528D7901F4C4CD3A471A9A4 /* ALL_BUILD */,
+				0A4D15E8407B4E96BE556E3C /* Products */,
+				91E3045C5BFE4B0682B8A48F /* Frameworks */,
+				085DB35C3B51475B92B87142 /* Resources */,
+			);
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXProject section */
-		C5C631CEBD2E476E9729E472 /* Project object */ = {
+		99D4183AFBDF4C5C85CC1095 /* Project object */ = {
 			isa = PBXProject;
 			attributes = {
 				BuildIndependentTargetsInParallel = YES;
 				LastUpgradeCheck = 1640;
 			};
-			buildConfigurationList = DBD96DDD4AE84FCAB7312B4B /* Build configuration list for PBXProject "juce-populate" */;
+			buildConfigurationList = 45E3C30A634C4EB4AFCD2C1E /* Build configuration list for PBXProject "juce-populate" */;
 			buildSettings = {
 			};
 			buildStyles = (
-				CDF96FEC16B04351A17CE7CB /* Debug */,
+				0F182BF81D7648B48BA670FA /* Debug */,
 			);
 			compatibilityVersion = "Xcode 3.2";
 			hasScannedForEncodings = 0;
-			mainGroup = 235AB0D284F54E54BD22622C;
+			mainGroup = DC4AE7F62AF945EABA777105;
 			projectDirPath = .;
 			projectRoot = "";
 			targets = (
@@ -505,56 +505,25 @@ fi
 /* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXTargetDependency section */
-		4483E02F6F2E4ECD89D33A6E /* PBXTargetDependency */ = {
+		80A871011C584D49A26BE6E3 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
 			target = 9FEB34CD54B353AD602ECA66 /* ZERO_CHECK */;
-			targetProxy = A426C6DB16EC40ECAD630D85 /* PBXContainerItemProxy */;
+			targetProxy = B74E53112EC746D3A584B473 /* PBXContainerItemProxy */;
 		};
-		6D1127EA70414978ABA0168F /* PBXTargetDependency */ = {
+		994AEE049FE2490FB9FECCE8 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 9FEB34CD54B353AD602ECA66 /* ZERO_CHECK */;
+			targetProxy = 4E2A84E21E9540799CDD6F97 /* PBXContainerItemProxy */;
+		};
+		E1F387ECF73F45B8973246BB /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
 			target = D84C0589DAE62688E8262372 /* juce-populate */;
-			targetProxy = 9F8694F588C842A29FF96729 /* PBXContainerItemProxy */;
-		};
-		CE0485E4DDF74F988C7EC67A /* PBXTargetDependency */ = {
-			isa = PBXTargetDependency;
-			target = 9FEB34CD54B353AD602ECA66 /* ZERO_CHECK */;
-			targetProxy = D1868210F22742AF938434E0 /* PBXContainerItemProxy */;
+			targetProxy = B04E0E28F8A649DA9509E641 /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
 
 /* Begin XCBuildConfiguration section */
-		0EFD9D864E3541E5AE95F6FF /* Debug */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				ALWAYS_SEARCH_USER_PATHS = NO;
-				ARCHS = arm64;
-				COMBINE_HIDPI_IMAGES = YES;
-				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
-				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
-				GCC_OPTIMIZATION_LEVEL = 0;
-				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'","$(inherited)");
-				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
-				INSTALL_PATH = "";
-				ONLY_ACTIVE_ARCH = NO;
-				OTHER_LDFLAGS = ("","$(inherited)");
-				OTHER_REZFLAGS = "";
-				PRODUCT_NAME = ALL_BUILD;
-				SECTORDER_FLAGS = "";
-				USE_HEADERMAP = NO;
-				WARNING_CFLAGS = ("$(inherited)");
-			};
-			name = Debug;
-		};
-		6619F36D78EC43A89E854543 /* Debug */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				ARCHS = arm64;
-				SDKROOT = "";
-				SYMROOT = "/Users/quargsgreene/code/Eglof/build/_deps/juce-subbuild/build";
-			};
-			name = Debug;
-		};
-		6D3938270EAA46CAABDC92D2 /* Debug */ = {
+		4D905DA5037E4F18B7A8C06D /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
@@ -576,7 +545,16 @@ fi
 			};
 			name = Debug;
 		};
-		7C5DFC98507C401D93D87A76 /* Debug */ = {
+		861F1E5D688946659ADA9BE2 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = arm64;
+				SDKROOT = "";
+				SYMROOT = "/Users/quargsgreene/code/Eglof/build/_deps/juce-subbuild/build";
+			};
+			name = Debug;
+		};
+		98D5ACF3CEAB4414B6902F1B /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
@@ -598,42 +576,64 @@ fi
 			};
 			name = Debug;
 		};
+		CDA7540AD7A6491A8FBE92E1 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = arm64;
+				COMBINE_HIDPI_IMAGES = YES;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'","$(inherited)");
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				INSTALL_PATH = "";
+				ONLY_ACTIVE_ARCH = NO;
+				OTHER_LDFLAGS = ("","$(inherited)");
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = ALL_BUILD;
+				SECTORDER_FLAGS = "";
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("$(inherited)");
+			};
+			name = Debug;
+		};
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		AD67DDA53AE54F6F9F3B79C1 /* Build configuration list for PBXAggregateTarget "ZERO_CHECK" */ = {
+		0CAE71086DBB451EA7FE4D58 /* Build configuration list for PBXAggregateTarget "juce-populate" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				6D3938270EAA46CAABDC92D2 /* Debug */,
+				98D5ACF3CEAB4414B6902F1B /* Debug */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Debug;
 		};
-		C37FEB3362FB466B857D0D78 /* Build configuration list for PBXAggregateTarget "ALL_BUILD" */ = {
+		45E3C30A634C4EB4AFCD2C1E /* Build configuration list for PBXProject "juce-populate" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				0EFD9D864E3541E5AE95F6FF /* Debug */,
+				861F1E5D688946659ADA9BE2 /* Debug */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Debug;
 		};
-		DBD96DDD4AE84FCAB7312B4B /* Build configuration list for PBXProject "juce-populate" */ = {
+		557F684777EA4D1EB48EEC0A /* Build configuration list for PBXAggregateTarget "ZERO_CHECK" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				6619F36D78EC43A89E854543 /* Debug */,
+				4D905DA5037E4F18B7A8C06D /* Debug */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Debug;
 		};
-		F80AAB74BD8443D69C695759 /* Build configuration list for PBXAggregateTarget "juce-populate" */ = {
+		A96693114F3B4BD08133E58C /* Build configuration list for PBXAggregateTarget "ALL_BUILD" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				7C5DFC98507C401D93D87A76 /* Debug */,
+				CDA7540AD7A6491A8FBE92E1 /* Debug */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Debug;
 		};
 /* End XCConfigurationList section */
 	};
-	rootObject = C5C631CEBD2E476E9729E472 /* Project object */;
+	rootObject = 99D4183AFBDF4C5C85CC1095 /* Project object */;
 }

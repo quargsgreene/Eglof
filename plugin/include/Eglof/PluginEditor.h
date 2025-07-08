@@ -8,15 +8,15 @@ namespace audio_plugin {
 
 class EglofAudioProcessorEditor : public juce::AudioProcessorEditor {
 public:
-  explicit EglofAudioProcessorEditor(EglofAudioProcessor&);
-  ~EglofAudioProcessorEditor() override;
-
-  void paint(juce::Graphics&) override;
-  void resized() override;
-
+    explicit EglofAudioProcessorEditor(EglofAudioProcessor&);
+    ~EglofAudioProcessorEditor() override;
+    
+    void paint(juce::Graphics&) override;
+    void resized() override;
+    
 private:
-  // This reference is provided as a quick way for your editor to
-  // access the processor object that created it.
+    // This reference is provided as a quick way for your editor to
+    // access the processor object that created it.
     Knob knob;
     juce::Slider qRangeSlider;
     juce::Slider gainRangeSlider;
@@ -29,6 +29,15 @@ private:
     juce::ComboBox dataColumnMenu3;
     juce::ComboBox dataColumnMenu4;
     
+    juce::ShapeButton powerButton{"Power", juce::Colours::red, juce::Colours::green, juce::Colours::blue};
+    juce::TextButton helpButton{"Help"};
+    juce::TextButton forwardPresetButton{"->"};
+    juce::TextButton backwardPresetButton{"<-"};
+    juce::TextButton compareButton{"Compare"};
+    juce::TextButton copyButton{"Copy"};
+    juce::TextButton pasteButton{"Paste"};
+    juce::TextButton chooseRandomDataButton{"Choose data for me!"};
+    juce::TextButton downloadCSVButton{"Download CSV"};
 
   EglofAudioProcessor& processorRef;
 

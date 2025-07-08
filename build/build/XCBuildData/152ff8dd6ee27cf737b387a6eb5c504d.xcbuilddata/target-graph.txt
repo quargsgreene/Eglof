@@ -1,4 +1,0 @@
-Target dependency graph (2 targets)
-Target 'Eglof_Standalone' in project 'Eglof'
-➜ Explicit dependency on target 'Eglof' in project 'Eglof'
-Target 'Eglof' in project 'Eglof' (no dependencies)

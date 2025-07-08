@@ -48,22 +48,21 @@ EglofAudioProcessorEditor::EglofAudioProcessorEditor(
         addAndMakeVisible(&dataColumnMenu3);
         addAndMakeVisible(&dataColumnMenu4);
         
-//        addAndMakeVisible(&gainRangeSlider);
-//        gainRangeSlider.setLookAndFeel(&knob);
-//        gainRangeSlider.setSliderStyle(juce::Slider::SliderStyle::Rotary);
-//        gainRangeSlider.setTextBoxStyle(juce::Slider::TextBoxLeft, false, 25, 25);
-//        
-//        addAndMakeVisible(&cutoffRangeSlider);
-//        cutoffRangeSlider.setLookAndFeel(&knob);
-//        cutoffRangeSlider.setSliderStyle(juce::Slider::SliderStyle::Rotary);
-//        cutoffRangeSlider.setTextBoxStyle(juce::Slider::TextBoxLeft, false, 25, 25);
-//        
-//        addAndMakeVisible(&resonanceRangeSlider);
-//        resonanceRangeSlider.setLookAndFeel(&knob);
-//        resonanceRangeSlider.setSliderStyle(juce::Slider::SliderStyle::Rotary);
-//        resonanceRangeSlider.setTextBoxStyle(juce::Slider::TextBoxLeft, false, 25, 25);
-
+        float powerButtonSize = 50.f;
+        juce::Path powerButtonShape;
+        powerButtonShape.addRectangle(0, 0, powerButtonSize, powerButtonSize);
+        powerButton.setShape(powerButtonShape, true, true, false);
+        addAndMakeVisible(&powerButton);
         
+        addAndMakeVisible(&forwardPresetButton);
+        addAndMakeVisible(&backwardPresetButton);
+        addAndMakeVisible(&compareButton);
+        addAndMakeVisible(&copyButton);
+        addAndMakeVisible(&pasteButton);
+        addAndMakeVisible(&helpButton);
+        addAndMakeVisible(&chooseRandomDataButton);
+        addAndMakeVisible(&downloadCSVButton);
+
 }
 
 EglofAudioProcessorEditor::~EglofAudioProcessorEditor() {}
@@ -112,5 +111,15 @@ void EglofAudioProcessorEditor::resized() {
     dataColumnMenu2.setBounds(marginX + 5 * gapX + 30, marginY, menuWidth/2, menuHeight);
     dataColumnMenu3.setBounds(marginX + 4 * gapX + 15, marginY + gapY, menuWidth/2, menuHeight);
     dataColumnMenu4.setBounds(marginX + 5 * gapX + 30, marginY + gapY, menuWidth/2, menuHeight);
+    
+    powerButton.setBounds(0, 0, getWidth()/10, getWidth()/10);
+    backwardPresetButton.setBounds(presetMenu.getX(), 11 * presetMenu.getY()/2, presetMenu.getWidth()/6, presetMenu.getHeight());
+    forwardPresetButton.setBounds(presetMenu.getX() + gapX/3, 11 * presetMenu.getY()/2, presetMenu.getWidth()/6, presetMenu.getHeight());
+    compareButton.setBounds(presetMenu.getX() + 2 * gapX/3, 11 * presetMenu.getY()/2, presetMenu.getWidth()/3, presetMenu.getHeight());
+    copyButton.setBounds(presetMenu.getX() + 4 * gapX/3, 11 * presetMenu.getY()/2, presetMenu.getWidth()/6, presetMenu.getHeight());
+    pasteButton.setBounds(presetMenu.getX() + 5 * gapX/3, 11 * presetMenu.getY()/2, presetMenu.getWidth()/6, presetMenu.getHeight());
+    helpButton.setBounds(dataColumnMenu1.getX(), dataColumnMenu1.getY() - gapY, dataColumnMenu1.getWidth(), dataColumnMenu1.getHeight());
+    downloadCSVButton.setBounds(dataColumnMenu2.getX(), dataColumnMenu2.getY() - gapY, dataColumnMenu2.getWidth(), dataColumnMenu2.getHeight());
+    chooseRandomDataButton.setBounds(dataColumnMenu1.getX(), dataColumnMenu1.getY() + 2 * gapY, 2 * dataColumnMenu1.getWidth() + 25, dataColumnMenu1.getHeight() + 10);
 }
 }  // namespace audio_plugin
