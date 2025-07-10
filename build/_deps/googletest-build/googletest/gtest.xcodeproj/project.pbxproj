@@ -9,33 +9,33 @@
 /* Begin PBXAggregateTarget section */
 		23E06FD26E9839C0F8FECC90 /* ALL_BUILD */ = {
 			isa = PBXAggregateTarget;
-			buildConfigurationList = 22A9A3D3EE994CEC9FF4B1C9 /* Build configuration list for PBXAggregateTarget "ALL_BUILD" */;
+			buildConfigurationList = B79CA56AE42C404AA6A8EB98 /* Build configuration list for PBXAggregateTarget "ALL_BUILD" */;
 			buildPhases = (
 				5E89CC7C5280DC3AB8D702BC /* Generate CMakeFiles/ALL_BUILD */,
 			);
 			dependencies = (
-				CA47666672A244938130D8B2 /* PBXTargetDependency */,
-				9CC8B35FBE7142F6A4A56645 /* PBXTargetDependency */,
-				228CC3C3B4B547DC84064968 /* PBXTargetDependency */,
+				7E900E1B277749E289DA190D /* PBXTargetDependency */,
+				60B6D97F7B5B440CBB965DAD /* PBXTargetDependency */,
+				97056273645A42009E8101D8 /* PBXTargetDependency */,
 			);
 			name = ALL_BUILD;
 			productName = ALL_BUILD;
 		};
 		2404FA1FF41416FB3D901C10 /* install */ = {
 			isa = PBXAggregateTarget;
-			buildConfigurationList = 40F7238D72B1413EBA822AF1 /* Build configuration list for PBXAggregateTarget "install" */;
+			buildConfigurationList = 344C7EE37DD34326A1030A8A /* Build configuration list for PBXAggregateTarget "install" */;
 			buildPhases = (
 				93426DA6A4AC2C2AC9CE883C /* CMake PostBuild Rules */,
 			);
 			dependencies = (
-				9494BAD4DFA3445AA401D299 /* PBXTargetDependency */,
+				049A7E90278C4EA2ADA87479 /* PBXTargetDependency */,
 			);
 			name = install;
 			productName = install;
 		};
 		56F37F8BA841FAB8F7744F82 /* RUN_TESTS */ = {
 			isa = PBXAggregateTarget;
-			buildConfigurationList = B54DFE5C43724D36B6C2DB72 /* Build configuration list for PBXAggregateTarget "RUN_TESTS" */;
+			buildConfigurationList = 16C281984A704A9D9CFCAE21 /* Build configuration list for PBXAggregateTarget "RUN_TESTS" */;
 			buildPhases = (
 				003C8D08B0008F35F218E126 /* CMake PostBuild Rules */,
 			);
@@ -46,7 +46,7 @@
 		};
 		5EEA550DB33BFCA79CC57774 /* ZERO_CHECK */ = {
 			isa = PBXAggregateTarget;
-			buildConfigurationList = 355DA65067454707AF7C89C7 /* Build configuration list for PBXAggregateTarget "ZERO_CHECK" */;
+			buildConfigurationList = 2674ED0EA00C487BA1F59143 /* Build configuration list for PBXAggregateTarget "ZERO_CHECK" */;
 			buildPhases = (
 				AC5D76CF4B4688BEC770ADFF /* Generate CMakeFiles/ZERO_CHECK */,
 			);
@@ -58,114 +58,114 @@
 /* End PBXAggregateTarget section */
 
 /* Begin PBXBuildFile section */
-		190713FB733B48EB8E7E59AA /* /Users/quargsgreene/code/Eglof/libs/googletest/googletest/CMakeLists.txt */ = {isa = PBXBuildFile; fileRef = BA800D5A7EF6416FB4CF0935 /* /Users/quargsgreene/code/Eglof/libs/googletest/googletest/CMakeLists.txt */; };
-		3658671B73384F819308AF68 /* /Users/quargsgreene/code/Eglof/libs/googletest/googletest/src/gtest_main.cc */ = {isa = PBXBuildFile; fileRef = 434223C84395483F93DAF459 /* /Users/quargsgreene/code/Eglof/libs/googletest/googletest/src/gtest_main.cc */; };
-		C0CCE02197B34374974965D9 /* /Users/quargsgreene/code/Eglof/libs/googletest/googletest/CMakeLists.txt */ = {isa = PBXBuildFile; fileRef = 191062B7F8D44D59ADFC0D2D /* /Users/quargsgreene/code/Eglof/libs/googletest/googletest/CMakeLists.txt */; };
-		DDF957D46E2C4822A24F9906 /* /Users/quargsgreene/code/Eglof/libs/googletest/googletest/src/gtest-all.cc */ = {isa = PBXBuildFile; fileRef = 741B2DC3665A4637A5E72D4F /* /Users/quargsgreene/code/Eglof/libs/googletest/googletest/src/gtest-all.cc */; };
+		1B7CA3EF3DA94CF3AC1183D0 /* /Users/quargsgreene/code/Eglof/libs/googletest/googletest/src/gtest_main.cc */ = {isa = PBXBuildFile; fileRef = BBC188FD73AC4843A1A2F467 /* /Users/quargsgreene/code/Eglof/libs/googletest/googletest/src/gtest_main.cc */; };
+		41ED75DD48B94422978B30CF /* /Users/quargsgreene/code/Eglof/libs/googletest/googletest/src/gtest-all.cc */ = {isa = PBXBuildFile; fileRef = ACB80BE1841249FCA7733EBE /* /Users/quargsgreene/code/Eglof/libs/googletest/googletest/src/gtest-all.cc */; };
+		A3EB9668042D4200A8FE3E29 /* /Users/quargsgreene/code/Eglof/libs/googletest/googletest/CMakeLists.txt */ = {isa = PBXBuildFile; fileRef = 7945A50C450B43FC86F9598F /* /Users/quargsgreene/code/Eglof/libs/googletest/googletest/CMakeLists.txt */; };
+		D8580BCBDE624424885D5B5C /* /Users/quargsgreene/code/Eglof/libs/googletest/googletest/CMakeLists.txt */ = {isa = PBXBuildFile; fileRef = 8100DEEB19254511AE54393A /* /Users/quargsgreene/code/Eglof/libs/googletest/googletest/CMakeLists.txt */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXBuildStyle section */
-		25523BCEB97C4AEBAF9BA6E2 /* Release */ = {
+		3C6E375C417E4FE29E35A3F5 /* Release */ = {
 			isa = PBXBuildStyle;
 			buildSettings = {
 				COPY_PHASE_STRIP = NO;
 			};
 			name = Release;
 		};
-		3B27E66B566843D4A30C5419 /* Debug */ = {
-			isa = PBXBuildStyle;
-			buildSettings = {
-				COPY_PHASE_STRIP = NO;
-			};
-			name = Debug;
-		};
-		B23D8B0851F549D29BDA3F05 /* RelWithDebInfo */ = {
-			isa = PBXBuildStyle;
-			buildSettings = {
-				COPY_PHASE_STRIP = NO;
-			};
-			name = RelWithDebInfo;
-		};
-		FE45D0D533284B49818CA049 /* MinSizeRel */ = {
+		6B0A272181DE4D3ABC93A237 /* MinSizeRel */ = {
 			isa = PBXBuildStyle;
 			buildSettings = {
 				COPY_PHASE_STRIP = NO;
 			};
 			name = MinSizeRel;
 		};
+		D3763A84ADCB4470B90063AB /* Debug */ = {
+			isa = PBXBuildStyle;
+			buildSettings = {
+				COPY_PHASE_STRIP = NO;
+			};
+			name = Debug;
+		};
+		DC16A78C67814685B9B47391 /* RelWithDebInfo */ = {
+			isa = PBXBuildStyle;
+			buildSettings = {
+				COPY_PHASE_STRIP = NO;
+			};
+			name = RelWithDebInfo;
+		};
 /* End PBXBuildStyle section */
 
 /* Begin PBXContainerItemProxy section */
-		334DFA223D9949D2B3F3C7C3 /* PBXContainerItemProxy */ = {
+		1190CE2ABC30481FA632520D /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
-			containerPortal = 4010109725B34E0EB984B1CB /* Project object */;
-			proxyType = 1;
-			remoteGlobalIDString = 23E06FD26E9839C0F8FECC90;
-			remoteInfo = ALL_BUILD;
-		};
-		3D907571B35D4CE5889EA3AD /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = 4010109725B34E0EB984B1CB /* Project object */;
+			containerPortal = 049B603B18D948C1B6293C65 /* Project object */;
 			proxyType = 1;
 			remoteGlobalIDString = 5EEA550DB33BFCA79CC57774;
 			remoteInfo = ZERO_CHECK;
 		};
-		496C40D25CA64E41B2643FD1 /* PBXContainerItemProxy */ = {
+		9527211C58C645D7AC953F41 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
-			containerPortal = 4010109725B34E0EB984B1CB /* Project object */;
-			proxyType = 1;
-			remoteGlobalIDString = FE2E2F19E756FD66DA65BE8A;
-			remoteInfo = gtest;
-		};
-		5463A6FDAFC149C58FD6313A /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = 4010109725B34E0EB984B1CB /* Project object */;
-			proxyType = 1;
-			remoteGlobalIDString = 5EEA550DB33BFCA79CC57774;
-			remoteInfo = ZERO_CHECK;
-		};
-		5AA64C8D54F94E338AF7F0D7 /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = 4010109725B34E0EB984B1CB /* Project object */;
-			proxyType = 1;
-			remoteGlobalIDString = 5EEA550DB33BFCA79CC57774;
-			remoteInfo = ZERO_CHECK;
-		};
-		8FE91A2AA80A400A8AF41CF2 /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = 4010109725B34E0EB984B1CB /* Project object */;
-			proxyType = 1;
-			remoteGlobalIDString = FE2E2F19E756FD66DA65BE8A;
-			remoteInfo = gtest;
-		};
-		93921FACE93D4FD7B4589003 /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = 4010109725B34E0EB984B1CB /* Project object */;
+			containerPortal = 049B603B18D948C1B6293C65 /* Project object */;
 			proxyType = 1;
 			remoteGlobalIDString = 92B6A9B76EF5CF562A7C88F8;
 			remoteInfo = gtest_main;
 		};
+		C64D9E88B5C648B98DDFAA4E /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 049B603B18D948C1B6293C65 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = FE2E2F19E756FD66DA65BE8A;
+			remoteInfo = gtest;
+		};
+		CB2C48B709CA4364B6F7D56E /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 049B603B18D948C1B6293C65 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 5EEA550DB33BFCA79CC57774;
+			remoteInfo = ZERO_CHECK;
+		};
+		EAC88145E98D4023AF34FA0C /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 049B603B18D948C1B6293C65 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 5EEA550DB33BFCA79CC57774;
+			remoteInfo = ZERO_CHECK;
+		};
+		F0E6DA0B5FFF479A8F9519FC /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 049B603B18D948C1B6293C65 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 23E06FD26E9839C0F8FECC90;
+			remoteInfo = ALL_BUILD;
+		};
+		F3C0BB5AE77F40CA8B232AE9 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 049B603B18D948C1B6293C65 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = FE2E2F19E756FD66DA65BE8A;
+			remoteInfo = gtest;
+		};
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		191062B7F8D44D59ADFC0D2D /* /Users/quargsgreene/code/Eglof/libs/googletest/googletest/CMakeLists.txt */ = {isa = PBXFileReference; explicitFileType = sourcecode.text; fileEncoding = 4; name = CMakeLists.txt; path = CMakeLists.txt; sourceTree = SOURCE_ROOT; };
-		31D6838C0D504C809E639AE5 /* gtest */ = {isa = PBXFileReference; explicitFileType = archive.ar; path = libgtest.a; sourceTree = BUILT_PRODUCTS_DIR; };
-		434223C84395483F93DAF459 /* /Users/quargsgreene/code/Eglof/libs/googletest/googletest/src/gtest_main.cc */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 4; name = gtest_main.cc; path = src/gtest_main.cc; sourceTree = SOURCE_ROOT; };
-		741B2DC3665A4637A5E72D4F /* /Users/quargsgreene/code/Eglof/libs/googletest/googletest/src/gtest-all.cc */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 4; name = "gtest-all.cc"; path = "src/gtest-all.cc"; sourceTree = SOURCE_ROOT; };
-		9074556FADA343A1A35E9B49 /* /Users/quargsgreene/code/Eglof/libs/googletest/googletest/CMakeLists.txt */ = {isa = PBXFileReference; explicitFileType = sourcecode.text; fileEncoding = 4; name = CMakeLists.txt; path = CMakeLists.txt; sourceTree = SOURCE_ROOT; };
-		AD5194C51CFC481FA9383525 /* gtest_main */ = {isa = PBXFileReference; explicitFileType = archive.ar; path = libgtest_main.a; sourceTree = BUILT_PRODUCTS_DIR; };
-		BA800D5A7EF6416FB4CF0935 /* /Users/quargsgreene/code/Eglof/libs/googletest/googletest/CMakeLists.txt */ = {isa = PBXFileReference; explicitFileType = sourcecode.text; fileEncoding = 4; name = CMakeLists.txt; path = CMakeLists.txt; sourceTree = SOURCE_ROOT; };
+		5EB42C4CF54643AC88CF261D /* /Users/quargsgreene/code/Eglof/libs/googletest/googletest/CMakeLists.txt */ = {isa = PBXFileReference; explicitFileType = sourcecode.text; fileEncoding = 4; name = CMakeLists.txt; path = CMakeLists.txt; sourceTree = SOURCE_ROOT; };
+		662B36BB071843F6BDF8C6C5 /* gtest_main */ = {isa = PBXFileReference; explicitFileType = archive.ar; path = libgtest_main.a; sourceTree = BUILT_PRODUCTS_DIR; };
+		7945A50C450B43FC86F9598F /* /Users/quargsgreene/code/Eglof/libs/googletest/googletest/CMakeLists.txt */ = {isa = PBXFileReference; explicitFileType = sourcecode.text; fileEncoding = 4; name = CMakeLists.txt; path = CMakeLists.txt; sourceTree = SOURCE_ROOT; };
+		8100DEEB19254511AE54393A /* /Users/quargsgreene/code/Eglof/libs/googletest/googletest/CMakeLists.txt */ = {isa = PBXFileReference; explicitFileType = sourcecode.text; fileEncoding = 4; name = CMakeLists.txt; path = CMakeLists.txt; sourceTree = SOURCE_ROOT; };
+		ACB80BE1841249FCA7733EBE /* /Users/quargsgreene/code/Eglof/libs/googletest/googletest/src/gtest-all.cc */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 4; name = "gtest-all.cc"; path = "src/gtest-all.cc"; sourceTree = SOURCE_ROOT; };
+		BBC188FD73AC4843A1A2F467 /* /Users/quargsgreene/code/Eglof/libs/googletest/googletest/src/gtest_main.cc */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 4; name = gtest_main.cc; path = src/gtest_main.cc; sourceTree = SOURCE_ROOT; };
+		DE500B0E6E6F4BF291B57F93 /* gtest */ = {isa = PBXFileReference; explicitFileType = archive.ar; path = libgtest.a; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
-		6760C2B6733449808FC35FE1 /* Frameworks */ = {
+		50805D00BFAB42F9AE97E79F /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		A089AD0FDE8243549174126E /* Frameworks */ = {
+		C3677BFF52EB4CD9A228E5BA /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -175,89 +175,89 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
-		0ABDFC2F4E344671A3881290 /* Frameworks */ = {
+		0E7FCCFE94964BE6AAA2F1F0 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				DE500B0E6E6F4BF291B57F93 /* gtest */,
+				662B36BB071843F6BDF8C6C5 /* gtest_main */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		183746288E2E4A3C8866BBCB /* gtest_main */ = {
+			isa = PBXGroup;
+			children = (
+				549805195B8B4B56BBF5CF55 /* Source Files */,
+				8100DEEB19254511AE54393A /* /Users/quargsgreene/code/Eglof/libs/googletest/googletest/CMakeLists.txt */,
+			);
+			name = gtest_main;
+			sourceTree = "<group>";
+		};
+		19C73739599442F2B4A95302 /* gtest */ = {
+			isa = PBXGroup;
+			children = (
+				94AD819E0DC147C0A6571EF2 /* Source Files */,
+				7945A50C450B43FC86F9598F /* /Users/quargsgreene/code/Eglof/libs/googletest/googletest/CMakeLists.txt */,
+			);
+			name = gtest;
+			sourceTree = "<group>";
+		};
+		549805195B8B4B56BBF5CF55 /* Source Files */ = {
+			isa = PBXGroup;
+			children = (
+				BBC188FD73AC4843A1A2F467 /* /Users/quargsgreene/code/Eglof/libs/googletest/googletest/src/gtest_main.cc */,
+			);
+			name = "Source Files";
+			sourceTree = "<group>";
+		};
+		68D3773CB7914F80A0299787 /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
 			);
 			name = Frameworks;
 			sourceTree = "<group>";
 		};
-		19C19D185141498E8E342DCC /* gtest_main */ = {
-			isa = PBXGroup;
-			children = (
-				CA61E823B8E440808B21A96C /* Source Files */,
-				191062B7F8D44D59ADFC0D2D /* /Users/quargsgreene/code/Eglof/libs/googletest/googletest/CMakeLists.txt */,
-			);
-			name = gtest_main;
-			sourceTree = "<group>";
-		};
-		2A2F9EE1B4A44C428BAA39AA /* Products */ = {
-			isa = PBXGroup;
-			children = (
-				31D6838C0D504C809E639AE5 /* gtest */,
-				AD5194C51CFC481FA9383525 /* gtest_main */,
-			);
-			name = Products;
-			sourceTree = "<group>";
-		};
-		3C4AAA8E1A744E36951B7DDA = {
-			isa = PBXGroup;
-			children = (
-				51B3066ED270422BBDEBCF12 /* gtest */,
-				19C19D185141498E8E342DCC /* gtest_main */,
-				B81A3CD92F0743EEA34B6DE8 /* ALL_BUILD */,
-				2A2F9EE1B4A44C428BAA39AA /* Products */,
-				0ABDFC2F4E344671A3881290 /* Frameworks */,
-				40CF225DA48E449FA1A58B96 /* Resources */,
-			);
-			sourceTree = "<group>";
-		};
-		40CF225DA48E449FA1A58B96 /* Resources */ = {
+		8F05CB34D24745B5A2199803 /* Resources */ = {
 			isa = PBXGroup;
 			children = (
 			);
 			name = Resources;
 			sourceTree = "<group>";
 		};
-		51B3066ED270422BBDEBCF12 /* gtest */ = {
+		94AD819E0DC147C0A6571EF2 /* Source Files */ = {
 			isa = PBXGroup;
 			children = (
-				C001A9C43B2D493FA84C45C8 /* Source Files */,
-				BA800D5A7EF6416FB4CF0935 /* /Users/quargsgreene/code/Eglof/libs/googletest/googletest/CMakeLists.txt */,
-			);
-			name = gtest;
-			sourceTree = "<group>";
-		};
-		B81A3CD92F0743EEA34B6DE8 /* ALL_BUILD */ = {
-			isa = PBXGroup;
-			children = (
-				DCCA72FC133342FB8B36A9D9 /* CMake Rules */,
-				9074556FADA343A1A35E9B49 /* /Users/quargsgreene/code/Eglof/libs/googletest/googletest/CMakeLists.txt */,
-			);
-			name = ALL_BUILD;
-			sourceTree = "<group>";
-		};
-		C001A9C43B2D493FA84C45C8 /* Source Files */ = {
-			isa = PBXGroup;
-			children = (
-				741B2DC3665A4637A5E72D4F /* /Users/quargsgreene/code/Eglof/libs/googletest/googletest/src/gtest-all.cc */,
+				ACB80BE1841249FCA7733EBE /* /Users/quargsgreene/code/Eglof/libs/googletest/googletest/src/gtest-all.cc */,
 			);
 			name = "Source Files";
 			sourceTree = "<group>";
 		};
-		CA61E823B8E440808B21A96C /* Source Files */ = {
-			isa = PBXGroup;
-			children = (
-				434223C84395483F93DAF459 /* /Users/quargsgreene/code/Eglof/libs/googletest/googletest/src/gtest_main.cc */,
-			);
-			name = "Source Files";
-			sourceTree = "<group>";
-		};
-		DCCA72FC133342FB8B36A9D9 /* CMake Rules */ = {
+		B8C092B97B3549A6B86E9105 /* CMake Rules */ = {
 			isa = PBXGroup;
 			children = (
 			);
 			name = "CMake Rules";
+			sourceTree = "<group>";
+		};
+		C67A79A25F0B473484C12E6A = {
+			isa = PBXGroup;
+			children = (
+				19C73739599442F2B4A95302 /* gtest */,
+				183746288E2E4A3C8866BBCB /* gtest_main */,
+				E2286833235A40F2BD7DD542 /* ALL_BUILD */,
+				0E7FCCFE94964BE6AAA2F1F0 /* Products */,
+				68D3773CB7914F80A0299787 /* Frameworks */,
+				8F05CB34D24745B5A2199803 /* Resources */,
+			);
+			sourceTree = "<group>";
+		};
+		E2286833235A40F2BD7DD542 /* ALL_BUILD */ = {
+			isa = PBXGroup;
+			children = (
+				B8C092B97B3549A6B86E9105 /* CMake Rules */,
+				5EB42C4CF54643AC88CF261D /* /Users/quargsgreene/code/Eglof/libs/googletest/googletest/CMakeLists.txt */,
+			);
+			name = ALL_BUILD;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -265,60 +265,60 @@
 /* Begin PBXNativeTarget section */
 		92B6A9B76EF5CF562A7C88F8 /* gtest_main */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = FBE6CFA489FF4812A2A0128F /* Build configuration list for PBXNativeTarget "gtest_main" */;
+			buildConfigurationList = ECF91B9285234C9CB4D9E75F /* Build configuration list for PBXNativeTarget "gtest_main" */;
 			buildPhases = (
-				1972349658D94A1790FE0400 /* Sources */,
-				A089AD0FDE8243549174126E /* Frameworks */,
+				BD23CE35A89E4C59BE7F570B /* Sources */,
+				50805D00BFAB42F9AE97E79F /* Frameworks */,
 			);
 			buildRules = (
 			);
 			dependencies = (
-				3A53674EC2C8423293CEFBE5 /* PBXTargetDependency */,
-				4AFDB0D8129242CBBD20AA3B /* PBXTargetDependency */,
+				2996425CEF4E4AAA88256E90 /* PBXTargetDependency */,
+				19748A4441584FDE8D16B094 /* PBXTargetDependency */,
 			);
 			name = gtest_main;
 			productName = gtest_main;
-			productReference = AD5194C51CFC481FA9383525 /* gtest_main */;
+			productReference = 662B36BB071843F6BDF8C6C5 /* gtest_main */;
 			productType = "com.apple.product-type.library.static";
 		};
 		FE2E2F19E756FD66DA65BE8A /* gtest */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 2D22CE9438044A1A8BF29CBC /* Build configuration list for PBXNativeTarget "gtest" */;
+			buildConfigurationList = 297228313AF148499BCD66DD /* Build configuration list for PBXNativeTarget "gtest" */;
 			buildPhases = (
-				47BD08A9A22049A7A9265258 /* Sources */,
-				6760C2B6733449808FC35FE1 /* Frameworks */,
+				600095508A8D4226B5E0E16E /* Sources */,
+				C3677BFF52EB4CD9A228E5BA /* Frameworks */,
 			);
 			buildRules = (
 			);
 			dependencies = (
-				43E1117B162F4D00B7326213 /* PBXTargetDependency */,
+				F3C02DD050AD47D79006F845 /* PBXTargetDependency */,
 			);
 			name = gtest;
 			productName = gtest;
-			productReference = 31D6838C0D504C809E639AE5 /* gtest */;
+			productReference = DE500B0E6E6F4BF291B57F93 /* gtest */;
 			productType = "com.apple.product-type.library.static";
 		};
 /* End PBXNativeTarget section */
 
 /* Begin PBXProject section */
-		4010109725B34E0EB984B1CB /* Project object */ = {
+		049B603B18D948C1B6293C65 /* Project object */ = {
 			isa = PBXProject;
 			attributes = {
 				BuildIndependentTargetsInParallel = YES;
 				LastUpgradeCheck = 1640;
 			};
-			buildConfigurationList = 014250BE7E4B4C12914B427B /* Build configuration list for PBXProject "gtest" */;
+			buildConfigurationList = CF9A6F00CC76455DAB84E9BF /* Build configuration list for PBXProject "gtest" */;
 			buildSettings = {
 			};
 			buildStyles = (
-				3B27E66B566843D4A30C5419 /* Debug */,
-				25523BCEB97C4AEBAF9BA6E2 /* Release */,
-				FE45D0D533284B49818CA049 /* MinSizeRel */,
-				B23D8B0851F549D29BDA3F05 /* RelWithDebInfo */,
+				D3763A84ADCB4470B90063AB /* Debug */,
+				3C6E375C417E4FE29E35A3F5 /* Release */,
+				6B0A272181DE4D3ABC93A237 /* MinSizeRel */,
+				DC16A78C67814685B9B47391 /* RelWithDebInfo */,
 			);
 			compatibilityVersion = "Xcode 3.2";
 			hasScannedForEncodings = 0;
-			mainGroup = 3C4AAA8E1A744E36951B7DDA;
+			mainGroup = C67A79A25F0B473484C12E6A;
 			projectDirPath = /Users/quargsgreene/code/Eglof/libs/googletest/googletest;
 			projectRoot = "";
 			targets = (
@@ -528,86 +528,64 @@ fi
 /* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
-		1972349658D94A1790FE0400 /* Sources */ = {
+		600095508A8D4226B5E0E16E /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				3658671B73384F819308AF68 /* /Users/quargsgreene/code/Eglof/libs/googletest/googletest/src/gtest_main.cc */,
+				41ED75DD48B94422978B30CF /* /Users/quargsgreene/code/Eglof/libs/googletest/googletest/src/gtest-all.cc */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		47BD08A9A22049A7A9265258 /* Sources */ = {
+		BD23CE35A89E4C59BE7F570B /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				DDF957D46E2C4822A24F9906 /* /Users/quargsgreene/code/Eglof/libs/googletest/googletest/src/gtest-all.cc */,
+				1B7CA3EF3DA94CF3AC1183D0 /* /Users/quargsgreene/code/Eglof/libs/googletest/googletest/src/gtest_main.cc */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXTargetDependency section */
-		228CC3C3B4B547DC84064968 /* PBXTargetDependency */ = {
-			isa = PBXTargetDependency;
-			target = 5EEA550DB33BFCA79CC57774 /* ZERO_CHECK */;
-			targetProxy = 5AA64C8D54F94E338AF7F0D7 /* PBXContainerItemProxy */;
-		};
-		3A53674EC2C8423293CEFBE5 /* PBXTargetDependency */ = {
-			isa = PBXTargetDependency;
-			target = FE2E2F19E756FD66DA65BE8A /* gtest */;
-			targetProxy = 496C40D25CA64E41B2643FD1 /* PBXContainerItemProxy */;
-		};
-		43E1117B162F4D00B7326213 /* PBXTargetDependency */ = {
-			isa = PBXTargetDependency;
-			target = 5EEA550DB33BFCA79CC57774 /* ZERO_CHECK */;
-			targetProxy = 5463A6FDAFC149C58FD6313A /* PBXContainerItemProxy */;
-		};
-		4AFDB0D8129242CBBD20AA3B /* PBXTargetDependency */ = {
-			isa = PBXTargetDependency;
-			target = 5EEA550DB33BFCA79CC57774 /* ZERO_CHECK */;
-			targetProxy = 3D907571B35D4CE5889EA3AD /* PBXContainerItemProxy */;
-		};
-		9494BAD4DFA3445AA401D299 /* PBXTargetDependency */ = {
+		049A7E90278C4EA2ADA87479 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
 			target = 23E06FD26E9839C0F8FECC90 /* ALL_BUILD */;
-			targetProxy = 334DFA223D9949D2B3F3C7C3 /* PBXContainerItemProxy */;
+			targetProxy = F0E6DA0B5FFF479A8F9519FC /* PBXContainerItemProxy */;
 		};
-		9CC8B35FBE7142F6A4A56645 /* PBXTargetDependency */ = {
+		19748A4441584FDE8D16B094 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
-			target = 92B6A9B76EF5CF562A7C88F8 /* gtest_main */;
-			targetProxy = 93921FACE93D4FD7B4589003 /* PBXContainerItemProxy */;
+			target = 5EEA550DB33BFCA79CC57774 /* ZERO_CHECK */;
+			targetProxy = EAC88145E98D4023AF34FA0C /* PBXContainerItemProxy */;
 		};
-		CA47666672A244938130D8B2 /* PBXTargetDependency */ = {
+		2996425CEF4E4AAA88256E90 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
 			target = FE2E2F19E756FD66DA65BE8A /* gtest */;
-			targetProxy = 8FE91A2AA80A400A8AF41CF2 /* PBXContainerItemProxy */;
+			targetProxy = C64D9E88B5C648B98DDFAA4E /* PBXContainerItemProxy */;
+		};
+		60B6D97F7B5B440CBB965DAD /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 92B6A9B76EF5CF562A7C88F8 /* gtest_main */;
+			targetProxy = 9527211C58C645D7AC953F41 /* PBXContainerItemProxy */;
+		};
+		7E900E1B277749E289DA190D /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = FE2E2F19E756FD66DA65BE8A /* gtest */;
+			targetProxy = F3C0BB5AE77F40CA8B232AE9 /* PBXContainerItemProxy */;
+		};
+		97056273645A42009E8101D8 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 5EEA550DB33BFCA79CC57774 /* ZERO_CHECK */;
+			targetProxy = CB2C48B709CA4364B6F7D56E /* PBXContainerItemProxy */;
+		};
+		F3C02DD050AD47D79006F845 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 5EEA550DB33BFCA79CC57774 /* ZERO_CHECK */;
+			targetProxy = 1190CE2ABC30481FA632520D /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
 
 /* Begin XCBuildConfiguration section */
-		057E33C4329B412DB357DC85 /* MinSizeRel */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				ALWAYS_SEARCH_USER_PATHS = NO;
-				ARCHS = arm64;
-				COMBINE_HIDPI_IMAGES = YES;
-				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
-				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
-				GCC_OPTIMIZATION_LEVEL = 0;
-				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'","$(inherited)");
-				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
-				INSTALL_PATH = "";
-				ONLY_ACTIVE_ARCH = NO;
-				OTHER_LDFLAGS = ("","$(inherited)");
-				OTHER_REZFLAGS = "";
-				PRODUCT_NAME = ALL_BUILD;
-				SECTORDER_FLAGS = "";
-				USE_HEADERMAP = NO;
-				WARNING_CFLAGS = ("$(inherited)");
-			};
-			name = MinSizeRel;
-		};
-		1AC26E829FAA4CC68E22C833 /* Release */ = {
+		0DF4F3D3603247DE9706B0A3 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
@@ -627,229 +605,18 @@ fi
 				USE_HEADERMAP = NO;
 				WARNING_CFLAGS = ("$(inherited)");
 			};
-			name = Release;
+			name = Debug;
 		};
-		3FDF8271FBD74E8896126FAD /* RelWithDebInfo */ = {
+		200798BC4B65482CAD69666B /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
-				ALWAYS_SEARCH_USER_PATHS = NO;
 				ARCHS = arm64;
-				COMBINE_HIDPI_IMAGES = YES;
-				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
-				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
-				GCC_OPTIMIZATION_LEVEL = 0;
-				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'","$(inherited)");
-				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
-				INSTALL_PATH = "";
-				ONLY_ACTIVE_ARCH = NO;
-				OTHER_LDFLAGS = ("","$(inherited)");
-				OTHER_REZFLAGS = "";
-				PRODUCT_NAME = RUN_TESTS;
-				SECTORDER_FLAGS = "";
-				USE_HEADERMAP = NO;
-				WARNING_CFLAGS = ("$(inherited)");
-			};
-			name = RelWithDebInfo;
-		};
-		50D17F2FBC674314AECD0DAC /* Debug */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				ALWAYS_SEARCH_USER_PATHS = NO;
-				ARCHS = arm64;
-				COMBINE_HIDPI_IMAGES = YES;
-				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
-				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
-				GCC_OPTIMIZATION_LEVEL = 0;
-				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'","$(inherited)");
-				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
-				INSTALL_PATH = "";
-				ONLY_ACTIVE_ARCH = NO;
-				OTHER_LDFLAGS = ("","$(inherited)");
-				OTHER_REZFLAGS = "";
-				PRODUCT_NAME = RUN_TESTS;
-				SECTORDER_FLAGS = "";
-				USE_HEADERMAP = NO;
-				WARNING_CFLAGS = ("$(inherited)");
+				SDKROOT = "";
+				SYMROOT = /Users/quargsgreene/code/Eglof/build/build;
 			};
 			name = Debug;
 		};
-		566D9B8F90BC4FEAA24AA45B /* Release */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				ALWAYS_SEARCH_USER_PATHS = NO;
-				ARCHS = arm64;
-				COMBINE_HIDPI_IMAGES = YES;
-				CONFIGURATION_BUILD_DIR = /Users/quargsgreene/code/Eglof/build/lib/Release;
-				EXECUTABLE_PREFIX = lib;
-				EXECUTABLE_SUFFIX = .a;
-				GCC_GENERATE_DEBUGGING_SYMBOLS = NO;
-				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
-				GCC_OPTIMIZATION_LEVEL = 3;
-				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'","$(inherited)");
-				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
-				HEADER_SEARCH_PATHS = (/Users/quargsgreene/code/Eglof/libs/googletest/googletest/include,/Users/quargsgreene/code/Eglof/libs/googletest/googletest,"$(inherited)");
-				INSTALL_PATH = "";
-				LIBRARY_STYLE = STATIC;
-				ONLY_ACTIVE_ARCH = NO;
-				OTHER_CPLUSPLUSFLAGS = "    -DNDEBUG '-std=c++2b'  -DGTEST_HAS_PTHREAD=1   ";
-				OTHER_LIBTOOLFLAGS = ("");
-				OTHER_REZFLAGS = "";
-				PRODUCT_NAME = gtest;
-				SECTORDER_FLAGS = "";
-				TARGET_TEMP_DIR = "/Users/quargsgreene/code/Eglof/build/build/gtest.build/$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)";
-				USE_HEADERMAP = NO;
-				WARNING_CFLAGS = ("$(inherited)");
-			};
-			name = Release;
-		};
-		58F02206F5794ABBA12BB79C /* RelWithDebInfo */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				ALWAYS_SEARCH_USER_PATHS = NO;
-				ARCHS = arm64;
-				COMBINE_HIDPI_IMAGES = YES;
-				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
-				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
-				GCC_OPTIMIZATION_LEVEL = 0;
-				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'","$(inherited)");
-				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
-				INSTALL_PATH = "";
-				ONLY_ACTIVE_ARCH = NO;
-				OTHER_LDFLAGS = ("","$(inherited)");
-				OTHER_REZFLAGS = "";
-				PRODUCT_NAME = ZERO_CHECK;
-				SECTORDER_FLAGS = "";
-				USE_HEADERMAP = NO;
-				WARNING_CFLAGS = ("$(inherited)");
-			};
-			name = RelWithDebInfo;
-		};
-		5EB1F6B6CA1346BF9FB73712 /* MinSizeRel */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				ARCHS = arm64;
-				SDKROOT = "";
-				SWIFT_COMPILATION_MODE = wholemodule;
-				SYMROOT = /Users/quargsgreene/code/Eglof/build/build;
-			};
-			name = MinSizeRel;
-		};
-		6C195A217DC64FD885CDDE2F /* Debug */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				ALWAYS_SEARCH_USER_PATHS = NO;
-				ARCHS = arm64;
-				COMBINE_HIDPI_IMAGES = YES;
-				CONFIGURATION_BUILD_DIR = /Users/quargsgreene/code/Eglof/build/lib/Debug;
-				EXECUTABLE_PREFIX = lib;
-				EXECUTABLE_SUFFIX = .a;
-				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
-				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
-				GCC_OPTIMIZATION_LEVEL = 0;
-				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'","$(inherited)");
-				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
-				INSTALL_PATH = "";
-				LIBRARY_STYLE = STATIC;
-				ONLY_ACTIVE_ARCH = NO;
-				OTHER_CPLUSPLUSFLAGS = "   '-std=c++2b'  -DGTEST_HAS_PTHREAD=1   ";
-				OTHER_LIBTOOLFLAGS = ("");
-				OTHER_REZFLAGS = "";
-				PRODUCT_NAME = gtest_main;
-				SECTORDER_FLAGS = "";
-				SYSTEM_HEADER_SEARCH_PATHS = (/Users/quargsgreene/code/Eglof/libs/googletest/googletest/include,/Users/quargsgreene/code/Eglof/libs/googletest/googletest,"$(inherited)");
-				TARGET_TEMP_DIR = "/Users/quargsgreene/code/Eglof/build/build/gtest_main.build/$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)";
-				USE_HEADERMAP = NO;
-				WARNING_CFLAGS = ("$(inherited)");
-			};
-			name = Debug;
-		};
-		726F6C8C73D648C6AEC55F82 /* Release */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				ARCHS = arm64;
-				SDKROOT = "";
-				SWIFT_COMPILATION_MODE = wholemodule;
-				SYMROOT = /Users/quargsgreene/code/Eglof/build/build;
-			};
-			name = Release;
-		};
-		743CB22846454BE78D468F3C /* RelWithDebInfo */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				ARCHS = arm64;
-				SDKROOT = "";
-				SWIFT_COMPILATION_MODE = wholemodule;
-				SYMROOT = /Users/quargsgreene/code/Eglof/build/build;
-			};
-			name = RelWithDebInfo;
-		};
-		7E6DE3E72EBC4713936C837A /* MinSizeRel */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				ALWAYS_SEARCH_USER_PATHS = NO;
-				ARCHS = arm64;
-				COMBINE_HIDPI_IMAGES = YES;
-				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
-				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
-				GCC_OPTIMIZATION_LEVEL = 0;
-				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'","$(inherited)");
-				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
-				INSTALL_PATH = "";
-				ONLY_ACTIVE_ARCH = NO;
-				OTHER_LDFLAGS = ("","$(inherited)");
-				OTHER_REZFLAGS = "";
-				PRODUCT_NAME = install;
-				SECTORDER_FLAGS = "";
-				USE_HEADERMAP = NO;
-				WARNING_CFLAGS = ("$(inherited)");
-			};
-			name = MinSizeRel;
-		};
-		82B24EAAAE8E45DDAC03C6EF /* Release */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				ALWAYS_SEARCH_USER_PATHS = NO;
-				ARCHS = arm64;
-				COMBINE_HIDPI_IMAGES = YES;
-				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
-				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
-				GCC_OPTIMIZATION_LEVEL = 0;
-				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'","$(inherited)");
-				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
-				INSTALL_PATH = "";
-				ONLY_ACTIVE_ARCH = NO;
-				OTHER_LDFLAGS = ("","$(inherited)");
-				OTHER_REZFLAGS = "";
-				PRODUCT_NAME = ALL_BUILD;
-				SECTORDER_FLAGS = "";
-				USE_HEADERMAP = NO;
-				WARNING_CFLAGS = ("$(inherited)");
-			};
-			name = Release;
-		};
-		88A2DA8F35A4472DA568F6FB /* RelWithDebInfo */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				ALWAYS_SEARCH_USER_PATHS = NO;
-				ARCHS = arm64;
-				COMBINE_HIDPI_IMAGES = YES;
-				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
-				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
-				GCC_OPTIMIZATION_LEVEL = 0;
-				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'","$(inherited)");
-				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
-				INSTALL_PATH = "";
-				ONLY_ACTIVE_ARCH = NO;
-				OTHER_LDFLAGS = ("","$(inherited)");
-				OTHER_REZFLAGS = "";
-				PRODUCT_NAME = ALL_BUILD;
-				SECTORDER_FLAGS = "";
-				USE_HEADERMAP = NO;
-				WARNING_CFLAGS = ("$(inherited)");
-			};
-			name = RelWithDebInfo;
-		};
-		A0D41A439EBD40A4B44755AF /* RelWithDebInfo */ = {
+		2973B2BE8CFC444DB738CC09 /* RelWithDebInfo */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
@@ -878,111 +645,7 @@ fi
 			};
 			name = RelWithDebInfo;
 		};
-		A1F6862013A24BA9A8BA4847 /* Debug */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				ALWAYS_SEARCH_USER_PATHS = NO;
-				ARCHS = arm64;
-				COMBINE_HIDPI_IMAGES = YES;
-				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
-				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
-				GCC_OPTIMIZATION_LEVEL = 0;
-				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'","$(inherited)");
-				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
-				INSTALL_PATH = "";
-				ONLY_ACTIVE_ARCH = NO;
-				OTHER_LDFLAGS = ("","$(inherited)");
-				OTHER_REZFLAGS = "";
-				PRODUCT_NAME = ZERO_CHECK;
-				SECTORDER_FLAGS = "";
-				USE_HEADERMAP = NO;
-				WARNING_CFLAGS = ("$(inherited)");
-			};
-			name = Debug;
-		};
-		A31A0A9E621645DCA75E0A30 /* MinSizeRel */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				ALWAYS_SEARCH_USER_PATHS = NO;
-				ARCHS = arm64;
-				COMBINE_HIDPI_IMAGES = YES;
-				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
-				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
-				GCC_OPTIMIZATION_LEVEL = 0;
-				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'","$(inherited)");
-				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
-				INSTALL_PATH = "";
-				ONLY_ACTIVE_ARCH = NO;
-				OTHER_LDFLAGS = ("","$(inherited)");
-				OTHER_REZFLAGS = "";
-				PRODUCT_NAME = ZERO_CHECK;
-				SECTORDER_FLAGS = "";
-				USE_HEADERMAP = NO;
-				WARNING_CFLAGS = ("$(inherited)");
-			};
-			name = MinSizeRel;
-		};
-		A4374F73E6B3492AA8C55494 /* Release */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				ALWAYS_SEARCH_USER_PATHS = NO;
-				ARCHS = arm64;
-				COMBINE_HIDPI_IMAGES = YES;
-				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
-				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
-				GCC_OPTIMIZATION_LEVEL = 0;
-				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'","$(inherited)");
-				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
-				INSTALL_PATH = "";
-				ONLY_ACTIVE_ARCH = NO;
-				OTHER_LDFLAGS = ("","$(inherited)");
-				OTHER_REZFLAGS = "";
-				PRODUCT_NAME = install;
-				SECTORDER_FLAGS = "";
-				USE_HEADERMAP = NO;
-				WARNING_CFLAGS = ("$(inherited)");
-			};
-			name = Release;
-		};
-		AA6511BCEBF8487F97E73525 /* Release */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				ALWAYS_SEARCH_USER_PATHS = NO;
-				ARCHS = arm64;
-				COMBINE_HIDPI_IMAGES = YES;
-				CONFIGURATION_BUILD_DIR = /Users/quargsgreene/code/Eglof/build/lib/Release;
-				EXECUTABLE_PREFIX = lib;
-				EXECUTABLE_SUFFIX = .a;
-				GCC_GENERATE_DEBUGGING_SYMBOLS = NO;
-				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
-				GCC_OPTIMIZATION_LEVEL = 3;
-				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'","$(inherited)");
-				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
-				INSTALL_PATH = "";
-				LIBRARY_STYLE = STATIC;
-				ONLY_ACTIVE_ARCH = NO;
-				OTHER_CPLUSPLUSFLAGS = "    -DNDEBUG '-std=c++2b'  -DGTEST_HAS_PTHREAD=1   ";
-				OTHER_LIBTOOLFLAGS = ("");
-				OTHER_REZFLAGS = "";
-				PRODUCT_NAME = gtest_main;
-				SECTORDER_FLAGS = "";
-				SYSTEM_HEADER_SEARCH_PATHS = (/Users/quargsgreene/code/Eglof/libs/googletest/googletest/include,/Users/quargsgreene/code/Eglof/libs/googletest/googletest,"$(inherited)");
-				TARGET_TEMP_DIR = "/Users/quargsgreene/code/Eglof/build/build/gtest_main.build/$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)";
-				USE_HEADERMAP = NO;
-				WARNING_CFLAGS = ("$(inherited)");
-			};
-			name = Release;
-		};
-		AC45E2C53E57437EA83C2D4E /* Debug */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				ARCHS = arm64;
-				SDKROOT = "";
-				SYMROOT = /Users/quargsgreene/code/Eglof/build/build;
-			};
-			name = Debug;
-		};
-		C220DDC72D634727ADC5EC69 /* MinSizeRel */ = {
+		324910F8655F47C5B4F35FC8 /* MinSizeRel */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
@@ -1004,102 +667,7 @@ fi
 			};
 			name = MinSizeRel;
 		};
-		C5D1EA08CF074DA6B010A5AF /* Release */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				ALWAYS_SEARCH_USER_PATHS = NO;
-				ARCHS = arm64;
-				COMBINE_HIDPI_IMAGES = YES;
-				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
-				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
-				GCC_OPTIMIZATION_LEVEL = 0;
-				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'","$(inherited)");
-				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
-				INSTALL_PATH = "";
-				ONLY_ACTIVE_ARCH = NO;
-				OTHER_LDFLAGS = ("","$(inherited)");
-				OTHER_REZFLAGS = "";
-				PRODUCT_NAME = RUN_TESTS;
-				SECTORDER_FLAGS = "";
-				USE_HEADERMAP = NO;
-				WARNING_CFLAGS = ("$(inherited)");
-			};
-			name = Release;
-		};
-		C5F8F2C6310A472DA801568E /* MinSizeRel */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				ALWAYS_SEARCH_USER_PATHS = NO;
-				ARCHS = arm64;
-				COMBINE_HIDPI_IMAGES = YES;
-				CONFIGURATION_BUILD_DIR = /Users/quargsgreene/code/Eglof/build/lib/MinSizeRel;
-				EXECUTABLE_PREFIX = lib;
-				EXECUTABLE_SUFFIX = .a;
-				GCC_GENERATE_DEBUGGING_SYMBOLS = NO;
-				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
-				GCC_OPTIMIZATION_LEVEL = s;
-				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'","$(inherited)");
-				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
-				INSTALL_PATH = "";
-				LIBRARY_STYLE = STATIC;
-				ONLY_ACTIVE_ARCH = NO;
-				OTHER_CPLUSPLUSFLAGS = "    -DNDEBUG '-std=c++2b'  -DGTEST_HAS_PTHREAD=1   ";
-				OTHER_LIBTOOLFLAGS = ("");
-				OTHER_REZFLAGS = "";
-				PRODUCT_NAME = gtest_main;
-				SECTORDER_FLAGS = "";
-				SYSTEM_HEADER_SEARCH_PATHS = (/Users/quargsgreene/code/Eglof/libs/googletest/googletest/include,/Users/quargsgreene/code/Eglof/libs/googletest/googletest,"$(inherited)");
-				TARGET_TEMP_DIR = "/Users/quargsgreene/code/Eglof/build/build/gtest_main.build/$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)";
-				USE_HEADERMAP = NO;
-				WARNING_CFLAGS = ("$(inherited)");
-			};
-			name = MinSizeRel;
-		};
-		CA34102F09E54C2B9410451D /* Debug */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				ALWAYS_SEARCH_USER_PATHS = NO;
-				ARCHS = arm64;
-				COMBINE_HIDPI_IMAGES = YES;
-				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
-				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
-				GCC_OPTIMIZATION_LEVEL = 0;
-				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'","$(inherited)");
-				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
-				INSTALL_PATH = "";
-				ONLY_ACTIVE_ARCH = NO;
-				OTHER_LDFLAGS = ("","$(inherited)");
-				OTHER_REZFLAGS = "";
-				PRODUCT_NAME = install;
-				SECTORDER_FLAGS = "";
-				USE_HEADERMAP = NO;
-				WARNING_CFLAGS = ("$(inherited)");
-			};
-			name = Debug;
-		};
-		D41CD4AC1F4F496892BF249F /* RelWithDebInfo */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				ALWAYS_SEARCH_USER_PATHS = NO;
-				ARCHS = arm64;
-				COMBINE_HIDPI_IMAGES = YES;
-				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
-				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
-				GCC_OPTIMIZATION_LEVEL = 0;
-				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'","$(inherited)");
-				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
-				INSTALL_PATH = "";
-				ONLY_ACTIVE_ARCH = NO;
-				OTHER_LDFLAGS = ("","$(inherited)");
-				OTHER_REZFLAGS = "";
-				PRODUCT_NAME = install;
-				SECTORDER_FLAGS = "";
-				USE_HEADERMAP = NO;
-				WARNING_CFLAGS = ("$(inherited)");
-			};
-			name = RelWithDebInfo;
-		};
-		EA1D7F6503ED483C95553646 /* MinSizeRel */ = {
+		3701A8FCB3784FA8818C86FC /* MinSizeRel */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
@@ -1128,7 +696,302 @@ fi
 			};
 			name = MinSizeRel;
 		};
-		F157469E41DD46EFA999A346 /* Debug */ = {
+		392F47C8831E4DAB863F6546 /* RelWithDebInfo */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = arm64;
+				COMBINE_HIDPI_IMAGES = YES;
+				CONFIGURATION_BUILD_DIR = /Users/quargsgreene/code/Eglof/build/lib/RelWithDebInfo;
+				EXECUTABLE_PREFIX = lib;
+				EXECUTABLE_SUFFIX = .a;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 2;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'","$(inherited)");
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				HEADER_SEARCH_PATHS = (/Users/quargsgreene/code/Eglof/libs/googletest/googletest/include,/Users/quargsgreene/code/Eglof/libs/googletest/googletest,"$(inherited)");
+				INSTALL_PATH = "";
+				LIBRARY_STYLE = STATIC;
+				ONLY_ACTIVE_ARCH = NO;
+				OTHER_CPLUSPLUSFLAGS = "       -DNDEBUG '-std=c++2b'  -DGTEST_HAS_PTHREAD=1   ";
+				OTHER_LIBTOOLFLAGS = ("");
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = gtest;
+				SECTORDER_FLAGS = "";
+				TARGET_TEMP_DIR = "/Users/quargsgreene/code/Eglof/build/build/gtest.build/$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)";
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("$(inherited)");
+			};
+			name = RelWithDebInfo;
+		};
+		4D35AD831AC34B5DBC71F9CD /* RelWithDebInfo */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = arm64;
+				COMBINE_HIDPI_IMAGES = YES;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'","$(inherited)");
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				INSTALL_PATH = "";
+				ONLY_ACTIVE_ARCH = NO;
+				OTHER_LDFLAGS = ("","$(inherited)");
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = ZERO_CHECK;
+				SECTORDER_FLAGS = "";
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("$(inherited)");
+			};
+			name = RelWithDebInfo;
+		};
+		539EAEC1D652444193E886CE /* MinSizeRel */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = arm64;
+				COMBINE_HIDPI_IMAGES = YES;
+				CONFIGURATION_BUILD_DIR = /Users/quargsgreene/code/Eglof/build/lib/MinSizeRel;
+				EXECUTABLE_PREFIX = lib;
+				EXECUTABLE_SUFFIX = .a;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = NO;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = s;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'","$(inherited)");
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				INSTALL_PATH = "";
+				LIBRARY_STYLE = STATIC;
+				ONLY_ACTIVE_ARCH = NO;
+				OTHER_CPLUSPLUSFLAGS = "    -DNDEBUG '-std=c++2b'  -DGTEST_HAS_PTHREAD=1   ";
+				OTHER_LIBTOOLFLAGS = ("");
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = gtest_main;
+				SECTORDER_FLAGS = "";
+				SYSTEM_HEADER_SEARCH_PATHS = (/Users/quargsgreene/code/Eglof/libs/googletest/googletest/include,/Users/quargsgreene/code/Eglof/libs/googletest/googletest,"$(inherited)");
+				TARGET_TEMP_DIR = "/Users/quargsgreene/code/Eglof/build/build/gtest_main.build/$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)";
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("$(inherited)");
+			};
+			name = MinSizeRel;
+		};
+		598688EDAE66463CBABE713F /* RelWithDebInfo */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = arm64;
+				COMBINE_HIDPI_IMAGES = YES;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'","$(inherited)");
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				INSTALL_PATH = "";
+				ONLY_ACTIVE_ARCH = NO;
+				OTHER_LDFLAGS = ("","$(inherited)");
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = install;
+				SECTORDER_FLAGS = "";
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("$(inherited)");
+			};
+			name = RelWithDebInfo;
+		};
+		5FB3F3D59DF5439696E11635 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = arm64;
+				COMBINE_HIDPI_IMAGES = YES;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'","$(inherited)");
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				INSTALL_PATH = "";
+				ONLY_ACTIVE_ARCH = NO;
+				OTHER_LDFLAGS = ("","$(inherited)");
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = install;
+				SECTORDER_FLAGS = "";
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("$(inherited)");
+			};
+			name = Debug;
+		};
+		69D40E6FE99C4FDC8FBFFB4B /* MinSizeRel */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = arm64;
+				COMBINE_HIDPI_IMAGES = YES;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'","$(inherited)");
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				INSTALL_PATH = "";
+				ONLY_ACTIVE_ARCH = NO;
+				OTHER_LDFLAGS = ("","$(inherited)");
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = ZERO_CHECK;
+				SECTORDER_FLAGS = "";
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("$(inherited)");
+			};
+			name = MinSizeRel;
+		};
+		6FBAC4D06A9347F69B4C0A42 /* RelWithDebInfo */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = arm64;
+				COMBINE_HIDPI_IMAGES = YES;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'","$(inherited)");
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				INSTALL_PATH = "";
+				ONLY_ACTIVE_ARCH = NO;
+				OTHER_LDFLAGS = ("","$(inherited)");
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = ALL_BUILD;
+				SECTORDER_FLAGS = "";
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("$(inherited)");
+			};
+			name = RelWithDebInfo;
+		};
+		7BBAFA0E52554A4F9CB36BD3 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = arm64;
+				COMBINE_HIDPI_IMAGES = YES;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'","$(inherited)");
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				INSTALL_PATH = "";
+				ONLY_ACTIVE_ARCH = NO;
+				OTHER_LDFLAGS = ("","$(inherited)");
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = install;
+				SECTORDER_FLAGS = "";
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("$(inherited)");
+			};
+			name = Release;
+		};
+		82F6A19C17C445489306E2B5 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = arm64;
+				COMBINE_HIDPI_IMAGES = YES;
+				CONFIGURATION_BUILD_DIR = /Users/quargsgreene/code/Eglof/build/lib/Release;
+				EXECUTABLE_PREFIX = lib;
+				EXECUTABLE_SUFFIX = .a;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = NO;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 3;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'","$(inherited)");
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				HEADER_SEARCH_PATHS = (/Users/quargsgreene/code/Eglof/libs/googletest/googletest/include,/Users/quargsgreene/code/Eglof/libs/googletest/googletest,"$(inherited)");
+				INSTALL_PATH = "";
+				LIBRARY_STYLE = STATIC;
+				ONLY_ACTIVE_ARCH = NO;
+				OTHER_CPLUSPLUSFLAGS = "    -DNDEBUG '-std=c++2b'  -DGTEST_HAS_PTHREAD=1   ";
+				OTHER_LIBTOOLFLAGS = ("");
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = gtest;
+				SECTORDER_FLAGS = "";
+				TARGET_TEMP_DIR = "/Users/quargsgreene/code/Eglof/build/build/gtest.build/$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)";
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("$(inherited)");
+			};
+			name = Release;
+		};
+		866CF7D7C67A43298B43599C /* MinSizeRel */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = arm64;
+				COMBINE_HIDPI_IMAGES = YES;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'","$(inherited)");
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				INSTALL_PATH = "";
+				ONLY_ACTIVE_ARCH = NO;
+				OTHER_LDFLAGS = ("","$(inherited)");
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = install;
+				SECTORDER_FLAGS = "";
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("$(inherited)");
+			};
+			name = MinSizeRel;
+		};
+		93D4766CE1D74ACEB15B4E39 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = arm64;
+				COMBINE_HIDPI_IMAGES = YES;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'","$(inherited)");
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				INSTALL_PATH = "";
+				ONLY_ACTIVE_ARCH = NO;
+				OTHER_LDFLAGS = ("","$(inherited)");
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = RUN_TESTS;
+				SECTORDER_FLAGS = "";
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("$(inherited)");
+			};
+			name = Debug;
+		};
+		A42068889F4A400BB58C6AF8 /* RelWithDebInfo */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = arm64;
+				COMBINE_HIDPI_IMAGES = YES;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'","$(inherited)");
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				INSTALL_PATH = "";
+				ONLY_ACTIVE_ARCH = NO;
+				OTHER_LDFLAGS = ("","$(inherited)");
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = RUN_TESTS;
+				SECTORDER_FLAGS = "";
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("$(inherited)");
+			};
+			name = RelWithDebInfo;
+		};
+		B39419D686B04067AC92D9D5 /* RelWithDebInfo */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = arm64;
+				SDKROOT = "";
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SYMROOT = /Users/quargsgreene/code/Eglof/build/build;
+			};
+			name = RelWithDebInfo;
+		};
+		C255D8C974F44CB5A60248CC /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
@@ -1157,7 +1020,129 @@ fi
 			};
 			name = Debug;
 		};
-		F4666F3EC11A4E3FBBEED834 /* Debug */ = {
+		C2B130E4CD01464B867D671A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = arm64;
+				SDKROOT = "";
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SYMROOT = /Users/quargsgreene/code/Eglof/build/build;
+			};
+			name = Release;
+		};
+		C333C5BB0FC5409F949BBE8F /* MinSizeRel */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = arm64;
+				SDKROOT = "";
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SYMROOT = /Users/quargsgreene/code/Eglof/build/build;
+			};
+			name = MinSizeRel;
+		};
+		CC7BF2D046AD4808B1148C90 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = arm64;
+				COMBINE_HIDPI_IMAGES = YES;
+				CONFIGURATION_BUILD_DIR = /Users/quargsgreene/code/Eglof/build/lib/Release;
+				EXECUTABLE_PREFIX = lib;
+				EXECUTABLE_SUFFIX = .a;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = NO;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 3;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'","$(inherited)");
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				INSTALL_PATH = "";
+				LIBRARY_STYLE = STATIC;
+				ONLY_ACTIVE_ARCH = NO;
+				OTHER_CPLUSPLUSFLAGS = "    -DNDEBUG '-std=c++2b'  -DGTEST_HAS_PTHREAD=1   ";
+				OTHER_LIBTOOLFLAGS = ("");
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = gtest_main;
+				SECTORDER_FLAGS = "";
+				SYSTEM_HEADER_SEARCH_PATHS = (/Users/quargsgreene/code/Eglof/libs/googletest/googletest/include,/Users/quargsgreene/code/Eglof/libs/googletest/googletest,"$(inherited)");
+				TARGET_TEMP_DIR = "/Users/quargsgreene/code/Eglof/build/build/gtest_main.build/$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)";
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("$(inherited)");
+			};
+			name = Release;
+		};
+		CE58F8F2C7B243668C1B6ACF /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = arm64;
+				COMBINE_HIDPI_IMAGES = YES;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'","$(inherited)");
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				INSTALL_PATH = "";
+				ONLY_ACTIVE_ARCH = NO;
+				OTHER_LDFLAGS = ("","$(inherited)");
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = ALL_BUILD;
+				SECTORDER_FLAGS = "";
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("$(inherited)");
+			};
+			name = Release;
+		};
+		ECF68B020B97460194252529 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = arm64;
+				COMBINE_HIDPI_IMAGES = YES;
+				CONFIGURATION_BUILD_DIR = /Users/quargsgreene/code/Eglof/build/lib/Debug;
+				EXECUTABLE_PREFIX = lib;
+				EXECUTABLE_SUFFIX = .a;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'","$(inherited)");
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				INSTALL_PATH = "";
+				LIBRARY_STYLE = STATIC;
+				ONLY_ACTIVE_ARCH = NO;
+				OTHER_CPLUSPLUSFLAGS = "   '-std=c++2b'  -DGTEST_HAS_PTHREAD=1   ";
+				OTHER_LIBTOOLFLAGS = ("");
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = gtest_main;
+				SECTORDER_FLAGS = "";
+				SYSTEM_HEADER_SEARCH_PATHS = (/Users/quargsgreene/code/Eglof/libs/googletest/googletest/include,/Users/quargsgreene/code/Eglof/libs/googletest/googletest,"$(inherited)");
+				TARGET_TEMP_DIR = "/Users/quargsgreene/code/Eglof/build/build/gtest_main.build/$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)";
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("$(inherited)");
+			};
+			name = Debug;
+		};
+		F977FC586DC840BFB3A3791C /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = arm64;
+				COMBINE_HIDPI_IMAGES = YES;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'","$(inherited)");
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				INSTALL_PATH = "";
+				ONLY_ACTIVE_ARCH = NO;
+				OTHER_LDFLAGS = ("","$(inherited)");
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = RUN_TESTS;
+				SECTORDER_FLAGS = "";
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("$(inherited)");
+			};
+			name = Release;
+		};
+		FB35C9BCA1DA44E9B18DFC90 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
@@ -1179,116 +1164,131 @@ fi
 			};
 			name = Debug;
 		};
-		F8B4A02074C34675849B1855 /* RelWithDebInfo */ = {
+		FB6D6D88F0574DA1867DB756 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
 				ARCHS = arm64;
 				COMBINE_HIDPI_IMAGES = YES;
-				CONFIGURATION_BUILD_DIR = /Users/quargsgreene/code/Eglof/build/lib/RelWithDebInfo;
-				EXECUTABLE_PREFIX = lib;
-				EXECUTABLE_SUFFIX = .a;
 				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
 				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
-				GCC_OPTIMIZATION_LEVEL = 2;
+				GCC_OPTIMIZATION_LEVEL = 0;
 				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'","$(inherited)");
 				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
-				HEADER_SEARCH_PATHS = (/Users/quargsgreene/code/Eglof/libs/googletest/googletest/include,/Users/quargsgreene/code/Eglof/libs/googletest/googletest,"$(inherited)");
 				INSTALL_PATH = "";
-				LIBRARY_STYLE = STATIC;
 				ONLY_ACTIVE_ARCH = NO;
-				OTHER_CPLUSPLUSFLAGS = "       -DNDEBUG '-std=c++2b'  -DGTEST_HAS_PTHREAD=1   ";
-				OTHER_LIBTOOLFLAGS = ("");
+				OTHER_LDFLAGS = ("","$(inherited)");
 				OTHER_REZFLAGS = "";
-				PRODUCT_NAME = gtest;
+				PRODUCT_NAME = ZERO_CHECK;
 				SECTORDER_FLAGS = "";
-				TARGET_TEMP_DIR = "/Users/quargsgreene/code/Eglof/build/build/gtest.build/$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)";
 				USE_HEADERMAP = NO;
 				WARNING_CFLAGS = ("$(inherited)");
 			};
-			name = RelWithDebInfo;
+			name = Release;
+		};
+		FE7E053A905548D08CB31A06 /* MinSizeRel */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = arm64;
+				COMBINE_HIDPI_IMAGES = YES;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'","$(inherited)");
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				INSTALL_PATH = "";
+				ONLY_ACTIVE_ARCH = NO;
+				OTHER_LDFLAGS = ("","$(inherited)");
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = ALL_BUILD;
+				SECTORDER_FLAGS = "";
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("$(inherited)");
+			};
+			name = MinSizeRel;
 		};
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		014250BE7E4B4C12914B427B /* Build configuration list for PBXProject "gtest" */ = {
+		16C281984A704A9D9CFCAE21 /* Build configuration list for PBXAggregateTarget "RUN_TESTS" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				AC45E2C53E57437EA83C2D4E /* Debug */,
-				726F6C8C73D648C6AEC55F82 /* Release */,
-				5EB1F6B6CA1346BF9FB73712 /* MinSizeRel */,
-				743CB22846454BE78D468F3C /* RelWithDebInfo */,
+				93D4766CE1D74ACEB15B4E39 /* Debug */,
+				F977FC586DC840BFB3A3791C /* Release */,
+				324910F8655F47C5B4F35FC8 /* MinSizeRel */,
+				A42068889F4A400BB58C6AF8 /* RelWithDebInfo */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Debug;
 		};
-		22A9A3D3EE994CEC9FF4B1C9 /* Build configuration list for PBXAggregateTarget "ALL_BUILD" */ = {
+		2674ED0EA00C487BA1F59143 /* Build configuration list for PBXAggregateTarget "ZERO_CHECK" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				F4666F3EC11A4E3FBBEED834 /* Debug */,
-				82B24EAAAE8E45DDAC03C6EF /* Release */,
-				057E33C4329B412DB357DC85 /* MinSizeRel */,
-				88A2DA8F35A4472DA568F6FB /* RelWithDebInfo */,
+				0DF4F3D3603247DE9706B0A3 /* Debug */,
+				FB6D6D88F0574DA1867DB756 /* Release */,
+				69D40E6FE99C4FDC8FBFFB4B /* MinSizeRel */,
+				4D35AD831AC34B5DBC71F9CD /* RelWithDebInfo */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Debug;
 		};
-		2D22CE9438044A1A8BF29CBC /* Build configuration list for PBXNativeTarget "gtest" */ = {
+		297228313AF148499BCD66DD /* Build configuration list for PBXNativeTarget "gtest" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				F157469E41DD46EFA999A346 /* Debug */,
-				566D9B8F90BC4FEAA24AA45B /* Release */,
-				EA1D7F6503ED483C95553646 /* MinSizeRel */,
-				F8B4A02074C34675849B1855 /* RelWithDebInfo */,
+				C255D8C974F44CB5A60248CC /* Debug */,
+				82F6A19C17C445489306E2B5 /* Release */,
+				3701A8FCB3784FA8818C86FC /* MinSizeRel */,
+				392F47C8831E4DAB863F6546 /* RelWithDebInfo */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Debug;
 		};
-		355DA65067454707AF7C89C7 /* Build configuration list for PBXAggregateTarget "ZERO_CHECK" */ = {
+		344C7EE37DD34326A1030A8A /* Build configuration list for PBXAggregateTarget "install" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				A1F6862013A24BA9A8BA4847 /* Debug */,
-				1AC26E829FAA4CC68E22C833 /* Release */,
-				A31A0A9E621645DCA75E0A30 /* MinSizeRel */,
-				58F02206F5794ABBA12BB79C /* RelWithDebInfo */,
+				5FB3F3D59DF5439696E11635 /* Debug */,
+				7BBAFA0E52554A4F9CB36BD3 /* Release */,
+				866CF7D7C67A43298B43599C /* MinSizeRel */,
+				598688EDAE66463CBABE713F /* RelWithDebInfo */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Debug;
 		};
-		40F7238D72B1413EBA822AF1 /* Build configuration list for PBXAggregateTarget "install" */ = {
+		B79CA56AE42C404AA6A8EB98 /* Build configuration list for PBXAggregateTarget "ALL_BUILD" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				CA34102F09E54C2B9410451D /* Debug */,
-				A4374F73E6B3492AA8C55494 /* Release */,
-				7E6DE3E72EBC4713936C837A /* MinSizeRel */,
-				D41CD4AC1F4F496892BF249F /* RelWithDebInfo */,
+				FB35C9BCA1DA44E9B18DFC90 /* Debug */,
+				CE58F8F2C7B243668C1B6ACF /* Release */,
+				FE7E053A905548D08CB31A06 /* MinSizeRel */,
+				6FBAC4D06A9347F69B4C0A42 /* RelWithDebInfo */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Debug;
 		};
-		B54DFE5C43724D36B6C2DB72 /* Build configuration list for PBXAggregateTarget "RUN_TESTS" */ = {
+		CF9A6F00CC76455DAB84E9BF /* Build configuration list for PBXProject "gtest" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				50D17F2FBC674314AECD0DAC /* Debug */,
-				C5D1EA08CF074DA6B010A5AF /* Release */,
-				C220DDC72D634727ADC5EC69 /* MinSizeRel */,
-				3FDF8271FBD74E8896126FAD /* RelWithDebInfo */,
+				200798BC4B65482CAD69666B /* Debug */,
+				C2B130E4CD01464B867D671A /* Release */,
+				C333C5BB0FC5409F949BBE8F /* MinSizeRel */,
+				B39419D686B04067AC92D9D5 /* RelWithDebInfo */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Debug;
 		};
-		FBE6CFA489FF4812A2A0128F /* Build configuration list for PBXNativeTarget "gtest_main" */ = {
+		ECF91B9285234C9CB4D9E75F /* Build configuration list for PBXNativeTarget "gtest_main" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				6C195A217DC64FD885CDDE2F /* Debug */,
-				AA6511BCEBF8487F97E73525 /* Release */,
-				C5F8F2C6310A472DA801568E /* MinSizeRel */,
-				A0D41A439EBD40A4B44755AF /* RelWithDebInfo */,
+				ECF68B020B97460194252529 /* Debug */,
+				CC7BF2D046AD4808B1148C90 /* Release */,
+				539EAEC1D652444193E886CE /* MinSizeRel */,
+				2973B2BE8CFC444DB738CC09 /* RelWithDebInfo */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Debug;
 		};
 /* End XCConfigurationList section */
 	};
-	rootObject = 4010109725B34E0EB984B1CB /* Project object */;
+	rootObject = 049B603B18D948C1B6293C65 /* Project object */;
 }

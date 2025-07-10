@@ -70,6 +70,12 @@ EglofAudioProcessorEditor::~EglofAudioProcessorEditor() {}
 void EglofAudioProcessorEditor::paint(juce::Graphics& g) {
   // (Our component is opaque, so we must completely fill the background with a
   // solid colour)
+  
+  auto bounds = getLocalBounds();
+  auto responseArea = bounds.removeFromBottom(2 * bounds.getHeight()/3);
+  auto responseWidth = responseArea.getWidth();
+  std::vector<float> magnitudes;
+    
   g.fillAll(
       getLookAndFeel().findColour(juce::ResizableWindow::backgroundColourId));
 
@@ -82,7 +88,31 @@ void EglofAudioProcessorEditor::paint(juce::Graphics& g) {
   g.fillRect(dragDrop);
   g.setColour(juce::Colours::white);
   g.drawText("Drag and drop a CSV!", 1000, 35, 190, 200, juce::Justification::centred, true);
+    
+  magnitudes.resize(static_cast<std::vector<int>::size_type>(responseWidth));
 
+  for(int i = 0; i < responseWidth; ++i)
+  {
+    double magnitude = 1;
+    magnitudes[static_cast<std::vector<int>::size_type>(i)] = static_cast<std::vector<int>::size_type>(magnitude);
+  }
+  juce::Path responseCurve;
+  responseCurve.startNewSubPath(responseArea.getX(), magnitudes.front());
+      
+  for(size_t i = 1; i < magnitudes.size(); ++i)
+  {
+    responseCurve.lineTo(static_cast<size_t>(responseArea.getX() - 3) + i, magnitudes[i] + getWidth()/2);
+  }
+    
+
+  g.setColour(juce::Colours::black);
+  g.fillRoundedRectangle(responseArea.toFloat(),4);
+  g.setColour(juce::Colours::orange);
+  g.drawRoundedRectangle(responseArea.toFloat(), 4, 1);
+  g.setColour(juce::Colours::white);
+  g.strokePath(responseCurve, juce::PathStrokeType(2));
+    
+  g.drawImage(background, getLocalBounds().toFloat());
 }
 
 void EglofAudioProcessorEditor::resized() {
@@ -106,7 +136,32 @@ void EglofAudioProcessorEditor::resized() {
     int menuHeight = (getWidth() - marginX)/32;
     int gapX = 150;
     int gapY = gapX/3;
+    background = juce::Image(juce::Image::PixelFormat::RGB, getWidth(), getHeight(), true);
+    juce::Graphics g(background);
+    juce::Array<float> freqs
+    {
+        20, 30, 40, 50, 100,
+        200, 300, 400, 500, 1000,
+        2000, 3000, 4000, 5000, 10000,
+        20000
+    };
+    juce::Array<float> gain
+    {
+        -240, -120, 0, 120, 240
+    };
     
+    g.setColour(juce::Colours::greenyellow);
+    for(auto f : freqs)
+    {
+        auto normX = f;
+        g.drawVerticalLine(static_cast<int>(normX), getHeight()/3, getHeight());
+    }
+    
+    for(auto gainDb : gain)
+    {
+        auto normY = gainDb + getWidth()/2;
+        g.drawHorizontalLine(static_cast<int>(normY), 0, getWidth());
+    }
     qRangeSlider.setBounds(marginX, marginY, dialWidth, dialHeight);
     gainRangeSlider.setBounds(marginX + gapX, marginY, dialWidth, dialHeight);
     cutoffRangeSlider.setBounds(marginX + 2 * gapX, marginY, dialWidth, dialHeight);

@@ -31,9 +31,9 @@ juce_add_plugin(
 )
 
 # Sets the source files of the plugin project.
-set(SOURCE_FILES source/PluginEditor.cpp source/PluginProcessor.cpp source/Knob.cpp source/Menu.cpp source/UIButton.cpp source/dragDrop.cpp)
+set(SOURCE_FILES source/PluginEditor.cpp source/PluginProcessor.cpp source/Knob.cpp source/Menu.cpp source/UIButton.cpp source/dragDrop.cpp source/parametricWindow.cpp)
 # Optional; includes header files in the project file tree in Visual Studio
-set(HEADER_FILES ${INCLUDE_DIR}/PluginEditor.h ${INCLUDE_DIR}/PluginProcessor.h ${INCLUDE_DIR}/Knob.h ${INCLUDE_DIR}/Menu.h ${INCLUDE_DIR}/UIButton.h ${INCLUDE_DIR}/dragDrop.h)
+set(HEADER_FILES ${INCLUDE_DIR}/PluginEditor.h ${INCLUDE_DIR}/PluginProcessor.h ${INCLUDE_DIR}/Knob.h ${INCLUDE_DIR}/Menu.h ${INCLUDE_DIR}/UIButton.h ${INCLUDE_DIR}/dragDrop.h ${INCLUDE_DIR}/parametricWindow.h)
 target_sources(${PROJECT_NAME} PRIVATE ${SOURCE_FILES} ${HEADER_FILES})
 
 # Sets the include directories of the plugin project.
