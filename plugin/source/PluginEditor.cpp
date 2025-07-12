@@ -1,5 +1,6 @@
 #include "Eglof/PluginEditor.h"
 #include "Eglof/PluginProcessor.h"
+#include <sstream>
 
 namespace audio_plugin {
 EglofAudioProcessorEditor::EglofAudioProcessorEditor(
@@ -151,16 +152,57 @@ void EglofAudioProcessorEditor::resized() {
     };
     
     g.setColour(juce::Colours::greenyellow);
+    const int fontHeight = 10;
+    g.setFont(fontHeight);
+    
     for(auto f : freqs)
     {
+        bool addK = false;
+        std::string suff;
         auto normX = f;
         g.drawVerticalLine(static_cast<int>(normX), getHeight()/3, getHeight());
+        if (f > 999)
+        {
+            addK = true;
+            f /= 1000;
+        }
+        std::stringstream freqLabelSS;
+        freqLabelSS << suff << f;
+        if (addK)
+        {
+            freqLabelSS << suff << "k";
+        }
+        freqLabelSS << suff << "Hz";
+        
+        std::string freqLabel = freqLabelSS.str();
+        
+        g.drawText(freqLabel, static_cast<int>(normX), getHeight()/3, 100, 100, juce::Justification::centred, false);
     }
     
     for(auto gainDb : gain)
     {
         auto normY = gainDb + getWidth()/2;
+        g.setColour(std::abs(gainDb) <= 0 ? juce::Colours::pink : juce::Colour(0u, 172u, 1u));
         g.drawHorizontalLine(static_cast<int>(normY), 0, getWidth());
+        std::string pref;
+        std::string suff;
+        int addNeg = false;
+        if (gainDb > 0)
+        {
+            addNeg = true;
+        }
+        std::stringstream gainLabelSS;
+        if (addNeg)
+        {
+            gainLabelSS << "-";
+            gainLabelSS << gainDb/10;
+        } else {
+            gainLabelSS << gainDb/10;
+        }
+        gainLabelSS << suff << "Db";
+        std::string gainLabel = gainLabelSS.str();
+        
+        g.drawText(gainLabel, 0, static_cast<int>(normY), 100, 100, juce::Justification::centred, false);
     }
     qRangeSlider.setBounds(marginX, marginY, dialWidth, dialHeight);
     gainRangeSlider.setBounds(marginX + gapX, marginY, dialWidth, dialHeight);
