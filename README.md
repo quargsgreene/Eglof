@@ -19,6 +19,7 @@ Consider the following CSV file with a single row and column:
 | Platypus |
 |---|
 | 20 |
+
 When the file is initially loaded and a column is chosen, the curve will be flat.
 <img width="1202" height="784" alt="Screenshot 2026-01-20 at 4 18 59 PM" src="https://github.com/user-attachments/assets/57439113-c360-49bf-a727-4459638992ec" />
 
@@ -35,6 +36,7 @@ Copyright (C) Quargs - All Rights Reserved
 Unauthorized copying of this file, via any medium is strictly prohibited
 Proprietary and confidential
 Written by Quargs Greene quargsgreene@gmail.com , 2025-09-06
+
 
 
 
