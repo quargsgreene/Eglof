@@ -12,7 +12,21 @@ Eglof is currently available in the following formats:
 * AAX (coming soon!)
 
 ## Instructions for Use
-Make sure you have selected stereo input. Click on the "Click to choose a CSV" button and choose a CSV file from your device. The data in the CSV file will be processed as floating-point numbers, which are then min-max scaled to correspond to peaks or cuts (depending on the value chosen via the gain slider) between 20Hz and 20kHz. Once you have chosen a CSV file, select one of its columns from the dropdown menu. You can adjust the factor by which the gains of the peaks are scaled to a factor betweek -6dB and +6dB using the slider. Adjust the slider slowly when increasing the gain or you may experience unexpected clipping! Large files may cause performance issues.
+Make sure you have selected stereo input. Click on the "Click to choose a CSV" button and choose a CSV file from your device. Choose a column from the CSV Column -> Frequency Mapping dropdown. The data in the CSV file will be processed as floating-point numbers, which are then min-max scaled to correspond to peaks or cuts (depending on the value chosen via the gain slider) between 20Hz and 20kHz. Once you have chosen a CSV file, select one of its columns from the dropdown menu. You can adjust the factor by which the gains of the peaks are scaled to a factor betweek -24dB and +24dB using the slider. Adjust the slider slowly when increasing the gain or you may experience unexpected clipping! Large files may cause performance issues.
+
+##Examples:
+Consider the following CSV file with a single row and column:
+| Platypus |
+|---|
+| 20 |
+When the file is initially loaded and a column is chosen, the curve will be flat.
+<img width="1202" height="784" alt="Screenshot 2026-01-20 at 4 18 59 PM" src="https://github.com/user-attachments/assets/57439113-c360-49bf-a727-4459638992ec" />
+
+Adjust the gain to a positive value to get a frequency boost around 20Hz lke so:
+<img width="1194" height="786" alt="Screenshot 2026-01-20 at 4 19 20 PM" src="https://github.com/user-attachments/assets/deea03ee-0b57-45c0-a293-1aa9522fd827" />
+
+Similarly the gain can be adjusted to a negative value to achieve the following result:
+<img width="1189" height="799" alt="Screenshot 2026-01-20 at 4 19 31 PM" src="https://github.com/user-attachments/assets/e1705e16-81e1-42a5-837a-294255f57c39" />
 
 
 ## License
@@ -21,5 +35,6 @@ Copyright (C) Quargs - All Rights Reserved
 Unauthorized copying of this file, via any medium is strictly prohibited
 Proprietary and confidential
 Written by Quargs Greene quargsgreene@gmail.com , 2025-09-06
+
 
 
