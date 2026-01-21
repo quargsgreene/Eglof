@@ -21,14 +21,13 @@ Consider the following CSV file with a single row and column:
 | 20 |
 
 When the file is initially loaded and a column is chosen, the curve will be flat.
-<img width="1202" height="784" alt="Screenshot 2026-01-20 at 4 18 59 PM" src="https://github.com/user-attachments/assets/57439113-c360-49bf-a727-4459638992ec" />
+<img width="1202" height="784" alt="Screenshot 2026-01-20 at 4 18 59 PM" src="https://github.com/user-attachments/assets/d5a1738a-f8e7-41a2-a48e-516778effef6" />
 
 Adjust the gain to a positive value to get a frequency boost around 20Hz lke so:
 <img width="1194" height="786" alt="Screenshot 2026-01-20 at 4 19 20 PM" src="https://github.com/user-attachments/assets/5b0ed719-591b-4006-aaf3-0a46d73295ae" />
 
 Similarly the gain can be adjusted to a negative value to achieve the following result:
-<img width="1189" height="799" alt="Screenshot 2026-01-20 at 4 19 31 PM" src="https://github.com/user-attachments/assets/e1705e16-81e1-42a5-837a-294255f57c39" />
-
+<img width="1189" height="799" alt="Screenshot 2026-01-20 at 4 19 31 PM" src="https://github.com/user-attachments/assets/d494ed1f-45e3-4d6e-9e64-815d5c41f2f0" />
 
 ## License
 Copyright (C) Quargs - All Rights Reserved
@@ -36,6 +35,7 @@ Copyright (C) Quargs - All Rights Reserved
 Unauthorized copying of this file, via any medium is strictly prohibited
 Proprietary and confidential
 Written by Quargs Greene quargsgreene@gmail.com , 2025-09-06
+
 
 
 
