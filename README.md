@@ -6,10 +6,7 @@
 ## Description
 <img width="2388" height="1598" alt="Eglof UI" src="https://github.com/user-attachments/assets/2201cfa7-ca9d-472d-87e1-32b7979277aa" />
 Eglof is a filter plugin that allows for the choosing of up to 100 peaks or cuts, offering an alternative approach to EQ. The peaks correspond to values in the chosen column of an uploaded CSV file. 
-Eglof is currently available in the following formats:
-* VST3 (MacOS, Windows, Linux)
-* AU (MacOS)
-* AAX (coming soon!)
+Eglof is currently available for MacOS in the AU format.
 
 ## Instructions for Use
 Make sure you have selected stereo input. Click on the "Click to choose a CSV" button and choose a CSV file from your device. Choose a column from the CSV Column -> Frequency Mapping dropdown. The data in the CSV file will be processed as floating-point numbers, which are then min-max scaled to correspond to peaks or cuts (depending on the value chosen via the gain slider) between 20Hz and 20kHz. Once you have chosen a CSV file, select one of its columns from the dropdown menu. You can adjust the factor by which the gains of the peaks are scaled to a factor betweek -24dB and +24dB using the slider. Adjust the slider slowly when increasing the gain or you may experience unexpected clipping! Large files may cause performance issues.
@@ -43,9 +40,22 @@ Here's another example, where the CSV file has a mixture of data types:
 | 17 | 18 | 15 | 16 | 13579 | 20 | ** |
 | 19 | 20 | 17 | 18 | 1990.9 | 2000 | 0 |
 
+This is the resulting response curve when column f is selected:
+
+<img width="1185" height="894" alt="Screenshot 2026-01-20 at 4 29 15 PM" src="https://github.com/user-attachments/assets/9f64fcd2-7912-42ca-95e5-7b17e836753b" />
+
+## Troubleshooting
+Upon downloading and opening the disk image file (.dmg), you may receive an error indicating that installation has been blocked. This is because the plugin is not available on the app store. 
+<img width="241" height="266" alt="Screenshot 2026-01-21 at 12 20 37 PM" src="https://github.com/user-attachments/assets/1433dd80-805b-4a06-b400-dde434858a34" />
+In order to bypass this block, go to the Privacy & Security tab within System Settings and scroll down to Security. Here, you should see the option to make an excaption to allow the plugin to be installed.
+Likewise, you may also see a similar warning before downloading the .dmg file, which can be safely ignored.
+
+Once installed, make sure that all plugins are rescanned.
+
 ## License
 Copyright (C) Quargs - All Rights Reserved
 
 Unauthorized copying of this file, via any medium is strictly prohibited
 Proprietary and confidential
 Written by Quargs Greene quargsgreene@gmail.com , 2025-09-06
+
