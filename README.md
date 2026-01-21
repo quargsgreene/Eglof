@@ -29,15 +29,23 @@ Adjust the gain to a positive value to get a frequency boost around 20Hz lke so:
 Similarly the gain can be adjusted to a negative value to achieve the following result:
 <img width="1189" height="799" alt="Screenshot 2026-01-20 at 4 19 31 PM" src="https://github.com/user-attachments/assets/d494ed1f-45e3-4d6e-9e64-815d5c41f2f0" />
 
+Here's another example, where the CSV file has a mixture of data types:
+| a |	b |	c |	d |	e |	f |	g |
+|---|---|---|---|---|---|---|
+| 1 | 2	| 3	| 4	| 25 | 1 | a |
+| 3	| 4	| 5	| 6	| 100	| 10 | ab |
+| 7	| 8	| 9	| 10 | 230 | 100| abc |
+| 11 | 12 |	13 | 14	| 997	| 1000 | abcd |
+| 9	| 6	| 7	| 8	| 1234.5	| 10000 | @#$ |
+| 5	| 10 | 1 | 2 | 3456.7	| 100000 | abcdef |
+| 13 | 14 | 11 | 12 | 7890 | 1000000 | abcdefg |
+| 15 | 16	| 13	| 14 | 12345.6 | 2 | 90 |
+| 17 | 18 | 15 | 16 | 13579 | 20 | ** |
+| 19 | 20 | 17 | 18 | 1990.9 | 2000 | 0 |
+
 ## License
 Copyright (C) Quargs - All Rights Reserved
 
 Unauthorized copying of this file, via any medium is strictly prohibited
 Proprietary and confidential
 Written by Quargs Greene quargsgreene@gmail.com , 2025-09-06
-
-
-
-
-
-
