@@ -46,7 +46,9 @@ This is the resulting response curve when column f is selected:
 
 ## Troubleshooting
 Upon downloading and opening the disk image file (.dmg), you may receive an error indicating that installation has been blocked. This is because the plugin is not available on the app store. 
+
 <img width="241" height="266" alt="Screenshot 2026-01-21 at 12 20 37 PM" src="https://github.com/user-attachments/assets/1433dd80-805b-4a06-b400-dde434858a34" />
+
 In order to bypass this block, go to the Privacy & Security tab within System Settings and scroll down to Security. Here, you should see the option to make an excaption to allow the plugin to be installed.
 Likewise, you may also see a similar warning before downloading the .dmg file, which can be safely ignored.
 
@@ -58,4 +60,5 @@ Copyright (C) Quargs - All Rights Reserved
 Unauthorized copying of this file, via any medium is strictly prohibited
 Proprietary and confidential
 Written by Quargs Greene quargsgreene@gmail.com , 2025-09-06
+
 
