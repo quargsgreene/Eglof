@@ -45,7 +45,7 @@ This is the resulting response curve when column f is selected:
 <img width="1185" height="894" alt="Screenshot 2026-01-20 at 4 29 15 PM" src="https://github.com/user-attachments/assets/9f64fcd2-7912-42ca-95e5-7b17e836753b" />
 
 ## Troubleshooting
-Upon downloading and opening the disk image file (.dmg), you may receive an error indicating that installation has been blocked. This is because the plugin is not available on the app store. 
+Upon downloading and opening the disk image file (.dmg), you may receive an error indicating that installation has been blocked. This is because the plugin is not available in the app store. 
 
 <img width="241" height="266" alt="Screenshot 2026-01-21 at 12 20 37 PM" src="https://github.com/user-attachments/assets/1433dd80-805b-4a06-b400-dde434858a34" />
 
@@ -60,5 +60,6 @@ Copyright (C) Quargs - All Rights Reserved
 Unauthorized copying of this file, via any medium is strictly prohibited
 Proprietary and confidential
 Written by Quargs Greene quargsgreene@gmail.com , 2025-09-06
+
 
 
